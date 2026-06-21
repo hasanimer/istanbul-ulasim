@@ -1,6 +1,6 @@
 # istanbul-ulasim
 
-İstanbul toplu taşıma (metro, metrobüs, Marmaray, tramvay, otobüs, vapur) için
+İstanbul toplu taşıma (metro, metrobüs, Marmaray, tramvay, otobüs) için
 **GTFS tabanlı bir MCP (Model Context Protocol) sunucusu**. Claude gibi MCP
 destekleyen asistanların "Kadıköy'den Levent'e nasıl giderim?", "Yenikapı'dan
 sıradaki metro ne zaman?" gibi soruları doğrudan yanıtlayabilmesini sağlar.
@@ -23,7 +23,7 @@ test edilebilir. Çalışma anında güncel İBB feed'ine de yönlendirilebilir
 
 | Araç | Açıklama |
 |------|----------|
-| `hat_ara` | Hatları ada, numaraya veya türe göre arar (`M2`, `metro`, `vapur`, `marmaray`). |
+| `hat_ara` | Hatları ada, numaraya veya türe göre arar (`M2`, `metro`, `otobüs`, `marmaray`). |
 | `durak_ara` | Durakları ada göre arar (`Taksim`, `Üsküdar`). Türkçe aksanlardan bağımsız. |
 | `hat_duraklari` | Bir hattın duraklarını sırasıyla listeler; aktarma duraklarını işaretler. |
 | `durak_kalkislari` | Bir duraktan verilen saatten sonraki kalkışları (çizelgeden) listeler. |
@@ -31,7 +31,19 @@ test edilebilir. Çalışma anında güncel İBB feed'ine de yönlendirilebilir
 | `ag_ozeti` | Yüklü GTFS verisinin özeti (kaynak, hat/durak sayıları, türler). |
 | `entegre_hatlar` | Bir hattın **ücretsiz entegrasyon** (ücretsiz aktarma) hatlarını verir (`M5`, `UM62`, `TM`, `ARN`…). |
 
+## Kullanım örnekleri
+
+MCP istemcisinde (Claude vb.) aşağıdaki gibi doğal dil sorular sorabilirsiniz:
+
+- "M2 hattında hangi duraklar var?" (`hat_duraklari`)
+- "Üsküdar durağından 18:30 sonrası kalkışları göster." (`durak_kalkislari`)
+- "Kadıköy'den Levent'e en az aktarmayla nasıl giderim?" (`rota_bul`)
+- "M5 ile ücretsiz entegre hatlar neler?" (`entegre_hatlar`)
+- "Ağ özetini ver." (`ag_ozeti`)
+
 ## Kurulum
+
+Gereksinim: Python **3.10+**
 
 ```bash
 uv venv
@@ -89,8 +101,10 @@ standart GTFS olduğu için yapı uyumludur.)
 
 ## Geliştirme
 
+Test komutlarını çalıştırmadan önce sanal ortamı etkinleştirin (`source .venv/bin/activate`).
+
 ```bash
-.venv/bin/python -m unittest discover -s tests      # testler
+python -m unittest discover -s tests                # testler
 python scripts/make_sample_gtfs.py                  # örnek veriyi yeniden üret
 ```
 

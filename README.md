@@ -29,6 +29,7 @@ test edilebilir. Çalışma anında güncel İBB feed'ine de yönlendirilebilir
 | `durak_kalkislari` | Bir duraktan verilen saatten sonraki kalkışları (çizelgeden) listeler. |
 | `rota_bul` | İki durak arasında **en az aktarmalı** rotayı, bacak bacak önerir. |
 | `ag_ozeti` | Yüklü GTFS verisinin özeti (kaynak, hat/durak sayıları, türler). |
+| `entegre_hatlar` | Bir hattın **ücretsiz entegrasyon** (ücretsiz aktarma) hatlarını verir (`M5`, `UM62`, `TM`, `ARN`…). |
 
 ## Kurulum
 
@@ -99,8 +100,10 @@ python scripts/make_sample_gtfs.py                  # örnek veriyi yeniden üre
 src/istanbul_ulasim/
   gtfs.py        GTFS yükleyici + sorgu modeli (dizin/zip/URL)
   routing.py     En az aktarmalı rota motoru (biniş grafiği üzerinde BFS)
+  integrations.py  Ücretsiz entegrasyon (besleme hattı) sorgu dizini
   server.py      FastMCP sunucusu ve araç tanımları
-  data/sample/   Gömülü örnek İstanbul GTFS verisi
+  data/sample/   Gömülü gerçek İstanbul GTFS verisi
+  data/integrations.json   İETT ücretsiz entegrasyon verisi
 scripts/
   make_sample_gtfs.py   Örnek veriyi üreten betik
 tests/
@@ -118,6 +121,17 @@ Aktarma noktaları gerçek istasyonlardır; örnekler: Yenikapı (M1A/M1B/M2/Mar
 Ayrılık Çeşmesi (M4/Marmaray), Bostancı (M4/M8/Marmaray), Gayrettepe (M2/M11),
 Kağıthane (M7/M11), Mahmutbey (M3/M7), Mecidiyeköy (M2/M7/Metrobüs),
 Üsküdar (M5/Marmaray), Sirkeci (Marmaray/T1).
+
+### Ücretsiz entegrasyon (besleme hatları)
+
+`data/integrations.json`, İETT'nin "Metro Entegre Hatlar" verisini içerir:
+besleme otobüs hatlarının (UM, KM, MK, TM, 50, ARN… kodlu) hangi metro/
+tramvay/otobüs hatlarıyla **ücretsiz aktarma** kapsamında olduğu. `entegre_hatlar`
+aracı bunu çift yönlü sorgular (örn. `M5` → besleme hatları; `UM62` → `M5`).
+Tek yönlü entegrasyonlar ve hat grupları (`TM`, `50`, `ARN`) ayrıca işaretlenir.
+
+> Bu besleme hatları GTFS rota grafiğinde **yer almaz** (durak verileri yok);
+> yalnızca ücretsiz aktarma referansıdır, `rota_bul` bunları kullanmaz.
 
 ### Sınırlar
 

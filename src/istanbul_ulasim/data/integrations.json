@@ -1,0 +1,36 @@
+{
+  "_aciklama": "İETT ücretsiz entegrasyon (besleme hattı) verisi. Belirli otobüs hatlarının hangi metro/tramvay/otobüs hatlarıyla ücretsiz aktarma (entegrasyon) kapsamında olduğunu gösterir. Bu besleme hatları GTFS rota grafiğinde yer almaz; yalnızca ücretsiz aktarma referansıdır. Kaynak: İETT 'Metro Entegre Hatlar' duyurusu.",
+  "groups": {
+    "TM": ["TM1", "TM2", "TM3", "TM4", "TM5", "TM6", "TM7", "TM8", "TM9", "TM10", "TM11", "TM12", "TM13", "TM14", "TM15", "TM16", "TM17", "TM18", "TM19"],
+    "50": ["50A", "50AT", "50B", "50C", "50D", "50E", "50F", "50H", "50K", "50L", "50M", "50N", "50P", "50R", "50S", "50T", "50V", "50Y", "50Z"],
+    "ARN": ["336", "336A", "336H", "336K", "336M", "36AS", "36AY", "36B", "36D", "36HT", "36TC", "36Y", "36YS", "MK22", "336G", "36CB", "36C", "48M", "48KA"]
+  },
+  "records": [
+    {"yaka": "Anadolu", "lines": ["135", "136", "136Z", "137", "15D"], "with": ["15BK", "15F", "11H", "15TK", "15"]},
+    {"yaka": "Anadolu", "lines": ["17"], "with": ["17L"]},
+    {"yaka": "Anadolu", "lines": ["132P"], "with": ["132YS"]},
+    {"yaka": "Anadolu", "lines": ["132YS"], "with": ["132SP"]},
+    {"yaka": "Anadolu", "lines": ["500T"], "with": ["500L"]},
+    {"yaka": "Anadolu", "lines": ["UM62", "UM11", "UM36", "UM40", "UM60", "UM61", "UM73", "UM74", "UM13", "ÇM41", "ÇM42", "ÇM44"], "with": ["M5"]},
+    {"yaka": "Anadolu", "lines": ["KM31", "KM32", "KM33", "KM34", "KM35", "KM36", "KM37", "KM41", "KM42", "KM43", "KM44", "KM45", "KM46", "KM47", "KM48", "KM11", "KM12", "KM13", "KM17", "KM2", "KM21", "KM24", "KM26"], "with": ["M4"]},
+    {"yaka": "Anadolu", "lines": ["122D"], "with": ["131T", "14T", "9K", "UM40"]},
+    {"yaka": "Anadolu", "lines": ["ÇM43"], "with": ["131T", "14T", "9K", "UM40"]},
+
+    {"yaka": "Avrupa", "lines": ["HM1"], "with": ["M2"]},
+    {"yaka": "Avrupa", "lines": ["HM2", "HM3", "HM4"], "with": ["M2"], "note": "tek yönlü"},
+    {"yaka": "Avrupa", "lines": ["MK11", "MK12"], "with": ["M9", "M3"]},
+    {"yaka": "Avrupa", "lines": ["73H", "MK13", "MK14", "MK15", "MK16", "MK19", "MK2", "MK31"], "with": ["M9"]},
+    {"yaka": "Avrupa", "lines": ["MK22"], "with": ["M3"]},
+    {"yaka": "Avrupa", "lines": ["MK42"], "with": ["M1B"]},
+    {"yaka": "Avrupa", "lines": ["MK53"], "with": ["M7"]},
+    {"yaka": "Avrupa", "lines": ["MK97"], "with": ["M1A", "T1"]},
+    {"yaka": "Avrupa", "lines": ["TM1", "TM2", "TM3", "TM4", "TM5", "TM6", "TM7", "TM8", "TM9", "TM10", "TM11", "TM12", "TM13", "TM14", "TM15", "TM16", "TM17", "TM18", "TM19"], "with": ["T5"], "with_groups": ["50"]},
+    {"yaka": "Avrupa", "lines": ["50D"], "with": ["T5"], "with_groups": ["TM"]},
+    {"yaka": "Avrupa", "lines": ["50A", "50AT", "50B", "50C", "50E", "50F", "50H", "50K", "50L", "50M", "50N", "50P", "50R", "50S", "50T", "50V", "50Y", "50Z"], "with_groups": ["TM"]},
+    {"yaka": "Avrupa", "lines": ["336", "336A", "336H", "336K", "336M", "36AS", "36AY", "36B", "36D", "36HT", "36TC", "36Y", "36YS", "MK22", "336G", "36CB", "36C", "48M", "48KA"], "with_groups": ["ARN"], "note": "ARN hatları kendi aralarında ücretsiz"},
+    {"yaka": "Avrupa", "lines": ["25E", "42T"], "with": ["22", "40T"]},
+    {"yaka": "Avrupa", "lines": ["145"], "with": ["146", "76"]},
+    {"yaka": "Avrupa", "lines": ["76BA"], "with": ["76", "145", "146"]},
+    {"yaka": "Avrupa", "lines": ["76B"], "with": ["76", "146"]}
+  ]
+}

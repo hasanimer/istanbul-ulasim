@@ -6,6 +6,7 @@ import unittest
 
 from istanbul_ulasim import routing
 from istanbul_ulasim.gtfs import Feed, fold, parse_gtfs_time
+from istanbul_ulasim.integrations import Integrations
 
 
 class FoldTest(unittest.TestCase):
@@ -112,6 +113,52 @@ class RoutingTest(unittest.TestCase):
         self.assertEqual(j.legs, [])
 
 
+class IntegrationsTest(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.integ = Integrations.load()
+
+    def test_groups_loaded(self):
+        self.assertEqual(len(self.integ.groups["TM"]), 19)
+        self.assertIn("MK22", self.integ.groups["ARN"])
+
+    def test_metro_to_feeders(self):
+        # M5 -> UM/ÇM besleme hatları
+        res = self.integ.query("M5")
+        self.assertIsNotNone(res)
+        labels = {t[0] for t in res.targets}
+        self.assertIn("UM62", labels)
+        self.assertIn("ÇM44", labels)
+
+    def test_feeder_to_metro_bidirectional(self):
+        res = self.integ.query("UM62")
+        self.assertIn("M5", {t[0] for t in res.targets})
+
+    def test_turkish_insensitive(self):
+        # 'çm44' de 'ÇM44' gibi çözülmeli
+        self.assertIsNotNone(self.integ.query("çm44"))
+
+    def test_multi_target(self):
+        res = self.integ.query("MK97")
+        labels = {t[0] for t in res.targets}
+        self.assertIn("M1A", labels)
+        self.assertIn("T1", labels)
+
+    def test_one_way_note(self):
+        res = self.integ.query("HM2")
+        notes = {t[0]: t[1] for t in res.targets}
+        self.assertEqual(notes.get("M2"), "tek yönlü")
+
+    def test_group_query(self):
+        res = self.integ.query("TM")
+        self.assertEqual(res.kind, "group")
+        self.assertEqual(len(res.members), 19)
+        self.assertIn("T5", {t[0] for t in res.targets})
+
+    def test_unknown(self):
+        self.assertIsNone(self.integ.query("YOK123"))
+
+
 class ServerToolsTest(unittest.TestCase):
     def test_tools_registered(self):
         from istanbul_ulasim import server
@@ -120,9 +167,15 @@ class ServerToolsTest(unittest.TestCase):
         names = {t.name for t in tools}
         self.assertEqual(
             names,
-            {"hat_ara", "durak_ara", "hat_duraklari",
-             "durak_kalkislari", "rota_bul", "ag_ozeti"},
+            {"hat_ara", "durak_ara", "hat_duraklari", "durak_kalkislari",
+             "rota_bul", "ag_ozeti", "entegre_hatlar"},
         )
+
+    def test_entegre_hatlar_text(self):
+        from istanbul_ulasim import server
+
+        out = server.entegre_hatlar("M5")
+        self.assertIn("UM62", out)
 
     def test_rota_bul_text(self):
         from istanbul_ulasim import server

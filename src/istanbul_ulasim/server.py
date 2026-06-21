@@ -7,6 +7,7 @@ Araçlar (MCP tools):
   - durak_kalkislari : bir duraktan sonraki kalkışları (çizelgeden) listeler
   - rota_bul         : iki durak arası en az aktarmalı rota önerir
   - ag_ozeti         : yüklü GTFS verisinin özetini verir
+  - entegre_hatlar   : bir hattın ücretsiz entegrasyon (aktarma) hatlarını verir
 
 GTFS kaynağı varsayılan olarak gömülü örnek veridir. Gerçek İBB feed'i için:
   ISTANBUL_GTFS_PATH=/yol/feed_dizini  (ya da .zip)
@@ -21,10 +22,12 @@ from mcp.server.fastmcp import FastMCP
 
 from . import routing
 from .gtfs import DEFAULT_DATA_DIR, Feed, parse_gtfs_time, seconds_to_hhmm
+from .integrations import Integrations
 
 mcp = FastMCP("istanbul-ulasim")
 
 _feed: Feed | None = None
+_integrations: Integrations | None = None
 
 
 def get_feed() -> Feed:
@@ -34,6 +37,14 @@ def get_feed() -> Feed:
         src = os.environ.get("ISTANBUL_GTFS_PATH") or os.environ.get("ISTANBUL_GTFS_URL")
         _feed = Feed.load(src or DEFAULT_DATA_DIR)
     return _feed
+
+
+def get_integrations() -> Integrations:
+    """Ücretsiz entegrasyon verisini (tembel) yükler ve önbelleğe alır."""
+    global _integrations
+    if _integrations is None:
+        _integrations = Integrations.load()
+    return _integrations
 
 
 def _stop_disambiguation(feed: Feed, query: str) -> str:
@@ -189,6 +200,43 @@ def ag_ozeti() -> str:
         f"  sefer deseni : {len(feed.patterns)}",
         "  hat türleri  : " + ", ".join(f"{k}: {v}" for k, v in sorted(by_type.items())),
     ]
+    return "\n".join(lines)
+
+
+@mcp.tool()
+def entegre_hatlar(hat: str) -> str:
+    """Bir hattın ücretsiz entegrasyon (ücretsiz aktarma) kapsamındaki hatlarını listeler.
+
+    hat: hat kodu — metro/tramvay (örn. 'M5', 'M4', 'M2', 'T1'), besleme
+         otobüsü (örn. 'UM62', 'KM31', 'MK97', 'HM1') ya da hat grubu
+         ('TM', '50', 'ARN').
+
+    Not: Besleme/entegrasyon otobüs hatları İETT verisindendir ve GTFS rota
+    grafiğinde yer almaz; bu yalnızca ücretsiz aktarma bilgisidir.
+    """
+    integ = get_integrations()
+    res = integ.query(hat)
+    if res is None:
+        return (f"'{hat}' için ücretsiz entegrasyon kaydı bulunamadı. "
+                f"Örnek: M5, M4, UM62, MK97, TM, ARN.")
+
+    yaka = f" [{', '.join(res.yaka)} Yakası]" if res.yaka else ""
+    if res.kind == "group":
+        lines = [f"{res.code} kodlu hatlar{yaka} — {len(res.members)} hat:",
+                 "  " + ", ".join(res.members)]
+        if res.internal_free:
+            lines.append("  • Bu hatlar kendi aralarında ücretsiz aktarmalıdır.")
+        if res.targets:
+            lines.append("  Ücretsiz entegre olduğu hatlar:")
+            for label, note in res.targets:
+                suffix = f"  ({note})" if note else ""
+                lines.append(f"    • {label}{suffix}")
+        return "\n".join(lines)
+
+    lines = [f"{res.code}{yaka} ile ücretsiz entegrasyon kapsamındaki hatlar:"]
+    for label, note in res.targets:
+        suffix = f"  ({note})" if note else ""
+        lines.append(f"  • {label}{suffix}")
     return "\n".join(lines)
 
 

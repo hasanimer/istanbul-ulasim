@@ -1,6 +1,6 @@
 # istanbul-ulasim
 
-İstanbul toplu taşıma (metro, metrobüs, Marmaray, tramvay, otobüs, vapur) için
+İstanbul toplu taşıma (metro, metrobüs, Marmaray, tramvay, otobüs) için
 **GTFS tabanlı bir MCP (Model Context Protocol) sunucusu**. Claude gibi MCP
 destekleyen asistanların "Kadıköy'den Levent'e nasıl giderim?", "Yenikapı'dan
 sıradaki metro ne zaman?" gibi soruları doğrudan yanıtlayabilmesini sağlar.
@@ -23,7 +23,7 @@ test edilebilir. Çalışma anında güncel İBB feed'ine de yönlendirilebilir
 
 | Araç | Açıklama |
 |------|----------|
-| `hat_ara` | Hatları ada, numaraya veya türe göre arar (`M2`, `metro`, `vapur`, `marmaray`). |
+| `hat_ara` | Hatları ada, numaraya veya türe göre arar (`M2`, `metro`, `otobüs`, `marmaray`). |
 | `durak_ara` | Durakları ada göre arar (`Taksim`, `Üsküdar`). Türkçe aksanlardan bağımsız. |
 | `hat_duraklari` | Bir hattın duraklarını sırasıyla listeler; aktarma duraklarını işaretler. |
 | `durak_kalkislari` | Bir duraktan verilen saatten sonraki kalkışları (çizelgeden) listeler. |
@@ -32,6 +32,8 @@ test edilebilir. Çalışma anında güncel İBB feed'ine de yönlendirilebilir
 | `entegre_hatlar` | Bir hattın **ücretsiz entegrasyon** (ücretsiz aktarma) hatlarını verir (`M5`, `UM62`, `TM`, `ARN`…). |
 
 ## Kurulum
+
+Gereksinim: Python **3.10+**
 
 ```bash
 uv venv
@@ -90,7 +92,7 @@ standart GTFS olduğu için yapı uyumludur.)
 ## Geliştirme
 
 ```bash
-.venv/bin/python -m unittest discover -s tests      # testler
+python -m unittest discover -s tests                # testler
 python scripts/make_sample_gtfs.py                  # örnek veriyi yeniden üret
 ```
 

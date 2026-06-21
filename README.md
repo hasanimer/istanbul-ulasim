@@ -31,6 +31,16 @@ test edilebilir. Çalışma anında güncel İBB feed'ine de yönlendirilebilir
 | `ag_ozeti` | Yüklü GTFS verisinin özeti (kaynak, hat/durak sayıları, türler). |
 | `entegre_hatlar` | Bir hattın **ücretsiz entegrasyon** (ücretsiz aktarma) hatlarını verir (`M5`, `UM62`, `TM`, `ARN`…). |
 
+## Kullanım örnekleri
+
+MCP istemcisinde (Claude vb.) aşağıdaki gibi doğal dil sorular sorabilirsiniz:
+
+- "M2 hattında hangi duraklar var?" (`hat_duraklari`)
+- "Üsküdar durağından 18:30 sonrası kalkışları göster." (`durak_kalkislari`)
+- "Kadıköy'den Levent'e en az aktarmayla nasıl giderim?" (`rota_bul`)
+- "M5 ile ücretsiz entegre hatlar neler?" (`entegre_hatlar`)
+- "Ağ özetini ver." (`ag_ozeti`)
+
 ## Kurulum
 
 Gereksinim: Python **3.10+**

@@ -8,6 +8,7 @@ Araçlar (MCP tools):
   - rota_bul         : iki durak arası en az aktarmalı rota önerir
   - ag_ozeti         : yüklü GTFS verisinin özetini verir
   - entegre_hatlar   : bir hattın ücretsiz entegrasyon (aktarma) hatlarını verir
+  - metro_duyurular  : Metro İstanbul raylı hat duyuruları (canlı; ağ gerekir)
 
 GTFS kaynağı varsayılan olarak gömülü örnek veridir. Gerçek İBB feed'i için:
   ISTANBUL_GTFS_PATH=/yol/feed_dizini  (ya da .zip)
@@ -20,7 +21,7 @@ from datetime import datetime
 
 from mcp.server.fastmcp import FastMCP
 
-from . import routing
+from . import metro, routing
 from .gtfs import DEFAULT_DATA_DIR, Feed, parse_gtfs_time, seconds_to_hhmm
 from .integrations import Integrations
 
@@ -28,6 +29,7 @@ mcp = FastMCP("istanbul-ulasim")
 
 _feed: Feed | None = None
 _integrations: Integrations | None = None
+_metro_client: metro.MetroClient | None = None
 
 
 def get_feed() -> Feed:
@@ -45,6 +47,14 @@ def get_integrations() -> Integrations:
     if _integrations is None:
         _integrations = Integrations.load()
     return _integrations
+
+
+def get_metro_client() -> "metro.MetroClient":
+    """Metro İstanbul API istemcisini (tembel) oluşturur ve önbelleğe alır."""
+    global _metro_client
+    if _metro_client is None:
+        _metro_client = metro.MetroClient()
+    return _metro_client
 
 
 def _stop_disambiguation(feed: Feed, query: str) -> str:
@@ -237,6 +247,33 @@ def entegre_hatlar(hat: str) -> str:
     for label, note in res.targets:
         suffix = f"  ({note})" if note else ""
         lines.append(f"  • {label}{suffix}")
+    return "\n".join(lines)
+
+
+@mcp.tool()
+def metro_duyurular(hat: str = "") -> str:
+    """Metro İstanbul raylı hatlarına ait güncel duyuruları (kesinti/arıza) listeler.
+
+    hat: opsiyonel — hat kodu/adıyla süzer (örn. 'M2'). Boşsa tüm duyurular.
+
+    Not: **Canlı veri** — api.ibb.gov.tr'ye ağ erişimi gerekir. Duyuru endpoint
+    yolu farklıysa METRO_ANNOUNCEMENTS_PATH ortam değişkeniyle ayarlanabilir.
+    """
+    try:
+        anns = get_metro_client().get_announcements()
+    except metro.MetroError as exc:
+        return (f"Duyurular alınamadı: {exc}\n"
+                "(Bu araç canlı ağ erişimi gerektirir; endpoint yolu farklıysa "
+                "METRO_ANNOUNCEMENTS_PATH ayarlayın — bkz. api.ibb.gov.tr/MetroIstanbul/Help.)")
+    if hat.strip():
+        from .gtfs import fold
+        q = fold(hat)
+        anns = [a for a in anns
+                if q in fold(" ".join(str(v) for v in a.values()))]
+    if not anns:
+        return f"{'Bu hatta ' if hat.strip() else ''}güncel duyuru bulunamadı."
+    lines = [f"Metro İstanbul duyuruları ({len(anns)}):"]
+    lines.extend(f"  • {metro.format_announcement(a)}" for a in anns[:30])
     return "\n".join(lines)
 
 

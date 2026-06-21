@@ -169,7 +169,7 @@ class ServerToolsTest(unittest.TestCase):
             names,
             {"hat_ara", "durak_ara", "hat_duraklari", "durak_kalkislari",
              "rota_bul", "ag_ozeti", "entegre_hatlar", "metro_duyurular",
-             "metro_haritalari"},
+             "metro_haritalari", "raylsistem_istasyon_ara", "raylsistem_hatlari"},
         )
 
     def test_entegre_hatlar_text(self):

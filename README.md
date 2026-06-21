@@ -32,6 +32,8 @@ test edilebilir. Çalışma anında güncel İBB feed'ine de yönlendirilebilir
 | `entegre_hatlar` | Bir hattın **ücretsiz entegrasyon** (ücretsiz aktarma) hatlarını verir (`M5`, `UM62`, `TM`, `ARN`…). |
 | `metro_duyurular` | Metro İstanbul raylı hat **duyurularını** (kesinti/arıza) listeler — *canlı; ağ gerekir*. |
 | `metro_haritalari` | Metro İstanbul resmî **harita** bağlantılarını (PDF/görsel) listeler — *canlı; ağ gerekir*. |
+| `raylsistem_istasyon_ara` | İBB **resmî** raylı istasyonları **gerçek koordinat** + tür + yapım durumuyla arar. |
+| `raylsistem_hatlari` | İBB resmî raylı hatları (uzunluk, kapasite, durum) listeler. |
 
 ## Kullanım örnekleri
 
@@ -220,9 +222,12 @@ src/istanbul_ulasim/
   iett.py        İETT SOAP istemcisi + SOAP→GTFS dönüştürücü (ağ gerektirir)
   ckan.py        İBB Açık Veri (CKAN) istemcisi + hazır GTFS çözümleme (ağ gerektirir)
   metro.py       Metro İstanbul REST istemcisi: resmî metadata + duyurular (ağ gerektirir)
+  geodata.py     İBB resmî raylı sistem istasyon/hat referansı (gömülü)
   server.py      FastMCP sunucusu ve araç tanımları
   data/sample/   Gömülü gerçek İstanbul GTFS verisi
-  data/integrations.json   İETT ücretsiz entegrasyon verisi
+  data/integrations.json        İETT ücretsiz entegrasyon verisi
+  data/rayli_istasyonlar.json   İBB raylı sistem istasyonları (343)
+  data/rayli_hatlar.json        İBB raylı sistem hatları (37)
 scripts/
   make_sample_gtfs.py   Örnek veriyi üreten betik
 tests/
@@ -230,6 +235,7 @@ tests/
   test_iett.py   İETT istemcisi + SOAP→GTFS dönüştürücü testleri
   test_ckan.py   İBB CKAN istemcisi testleri
   test_metro.py  Metro İstanbul istemcisi + metro_duyurular aracı testleri
+  test_geodata.py  İBB resmî raylı sistem referansı testleri
 ```
 
 ## Gömülü ağ
@@ -254,6 +260,15 @@ Tek yönlü entegrasyonlar ve hat grupları (`TM`, `50`, `ARN`) ayrıca işaretl
 
 > Bu besleme hatları GTFS rota grafiğinde **yer almaz** (durak verileri yok);
 > yalnızca ücretsiz aktarma referansıdır, `rota_bul` bunları kullanmaz.
+
+### Resmî raylı sistem referansı (İBB)
+
+`raylsistem_istasyon_ara` ve `raylsistem_hatlari`, İBB Açık Veri'nin "Raylı
+Sistem İstasyon Noktaları/Hatları" GeoJSON'larından türetilmiş **gömülü** bir
+referans sunar: **343 istasyon** (Metro 213, Tramvay 77, Banliyö 43, Füniküler 6,
+Teleferik 4; 268 mevcut + 75 inşaat) ve **37 hat** (uzunluk/kapasite). Gerçek
+koordinatlar ve **yapım durumu** içerir. Durak sırası içermediğinden rota
+grafiğinden ayrı bir referanstır (arama/koordinat amaçlı).
 
 ### Sınırlar
 

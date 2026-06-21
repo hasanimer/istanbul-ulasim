@@ -10,6 +10,8 @@ Araçlar (MCP tools):
   - entegre_hatlar   : bir hattın ücretsiz entegrasyon (aktarma) hatlarını verir
   - metro_duyurular  : Metro İstanbul raylı hat duyuruları (canlı; ağ gerekir)
   - metro_haritalari : Metro İstanbul resmî harita bağlantıları (canlı; ağ gerekir)
+  - raylsistem_istasyon_ara : resmî raylı istasyonları gerçek koordinatla arar
+  - raylsistem_hatlari : resmî raylı hatları (uzunluk/kapasite/durum) listeler
 
 GTFS kaynağı varsayılan olarak gömülü örnek veridir. Gerçek İBB feed'i için:
   ISTANBUL_GTFS_PATH=/yol/feed_dizini  (ya da .zip)
@@ -22,7 +24,7 @@ from datetime import datetime
 
 from mcp.server.fastmcp import FastMCP
 
-from . import metro, routing
+from . import geodata, metro, routing
 from .gtfs import DEFAULT_DATA_DIR, Feed, parse_gtfs_time, seconds_to_hhmm
 from .integrations import Integrations
 
@@ -31,6 +33,7 @@ mcp = FastMCP("istanbul-ulasim")
 _feed: Feed | None = None
 _integrations: Integrations | None = None
 _metro_client: metro.MetroClient | None = None
+_rail_data: geodata.RailData | None = None
 
 
 def get_feed() -> Feed:
@@ -56,6 +59,14 @@ def get_metro_client() -> "metro.MetroClient":
     if _metro_client is None:
         _metro_client = metro.MetroClient()
     return _metro_client
+
+
+def get_rail_data() -> geodata.RailData:
+    """İBB resmî raylı sistem istasyon/hat verisini (tembel) yükler."""
+    global _rail_data
+    if _rail_data is None:
+        _rail_data = geodata.RailData.load()
+    return _rail_data
 
 
 def _stop_disambiguation(feed: Feed, query: str) -> str:
@@ -299,6 +310,50 @@ def metro_haritalari(yalnizca_aktif: bool = False) -> str:
         return "Harita bulunamadı."
     lines = [f"Metro İstanbul haritaları ({len(maps)}):"]
     lines.extend(f"  • {metro.format_map(m)}" for m in maps[:30])
+    return "\n".join(lines)
+
+
+@mcp.tool()
+def raylsistem_istasyon_ara(ad: str = "", hat: str = "", tur: str = "",
+                            asama: str = "", limit: int = 25) -> str:
+    """İBB resmî raylı sistem istasyonlarını **gerçek koordinatlarıyla** arar.
+
+    ad: istasyon adı (örn. 'Taksim'); hat: hat adı (örn. 'M4', 'Marmaray');
+    tur: 'Metro' / 'Tramvay' / 'Banliyö' / 'Füniküler' / 'Teleferik';
+    asama: 'mevcut' (açık) ya da 'inşaat' (yapım aşamasındaki istasyonlar).
+
+    Gömülü GTFS ağından ayrı, resmî bir referanstır (yapım durumu + koordinat dahil).
+    """
+    rail = get_rail_data()
+    found = rail.search_stations(ad=ad, hat=hat, tur=tur, asama=asama)
+    if not found:
+        return "Eşleşen istasyon bulunamadı."
+    lines = [f"{len(found)} istasyon bulundu:"]
+    for s in found[:limit]:
+        coord = (f"({s.lat:.5f}, {s.lon:.5f})"
+                 if s.lat is not None and s.lon is not None else "")
+        insaat = " — İNŞAAT" if s.under_construction else ""
+        lines.append(f"  • {s.name} — {s.line} [{s.type}{insaat}] {coord}")
+    if len(found) > limit:
+        lines.append(f"  … ve {len(found) - limit} istasyon daha.")
+    return "\n".join(lines)
+
+
+@mcp.tool()
+def raylsistem_hatlari(tur: str = "") -> str:
+    """İBB resmî raylı sistem hatlarını (uzunluk, kapasite, durum) listeler.
+
+    tur: opsiyonel — 'Metro' / 'Tramvay' / 'Banliyö' / 'Füniküler' / 'Teleferik'.
+    """
+    rail = get_rail_data()
+    found = rail.search_lines(tur=tur)
+    if not found:
+        return "Eşleşen hat bulunamadı."
+    lines = [f"{len(found)} raylı sistem hattı:"]
+    for ln in found:
+        uz = f"{ln.length_km} km" if ln.length_km else "—"
+        lines.append(f"  • {ln.short_name or ln.name} [{ln.type}] "
+                     f"uzunluk: {uz}, durum: {ln.stage}")
     return "\n".join(lines)
 
 

@@ -7,9 +7,17 @@ sıradaki metro ne zaman?" gibi soruları doğrudan yanıtlayabilmesini sağlar.
 
 Veri kaynağı [GTFS](https://gtfs.org/) (General Transit Feed Specification)
 standardıdır: hat, durak, sefer ve çizelge bilgisi açık CSV dosyalarından okunur.
-Depoda gerçekçi **gömülü bir örnek İstanbul ağı** gelir; böylece sunucu, canlı
-bir API'ye ihtiyaç duymadan çalışır ve test edilebilir. Çalışma anında gerçek
-İBB feed'ine yönlendirilebilir (aşağıya bakın).
+Depoda **gerçek İstanbul metro ağı gömülü gelir** — 11 metro hattının (M1A–M11)
+gerçek istasyonları, ayrıca Marmaray, Metrobüs ve T1'in temsilî alt kümeleri.
+Böylece sunucu, canlı bir API'ye ihtiyaç duymadan gerçekçi sonuçlar üretir ve
+test edilebilir. Çalışma anında güncel İBB feed'ine de yönlendirilebilir
+(aşağıya bakın).
+
+> **Uyarı:** İstasyon dizileri kamuya açık kaynaklardan (metro.istanbul,
+> Vikipedi, Moovit; ~Haziran 2026) derlenmiştir. **Sefer saatleri sentetiktir**
+> (sabit aralık + sabit duraklar arası süre varsayımı) — resmî tarife değildir.
+> Marmaray/Metrobüs/T1 yalnızca ana aktarma duraklarını içerir. Kesin planlama
+> için resmî GTFS feed'ini kullanın.
 
 ## Araçlar (MCP tools)
 
@@ -99,16 +107,31 @@ tests/
   test_core.py   Çekirdek + protokol testleri
 ```
 
-## Örnek ağ ve sınırlar
+## Gömülü ağ
 
-Gömülü örnek ağ 5 hat ve 32 durak içerir: **M2**, **M1B**, **Marmaray**,
-**Metrobüs (34)**, **T1**. Aktarma noktaları gerçektir: Yenikapı (M1B/M2/
-Marmaray), Sirkeci (Marmaray/T1), Söğütlüçeşme (Marmaray/Metrobüs).
+**14 hat, 163 durak (26 aktarma):**
+
+- **Metro (11):** M1A, M1B, M2, M3, M4, M5, M6, M7, M8, M9, M11
+- **Tren:** Marmaray (temsilî) · **BRT:** Metrobüs 34 (temsilî) · **Tramvay:** T1 (temsilî)
+
+Aktarma noktaları gerçek istasyonlardır; örnekler: Yenikapı (M1A/M1B/M2/Marmaray),
+Ayrılık Çeşmesi (M4/Marmaray), Bostancı (M4/M8/Marmaray), Gayrettepe (M2/M11),
+Kağıthane (M7/M11), Mahmutbey (M3/M7), Mecidiyeköy (M2/M7/Metrobüs),
+Üsküdar (M5/Marmaray), Sirkeci (Marmaray/T1).
+
+### Sınırlar
 
 - Rota motoru en az aktarmalı yolu bulur; zaman bağımlı tam bir planlayıcı
   (RAPTOR/CSA) değildir — "hangi hatlarla giderim" sorusuna yanıt verir.
-- Örnek verideki koordinat ve sefer saatleri yaklaşıktır, yalnızca gösterim/
-  test içindir. Gerçek planlama için resmî GTFS feed'ini kullanın.
+- Sefer saatleri sentetiktir; koordinatlar yalnızca başlıca duraklar için
+  verilmiştir. Kesin planlama için resmî GTFS feed'ini kullanın.
+
+### Kaynaklar
+
+İstasyon listeleri kamuya açık kaynaklardan derlenmiştir:
+[metro.istanbul](https://www.metro.istanbul/Hatlarimiz),
+[İstanbul Metrosu — Vikipedi](https://tr.wikipedia.org/wiki/%C4%B0stanbul_Metrosu),
+Moovit. Çapraz doğrulama önerilir.
 
 ## Yol haritası
 

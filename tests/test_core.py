@@ -26,9 +26,10 @@ class FeedTest(unittest.TestCase):
         cls.feed = Feed.load()  # varsayılan örnek veri
 
     def test_counts(self):
-        self.assertEqual(len(self.feed.routes), 5)
-        self.assertEqual(len(self.feed.stops), 32)
-        self.assertGreater(len(self.feed.patterns), 0)
+        self.assertEqual(len(self.feed.routes), 14)
+        self.assertGreater(len(self.feed.stops), 150)
+        for rid in ("M1A", "M2", "M4", "M7", "M11", "MR", "34", "T1"):
+            self.assertIn(rid, self.feed.routes)
 
     def test_search_route(self):
         self.assertTrue(self.feed.search_routes("marmaray"))
@@ -41,10 +42,10 @@ class FeedTest(unittest.TestCase):
         self.assertIn("M1B", ids)
 
     def test_terminus_is_not_a_departure(self):
-        # Yenikapı, M2/M1B'nin son durağı; o yönde "kalkış" listelenmemeli
-        deps = self.feed.departures["ynk"]
+        # Yenikapı, M2/M1A/M1B'nin son durağı; o yönde "kalkış" listelenmemeli
+        deps = self.feed.departures["yenikapi"]
         for d in deps:
-            if d.route_id in ("M2", "M1B"):
+            if d.route_id in ("M2", "M1A", "M1B"):
                 self.assertNotIn("Yenikapı", d.headsign)
 
     def test_search_stop_turkish(self):
@@ -54,8 +55,8 @@ class FeedTest(unittest.TestCase):
         self.assertEqual(stop.stop_id, "uskudar")
 
     def test_shared_hub_has_multiple_routes(self):
-        # Yenikapı M1B + M2 + Marmaray'a hizmet eder
-        self.assertGreaterEqual(len(self.feed.stops["ynk"].route_ids), 3)
+        # Yenikapı M1A + M1B + M2 + Marmaray'a hizmet eder
+        self.assertGreaterEqual(len(self.feed.stops["yenikapi"].route_ids), 4)
 
     def test_departures_sorted_and_filtered(self):
         deps = self.feed.upcoming_departures("taksim", 8 * 3600, limit=5)
@@ -75,13 +76,20 @@ class RoutingTest(unittest.TestCase):
         self.assertEqual(j.transfers, 0)
         self.assertEqual(j.legs[0].route_id, "M2")
 
+    def test_direct_m4(self):
+        # Kadıköy -> Kartal: M4 üzerinde aktarmasız
+        j = routing.plan(self.feed, "kadikoy", "kartal")
+        self.assertIsNotNone(j)
+        self.assertEqual(j.transfers, 0)
+        self.assertEqual(j.legs[0].route_id, "M4")
+
     def test_transfer_via_yenikapi(self):
-        # Üsküdar (Marmaray) -> Taksim (M2), Yenikapı'da aktarma
+        # Üsküdar (M5/Marmaray) -> Taksim (M2), Yenikapı'da aktarma
         j = routing.plan(self.feed, "uskudar", "taksim")
         self.assertIsNotNone(j)
         self.assertEqual(j.transfers, 1)
         self.assertEqual(j.legs[-1].route_id, "M2")
-        self.assertEqual(j.legs[0].alight_stop_id, "ynk")
+        self.assertEqual(j.legs[0].alight_stop_id, "yenikapi")
 
     def test_transfer_via_sirkeci(self):
         # Kabataş (T1) -> Üsküdar (Marmaray), Sirkeci'de aktarma
@@ -90,6 +98,13 @@ class RoutingTest(unittest.TestCase):
         self.assertEqual(j.transfers, 1)
         self.assertEqual(j.legs[0].route_id, "T1")
         self.assertEqual(j.legs[-1].route_id, "MR")
+
+    def test_cross_bosphorus_transfer(self):
+        # Üsküdar (M5/Marmaray) -> Kadıköy (M4): Ayrılık Çeşmesi'nde aktarma
+        j = routing.plan(self.feed, "uskudar", "kadikoy")
+        self.assertIsNotNone(j)
+        self.assertEqual(j.transfers, 1)
+        self.assertEqual(j.legs[-1].route_id, "M4")
 
     def test_same_stop(self):
         j = routing.plan(self.feed, "taksim", "taksim")

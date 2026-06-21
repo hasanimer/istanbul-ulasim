@@ -147,6 +147,16 @@ Tek yönlü entegrasyonlar ve hat grupları (`TM`, `50`, `ARN`) ayrıca işaretl
 [İstanbul Metrosu — Vikipedi](https://tr.wikipedia.org/wiki/%C4%B0stanbul_Metrosu),
 Moovit. Çapraz doğrulama önerilir.
 
+## Veri ve Sorumluluk
+
+- Bu proje, kamuya açık veri kaynaklarını kullanan bağımsız bir açık kaynak
+  çalışmasıdır; herhangi bir resmî kurumun servisi değildir.
+- Veri kaynakları ve kullanım koşulları için ilgili sağlayıcıların lisans ve
+  hizmet şartları (ToS) geçerlidir; canlı feed entegrasyonunda bu kurallara
+  uyma sorumluluğu kullanıcıya aittir.
+- Canlı feed kullanımında rate-limit, erişim politikaları ve adil kullanım
+  kuralları dikkate alınmalıdır.
+
 ## Yol haritası
 
 - [ ] İETT gerçek-zamanlı varış (canlı "otobüs ne zaman gelecek") — opsiyonel araç

@@ -1,6 +1,6 @@
 # istanbul-ulasim
 
-İstanbul toplu taşıma (metro, metrobüs, Marmaray, tramvay, otobüs, vapur) için
+İstanbul toplu taşıma (metro, metrobüs, Marmaray, tramvay, otobüs) için
 **GTFS tabanlı bir MCP (Model Context Protocol) sunucusu**. Claude gibi MCP
 destekleyen asistanların "Kadıköy'den Levent'e nasıl giderim?", "Yenikapı'dan
 sıradaki metro ne zaman?" gibi soruları doğrudan yanıtlayabilmesini sağlar.
@@ -23,7 +23,7 @@ test edilebilir. Çalışma anında güncel İBB feed'ine de yönlendirilebilir
 
 | Araç | Açıklama |
 |------|----------|
-| `hat_ara` | Hatları ada, numaraya veya türe göre arar (`M2`, `metro`, `vapur`, `marmaray`). |
+| `hat_ara` | Hatları ada, numaraya veya türe göre arar (`M2`, `metro`, `otobüs`, `marmaray`). |
 | `durak_ara` | Durakları ada göre arar (`Taksim`, `Üsküdar`). Türkçe aksanlardan bağımsız. |
 | `hat_duraklari` | Bir hattın duraklarını sırasıyla listeler; aktarma duraklarını işaretler. |
 | `durak_kalkislari` | Bir duraktan verilen saatten sonraki kalkışları (çizelgeden) listeler. |
@@ -31,7 +31,19 @@ test edilebilir. Çalışma anında güncel İBB feed'ine de yönlendirilebilir
 | `ag_ozeti` | Yüklü GTFS verisinin özeti (kaynak, hat/durak sayıları, türler). |
 | `entegre_hatlar` | Bir hattın **ücretsiz entegrasyon** (ücretsiz aktarma) hatlarını verir (`M5`, `UM62`, `TM`, `ARN`…). |
 
+## Kullanım örnekleri
+
+MCP istemcisinde (Claude vb.) aşağıdaki gibi doğal dil sorular sorabilirsiniz:
+
+- "M2 hattında hangi duraklar var?" (`hat_duraklari`)
+- "Üsküdar durağından 18:30 sonrası kalkışları göster." (`durak_kalkislari`)
+- "Kadıköy'den Levent'e en az aktarmayla nasıl giderim?" (`rota_bul`)
+- "M5 ile ücretsiz entegre hatlar neler?" (`entegre_hatlar`)
+- "Ağ özetini ver." (`ag_ozeti`)
+
 ## Kurulum
+
+Gereksinim: Python **3.10+**
 
 ```bash
 uv venv
@@ -67,6 +79,32 @@ Claude Code için:
 ```bash
 claude mcp add istanbul-ulasim -- istanbul-ulasim-mcp
 ```
+
+### Antigravity ve ChatGPT'ye ekleme
+
+#### Antigravity
+
+Antigravity'de MCP sunucusu ekleme ekranından yeni bir sunucu tanımlayın:
+
+- **Name:** `istanbul-ulasim`
+- **Command:** `istanbul-ulasim-mcp`
+- **Transport:** `stdio`
+
+Kaydettikten sonra araç listesini yenileyin ve `hat_ara`, `rota_bul` gibi
+araçların göründüğünü doğrulayın.
+
+#### ChatGPT
+
+ChatGPT tarafında kullanım, hesabınızdaki özelliklere göre değişebilir:
+
+1. **GPTs > Create** ile yeni bir GPT oluşturun.
+2. **Actions/Tools** bölümünde MCP veya harici araç bağlantı adımını açın.
+3. Komut/entegrasyon kısmında bu sunucuyu `istanbul-ulasim-mcp` komutuyla bağlayın.
+4. Test istemine "Kadıköy'den Levent'e en az aktarmalı rota" yazıp yanıtı kontrol edin.
+
+> Not: ChatGPT arayüzündeki menü adları sürüme göre farklı olabilir; temel
+> ihtiyaç, bu MCP sunucusunu `stdio` komutuyla çalıştırıp araçları GPT'ye
+> görünür hale getirmektir.
 
 ## Gerçek İstanbul GTFS verisini kullanma
 
@@ -120,8 +158,10 @@ Kullanılan servisler (İETT Web Servis Dokümanı V1.5):
 
 ## Geliştirme
 
+Test komutlarını çalıştırmadan önce sanal ortamı etkinleştirin (`source .venv/bin/activate`).
+
 ```bash
-.venv/bin/python -m unittest discover -s tests      # testler
+python -m unittest discover -s tests                # testler
 python scripts/make_sample_gtfs.py                  # örnek veriyi yeniden üret
 ```
 
@@ -178,6 +218,16 @@ Tek yönlü entegrasyonlar ve hat grupları (`TM`, `50`, `ARN`) ayrıca işaretl
 [metro.istanbul](https://www.metro.istanbul/Hatlarimiz),
 [İstanbul Metrosu — Vikipedi](https://tr.wikipedia.org/wiki/%C4%B0stanbul_Metrosu),
 Moovit. Çapraz doğrulama önerilir.
+
+## Veri ve Sorumluluk
+
+- Bu proje, kamuya açık veri kaynaklarını kullanan bağımsız bir açık kaynak
+  çalışmasıdır; herhangi bir resmî kurumun servisi değildir.
+- Veri kaynakları ve kullanım koşulları için ilgili sağlayıcıların lisans ve
+  hizmet şartları (ToS) geçerlidir; canlı feed entegrasyonunda bu kurallara
+  uyma sorumluluğu kullanıcıya aittir.
+- Canlı feed kullanımında rate-limit, erişim politikaları ve adil kullanım
+  kuralları dikkate alınmalıdır.
 
 ## Yol haritası
 

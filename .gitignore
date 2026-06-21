@@ -10,6 +10,16 @@ dist/
 .venv/
 venv/
 
+# Secrets / sertifikalar
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.*
+token.*
+
 # Araç önbellekleri
 .pytest_cache/
 .ruff_cache/

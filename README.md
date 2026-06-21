@@ -80,6 +80,32 @@ Claude Code için:
 claude mcp add istanbul-ulasim -- istanbul-ulasim-mcp
 ```
 
+### Antigravity ve ChatGPT'ye ekleme
+
+#### Antigravity
+
+Antigravity'de MCP sunucusu ekleme ekranından yeni bir sunucu tanımlayın:
+
+- **Name:** `istanbul-ulasim`
+- **Command:** `istanbul-ulasim-mcp`
+- **Transport:** `stdio`
+
+Kaydettikten sonra araç listesini yenileyin ve `hat_ara`, `rota_bul` gibi
+araçların göründüğünü doğrulayın.
+
+#### ChatGPT
+
+ChatGPT tarafında kullanım, hesabınızdaki özelliklere göre değişebilir:
+
+1. **GPTs > Create** ile yeni bir GPT oluşturun.
+2. **Actions/Tools** bölümünde MCP veya harici araç bağlantı adımını açın.
+3. Komut/entegrasyon kısmında bu sunucuyu `istanbul-ulasim-mcp` komutuyla bağlayın.
+4. Test istemine "Kadıköy'den Levent'e en az aktarmalı rota" yazıp yanıtı kontrol edin.
+
+> Not: ChatGPT arayüzündeki menü adları sürüme göre farklı olabilir; temel
+> ihtiyaç, bu MCP sunucusunu `stdio` komutuyla çalıştırıp araçları GPT'ye
+> görünür hale getirmektir.
+
 ## Gerçek İstanbul GTFS verisini kullanma
 
 Varsayılan olarak gömülü örnek veri kullanılır. Gerçek/güncel feed için ortam

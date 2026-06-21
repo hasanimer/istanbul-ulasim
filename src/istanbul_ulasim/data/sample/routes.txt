@@ -1,0 +1,15 @@
+route_id,agency_id,route_short_name,route_long_name,route_type,route_color,route_text_color
+M1A,IBB,M1A,Yenikapı - Atatürk Havalimanı,1,E30613,FFFFFF
+M1B,IBB,M1B,Yenikapı - Kirazlı,1,E30613,FFFFFF
+M2,IBB,M2,Yenikapı - Hacıosman,1,009A44,FFFFFF
+M3,IBB,M3,Bakırköy Sahil - Kayaşehir Merkez,1,00A0DF,FFFFFF
+M4,IBB,M4,Kadıköy - Sabiha Gökçen Havalimanı,1,E6007E,FFFFFF
+M5,IBB,M5,Üsküdar - Samandıra Merkez,1,7B2682,FFFFFF
+M6,IBB,M6,Levent - Boğaziçi Ü./Hisarüstü,1,A05A2C,FFFFFF
+M7,IBB,M7,Yıldız - Mahmutbey,1,EC619F,FFFFFF
+M8,IBB,M8,Bostancı - Parseller,1,00A19A,FFFFFF
+M9,IBB,M9,Ataköy - Olimpiyat,1,F4A900,FFFFFF
+M11,IBB,M11,Gayrettepe - İstanbul Havalimanı - Arnavutköy,1,0033A0,FFFFFF
+MR,IBB,Marmaray,Halkalı - Gebze (temsilî),2,0067A6,FFFFFF
+34,IBB,34,Metrobüs: Beylikdüzü - Söğütlüçeşme (temsilî),3,C8102E,FFFFFF
+T1,IBB,T1,Kabataş - Bağcılar (temsilî),0,0061A8,FFFFFF

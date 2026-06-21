@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Sanal ortam
+.venv/
+venv/
+
+# Araç önbellekleri
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# İndirilen GTFS feed'leri
+istanbul_gtfs_download.zip
+*.gtfs.zip

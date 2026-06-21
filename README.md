@@ -180,6 +180,7 @@ scripts/
   make_sample_gtfs.py   Örnek veriyi üreten betik
 tests/
   test_core.py   Çekirdek + protokol testleri
+  test_iett.py   İETT istemcisi + SOAP→GTFS dönüştürücü testleri
 ```
 
 ## Gömülü ağ

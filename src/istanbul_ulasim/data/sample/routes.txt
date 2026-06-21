@@ -1,0 +1,6 @@
+route_id,agency_id,route_short_name,route_long_name,route_type,route_color,route_text_color
+M2,IBB,M2,Yenikapı - Hacıosman,1,009A44,FFFFFF
+M1B,IBB,M1B,Yenikapı - Kirazlı,1,ED1C24,FFFFFF
+MR,IBB,Marmaray,Halkalı - Gebze,2,0067A6,FFFFFF
+34,IBB,34,Metrobüs: Beylikdüzü - Söğütlüçeşme,3,C8102E,FFFFFF
+T1,IBB,T1,Kabataş - Bağcılar,0,0061A8,FFFFFF

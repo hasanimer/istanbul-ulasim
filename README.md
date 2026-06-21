@@ -101,6 +101,8 @@ standart GTFS olduğu için yapı uyumludur.)
 
 ## Geliştirme
 
+Test komutlarını çalıştırmadan önce sanal ortamı etkinleştirin (`source .venv/bin/activate`).
+
 ```bash
 python -m unittest discover -s tests                # testler
 python scripts/make_sample_gtfs.py                  # örnek veriyi yeniden üret

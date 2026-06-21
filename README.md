@@ -31,6 +31,7 @@ test edilebilir. Çalışma anında güncel İBB feed'ine de yönlendirilebilir
 | `ag_ozeti` | Yüklü GTFS verisinin özeti (kaynak, hat/durak sayıları, türler). |
 | `entegre_hatlar` | Bir hattın **ücretsiz entegrasyon** (ücretsiz aktarma) hatlarını verir (`M5`, `UM62`, `TM`, `ARN`…). |
 | `metro_duyurular` | Metro İstanbul raylı hat **duyurularını** (kesinti/arıza) listeler — *canlı; ağ gerekir*. |
+| `metro_haritalari` | Metro İstanbul resmî **harita** bağlantılarını (PDF/görsel) listeler — *canlı; ağ gerekir*. |
 
 ## Kullanım örnekleri
 
@@ -192,9 +193,10 @@ metadata'sı** (ad/kod/renk) ve **gerçek-zamanlı duyurulardır**.
 ```bash
 python -m istanbul_ulasim.metro lines          # resmî hat metadata (renk/kod)
 python -m istanbul_ulasim.metro announcements   # güncel duyurular
+python -m istanbul_ulasim.metro maps            # resmî harita bağlantıları (PDF/görsel)
 ```
 
-`metro_duyurular` MCP aracı bu duyuruları sunar (canlı; ağ gerekir).
+`metro_duyurular` ve `metro_haritalari` MCP araçları bunları sunar (canlı; ağ gerekir).
 
 > Duyuru endpoint'inin tam yolu `/MetroIstanbul/Help`'ten doğrulanmalıdır;
 > farklıysa `METRO_ANNOUNCEMENTS_PATH` ortam değişkeniyle ayarlayın.

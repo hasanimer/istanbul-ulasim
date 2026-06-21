@@ -168,7 +168,8 @@ class ServerToolsTest(unittest.TestCase):
         self.assertEqual(
             names,
             {"hat_ara", "durak_ara", "hat_duraklari", "durak_kalkislari",
-             "rota_bul", "ag_ozeti", "entegre_hatlar", "metro_duyurular"},
+             "rota_bul", "ag_ozeti", "entegre_hatlar", "metro_duyurular",
+             "metro_haritalari"},
         )
 
     def test_entegre_hatlar_text(self):

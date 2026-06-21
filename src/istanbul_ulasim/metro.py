@@ -29,6 +29,7 @@ BASE = "https://api.ibb.gov.tr/MetroIstanbul"
 LINES_PATH = "api/MetroMobile/V2/GetLines"
 ANNOUNCEMENTS_PATH = os.environ.get(
     "METRO_ANNOUNCEMENTS_PATH", "api/MetroMobile/V2/GetAnnouncements")
+MAPS_PATH = os.environ.get("METRO_MAPS_PATH", "api/MetroMobile/V2/GetMaps")
 
 
 class MetroError(Exception):
@@ -93,6 +94,28 @@ def format_announcement(a: dict) -> str:
     return f"{head}  ({date})" if date else head
 
 
+def map_summary(m: dict) -> dict:
+    """Harita nesnesini sade bir özet sözlüğe indirger."""
+    return {
+        "id": m.get("Id"),
+        "title": m.get("Title"),
+        "en_title": m.get("ENTtitle") or m.get("ENTitle"),
+        "active": bool(m.get("IsActive")),
+        "order": m.get("Order"),
+        "document": m.get("DocumentURL"),
+        "image": m.get("ImageURL"),
+        "date": m.get("Date"),
+    }
+
+
+def format_map(m: dict) -> str:
+    """Bir harita nesnesini başlık + bağlantı olarak biçimler."""
+    title = m.get("Title") or m.get("ENTtitle") or "Harita"
+    url = m.get("DocumentURL") or m.get("ImageURL") or ""
+    star = " ★ güncel" if m.get("IsActive") else ""
+    return f"{title}{star}\n    {url}".rstrip()
+
+
 class MetroClient:
     """Metro İstanbul REST API istemcisi.
 
@@ -129,6 +152,10 @@ class MetroClient:
         data = self.get(path or ANNOUNCEMENTS_PATH)
         return data if isinstance(data, list) else ([] if data is None else [data])
 
+    def get_maps(self, path: str | None = None) -> list[dict]:
+        data = self.get(path or MAPS_PATH)
+        return data if isinstance(data, list) else ([] if data is None else [data])
+
 
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(
@@ -138,6 +165,8 @@ def main(argv: list[str] | None = None) -> None:
     sub.add_parser("lines", help="Hat listesini (resmî metadata) yazdırır")
     p_ann = sub.add_parser("announcements", help="Güncel duyuruları yazdırır")
     p_ann.add_argument("--path", default=None, help="Duyuru endpoint yolu (varsayılanı geçersiz kıl)")
+    p_map = sub.add_parser("maps", help="Resmî raylı sistem haritalarını yazdırır")
+    p_map.add_argument("--path", default=None, help="Harita endpoint yolu (varsayılanı geçersiz kıl)")
 
     args = parser.parse_args(argv)
     client = MetroClient(base=args.base)
@@ -148,6 +177,9 @@ def main(argv: list[str] | None = None) -> None:
         elif args.cmd == "announcements":
             for a in client.get_announcements(path=args.path):
                 print(format_announcement(a))
+        elif args.cmd == "maps":
+            for m in client.get_maps(path=args.path):
+                print(format_map(m))
     except MetroError as exc:
         print(f"HATA: {exc}")
         print("Ağ erişimi gerekir (api.ibb.gov.tr). Duyuru yolu farklıysa "

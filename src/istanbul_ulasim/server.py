@@ -9,6 +9,7 @@ Araçlar (MCP tools):
   - ag_ozeti         : yüklü GTFS verisinin özetini verir
   - entegre_hatlar   : bir hattın ücretsiz entegrasyon (aktarma) hatlarını verir
   - metro_duyurular  : Metro İstanbul raylı hat duyuruları (canlı; ağ gerekir)
+  - metro_haritalari : Metro İstanbul resmî harita bağlantıları (canlı; ağ gerekir)
 
 GTFS kaynağı varsayılan olarak gömülü örnek veridir. Gerçek İBB feed'i için:
   ISTANBUL_GTFS_PATH=/yol/feed_dizini  (ya da .zip)
@@ -274,6 +275,30 @@ def metro_duyurular(hat: str = "") -> str:
         return f"{'Bu hatta ' if hat.strip() else ''}güncel duyuru bulunamadı."
     lines = [f"Metro İstanbul duyuruları ({len(anns)}):"]
     lines.extend(f"  • {metro.format_announcement(a)}" for a in anns[:30])
+    return "\n".join(lines)
+
+
+@mcp.tool()
+def metro_haritalari(yalnizca_aktif: bool = False) -> str:
+    """Metro İstanbul resmî raylı sistem haritalarını (PDF/görsel bağlantıları) listeler.
+
+    yalnizca_aktif: True ise yalnızca güncel (aktif) haritaları döndürür.
+
+    Not: **Canlı veri** — api.ibb.gov.tr'ye ağ erişimi gerekir. Endpoint yolu
+    farklıysa METRO_MAPS_PATH ortam değişkeniyle ayarlanabilir.
+    """
+    try:
+        maps = get_metro_client().get_maps()
+    except metro.MetroError as exc:
+        return (f"Haritalar alınamadı: {exc}\n"
+                "(Canlı ağ erişimi gerekir; endpoint farklıysa METRO_MAPS_PATH ayarlayın.)")
+    if yalnizca_aktif:
+        maps = [m for m in maps if m.get("IsActive")]
+    maps = sorted(maps, key=lambda m: (not m.get("IsActive"), m.get("Order") or 0))
+    if not maps:
+        return "Harita bulunamadı."
+    lines = [f"Metro İstanbul haritaları ({len(maps)}):"]
+    lines.extend(f"  • {metro.format_map(m)}" for m in maps[:30])
     return "\n".join(lines)
 
 

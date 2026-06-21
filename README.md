@@ -30,6 +30,7 @@ test edilebilir. Çalışma anında güncel İBB feed'ine de yönlendirilebilir
 | `rota_bul` | İki durak arasında **en az aktarmalı** rotayı, bacak bacak önerir. |
 | `ag_ozeti` | Yüklü GTFS verisinin özeti (kaynak, hat/durak sayıları, türler). |
 | `entegre_hatlar` | Bir hattın **ücretsiz entegrasyon** (ücretsiz aktarma) hatlarını verir (`M5`, `UM62`, `TM`, `ARN`…). |
+| `metro_duyurular` | Metro İstanbul raylı hat **duyurularını** (kesinti/arıza) listeler — *canlı; ağ gerekir*. |
 
 ## Kullanım örnekleri
 
@@ -181,6 +182,23 @@ Kullanılan servisler (İETT Web Servis Dokümanı V1.5):
 > (ağ kısıtı) canlı doğrulanamadı; ayrıştırıcılar belgelenmiş alanlara göre
 > toleranslı yazıldı, ağ erişimli ortamda doğrulanması önerilir.
 
+## Metro İstanbul (raylı sistem) — resmî metadata + duyurular
+
+`istanbul_ulasim.metro`, Metro İstanbul REST API'sini
+(`api.ibb.gov.tr/MetroIstanbul`) sarmalar. Statik ağ için CKAN GTFS yeterli
+olduğundan bu modül onu **tekrar etmez**; benzersiz katkısı **resmî hat
+metadata'sı** (ad/kod/renk) ve **gerçek-zamanlı duyurulardır**.
+
+```bash
+python -m istanbul_ulasim.metro lines          # resmî hat metadata (renk/kod)
+python -m istanbul_ulasim.metro announcements   # güncel duyurular
+```
+
+`metro_duyurular` MCP aracı bu duyuruları sunar (canlı; ağ gerekir).
+
+> Duyuru endpoint'inin tam yolu `/MetroIstanbul/Help`'ten doğrulanmalıdır;
+> farklıysa `METRO_ANNOUNCEMENTS_PATH` ortam değişkeniyle ayarlayın.
+
 ## Geliştirme
 
 Test komutlarını çalıştırmadan önce sanal ortamı etkinleştirin (`source .venv/bin/activate`).
@@ -199,6 +217,7 @@ src/istanbul_ulasim/
   integrations.py  Ücretsiz entegrasyon (besleme hattı) sorgu dizini
   iett.py        İETT SOAP istemcisi + SOAP→GTFS dönüştürücü (ağ gerektirir)
   ckan.py        İBB Açık Veri (CKAN) istemcisi + hazır GTFS çözümleme (ağ gerektirir)
+  metro.py       Metro İstanbul REST istemcisi: resmî metadata + duyurular (ağ gerektirir)
   server.py      FastMCP sunucusu ve araç tanımları
   data/sample/   Gömülü gerçek İstanbul GTFS verisi
   data/integrations.json   İETT ücretsiz entegrasyon verisi
@@ -208,6 +227,7 @@ tests/
   test_core.py   Çekirdek + protokol testleri
   test_iett.py   İETT istemcisi + SOAP→GTFS dönüştürücü testleri
   test_ckan.py   İBB CKAN istemcisi testleri
+  test_metro.py  Metro İstanbul istemcisi + metro_duyurular aracı testleri
 ```
 
 ## Gömülü ağ

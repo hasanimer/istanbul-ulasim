@@ -1,6 +1,6 @@
 [project]
 name = "istanbul-ulasim"
-version = "0.5.0"
+version = "0.6.0"
 description = "İstanbul toplu taşıma (metro, metrobüs, Marmaray, tramvay, vapur) için GTFS tabanlı MCP sunucusu"
 readme = "README.md"
 requires-python = ">=3.10"

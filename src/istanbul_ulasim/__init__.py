@@ -6,4 +6,4 @@ hat/durak arama, çizelge sorgulama ve en az aktarmalı rota bulma araçlarını
 bir MCP (Model Context Protocol) sunucusu olarak sunar.
 """
 
-__version__ = "0.3.0"
+__version__ = "0.4.0"

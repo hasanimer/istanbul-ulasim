@@ -341,7 +341,6 @@ export function createStadiumModel(options = {}) {
     const classify=(cx,cy,ring)=>{
       const ax=Math.abs(cx),ay=Math.abs(cy);
       if(o.roofCladding==='membrane'){const bay=Math.floor((Math.atan2(cy,cx)+Math.PI)/(TAU/56));return bay%2?white:membrane;}
-      if(cy>OY&&ax<OX+3) return light;                             // translucent far field
       return pv[(ring+2*Math.floor((Math.atan2(cy,cx)+Math.PI)/(TAU/NT)*0.5))%3];
     };
     for(let i=0;i<NT;i++){

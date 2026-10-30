@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="openstreetmap-cgimap 2.1.0 (2793775 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="8338055556" visible="true" version="5" changeset="171830512" timestamp="2025-09-12T12:40:51Z" user="AnnaCatarina" uid="560578" lat="41.0829849" lon="29.0507754">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="abt"/>
+ </node>
+ <node id="8338055557" visible="true" version="5" changeset="171830512" timestamp="2025-09-12T12:40:51Z" user="AnnaCatarina" uid="560578" lat="41.0835104" lon="29.0495145">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="abt"/>
+ </node>
+ <node id="8338055558" visible="true" version="2" changeset="126343247" timestamp="2022-09-18T19:11:50Z" user="Alikam" uid="3997418" lat="41.0834051" lon="29.0497074"/>
+ <node id="8338055559" visible="true" version="2" changeset="126343247" timestamp="2022-09-18T19:11:50Z" user="Alikam" uid="3997418" lat="41.0830569" lon="29.0505372"/>
+ <node id="10132990393" visible="true" version="2" changeset="128510493" timestamp="2022-11-05T07:36:55Z" user="Claudius Henrichs" uid="18069" lat="41.0850008" lon="29.0460846">
+  <tag k="funicular" v="yes"/>
+  <tag k="name" v="Rumeli Hisarüstü"/>
+  <tag k="public_transport" v="stop_position"/>
+ </node>
+ <node id="10132990394" visible="true" version="2" changeset="128510493" timestamp="2022-11-05T07:36:55Z" user="Claudius Henrichs" uid="18069" lat="41.0815409" lon="29.0539745">
+  <tag k="funicular" v="yes"/>
+  <tag k="name" v="Aşiyan"/>
+  <tag k="public_transport" v="stop_position"/>
+ </node>
+ <way id="897037840" visible="true" version="6" changeset="182282822" timestamp="2026-05-06T08:07:39Z" user="de24000" uid="617093">
+  <nd ref="8338055557"/>
+  <nd ref="8338055558"/>
+  <nd ref="8338055559"/>
+  <nd ref="8338055556"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="incline" v="13%"/>
+  <tag k="layer" v="-2"/>
+  <tag k="name" v="F4 Boğaziçi Üniversitesi - Aşiyan Füniküler Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="funicular"/>
+  <tag k="railway:bidirectional" v="regular"/>
+  <tag k="railway:preferred_direction" v="both"/>
+  <tag k="ref" v="F4"/>
+  <tag k="tunnel" v="yes"/>
+ </way>
+ <way id="1095709457" visible="true" version="4" changeset="182282822" timestamp="2026-05-06T08:07:39Z" user="de24000" uid="617093">
+  <nd ref="8338055557"/>
+  <nd ref="10132990393"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="incline" v="13%"/>
+  <tag k="layer" v="-2"/>
+  <tag k="name" v="F4 Boğaziçi Üniversitesi - Aşiyan Füniküler Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="funicular"/>
+  <tag k="railway:bidirectional" v="regular"/>
+  <tag k="railway:preferred_direction" v="both"/>
+  <tag k="ref" v="F4"/>
+  <tag k="tunnel" v="yes"/>
+ </way>
+ <way id="1110473790" visible="true" version="2" changeset="182282822" timestamp="2026-05-06T08:07:39Z" user="de24000" uid="617093">
+  <nd ref="10132990394"/>
+  <nd ref="8338055556"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="incline" v="13%"/>
+  <tag k="layer" v="-3"/>
+  <tag k="name" v="F4 Boğaziçi Üniversitesi - Aşiyan Füniküler Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="funicular"/>
+  <tag k="railway:bidirectional" v="regular"/>
+  <tag k="railway:preferred_direction" v="both"/>
+  <tag k="ref" v="F4"/>
+  <tag k="tunnel" v="yes"/>
+ </way>
+ <relation id="14738977" visible="true" version="6" changeset="188568884" timestamp="2026-09-05T12:28:52Z" user="user_24456380" uid="24456380">
+  <member type="node" ref="10132990393" role="stop"/>
+  <member type="node" ref="10132990394" role="stop"/>
+  <member type="way" ref="1095709457" role=""/>
+  <member type="way" ref="897037840" role=""/>
+  <member type="way" ref="1110473790" role=""/>
+  <tag k="colour" v="#7c7358"/>
+  <tag k="from" v="Boğaziçi Üniversitesi/Hisarüstü"/>
+  <tag k="name" v="F4: Boğaziçi Üniversitesi/Hisarüstü → Aşiyan"/>
+  <tag k="network" v="İstanbul Metrosu"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="F4"/>
+  <tag k="route" v="funicular"/>
+  <tag k="to" v="Aşiyan"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.metro.istanbul/Hatlarimiz/HatDetay?hat=F4"/>
+  <tag k="wikidata" v="Q31193345"/>
+  <tag k="wikimedia_commons" v="Category:Istanbul Funicular line F4"/>
+  <tag k="wikipedia" v="tr:F4 (İstanbul Füniküleri)"/>
+ </relation>
+</osm>

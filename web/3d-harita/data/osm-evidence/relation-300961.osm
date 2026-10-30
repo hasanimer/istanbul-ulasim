@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="openstreetmap-cgimap 2.1.0 (2730668 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="415023200" visible="true" version="24" changeset="149774377" timestamp="2024-04-09T12:02:55Z" user="SomeoneElse_Revert" uid="1778799" lat="41.0339309" lon="28.9922806">
+  <tag k="funicular" v="yes"/>
+  <tag k="name" v="Kabataş"/>
+  <tag k="name:ru" v="Фуникулер"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+ </node>
+ <node id="5607774263" visible="true" version="8" changeset="187953321" timestamp="2026-08-24T18:20:15Z" user="Alikam" uid="3997418" lat="41.0367798" lon="28.9866658">
+  <tag k="funicular" v="yes"/>
+  <tag k="name" v="Taksim"/>
+  <tag k="operator" v="İstanbul Ulaşım"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+ </node>
+ <node id="7812042170" visible="true" version="3" changeset="112370798" timestamp="2021-10-11T11:29:45Z" user="Claudius Henrichs" uid="18069" lat="41.0356054" lon="28.9889800">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="abt"/>
+ </node>
+ <node id="7812042171" visible="true" version="3" changeset="112370798" timestamp="2021-10-11T11:29:45Z" user="Claudius Henrichs" uid="18069" lat="41.0350058" lon="28.9901615">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="abt"/>
+ </node>
+ <node id="7812042172" visible="true" version="2" changeset="109767027" timestamp="2021-08-16T18:32:45Z" user="Alikam" uid="3997418" lat="41.0354700" lon="28.9892939"/>
+ <node id="7812042173" visible="true" version="2" changeset="109767027" timestamp="2021-08-16T18:32:45Z" user="Alikam" uid="3997418" lat="41.0351834" lon="28.9898601"/>
+ <node id="9010829414" visible="true" version="1" changeset="109767027" timestamp="2021-08-16T18:32:45Z" user="Alikam" uid="3997418" lat="41.0338592" lon="28.9924210"/>
+ <node id="9010829415" visible="true" version="1" changeset="109767027" timestamp="2021-08-16T18:32:45Z" user="Alikam" uid="3997418" lat="41.0368511" lon="28.9865253"/>
+ <way id="35391268" visible="true" version="15" changeset="182911653" timestamp="2026-05-20T06:53:28Z" user="de24000" uid="617093">
+  <nd ref="7812042170"/>
+  <nd ref="7812042172"/>
+  <nd ref="7812042173"/>
+  <nd ref="7812042171"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="incline" v="down"/>
+  <tag k="layer" v="-2"/>
+  <tag k="name" v="F1 Taksim - Kabataş"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="funicular"/>
+  <tag k="railway:bidirectional" v="regular"/>
+  <tag k="railway:preferred_direction" v="both"/>
+  <tag k="tunnel" v="yes"/>
+ </way>
+ <way id="991922446" visible="true" version="2" changeset="182911653" timestamp="2026-05-20T06:53:28Z" user="de24000" uid="617093">
+  <nd ref="7812042171"/>
+  <nd ref="415023200"/>
+  <nd ref="9010829414"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="incline" v="down"/>
+  <tag k="layer" v="-2"/>
+  <tag k="name" v="F1 Taksim - Kabataş"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="funicular"/>
+  <tag k="railway:bidirectional" v="regular"/>
+  <tag k="railway:preferred_direction" v="both"/>
+  <tag k="tunnel" v="yes"/>
+ </way>
+ <way id="991922447" visible="true" version="2" changeset="182911653" timestamp="2026-05-20T06:53:28Z" user="de24000" uid="617093">
+  <nd ref="9010829415"/>
+  <nd ref="5607774263"/>
+  <nd ref="7812042170"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="incline" v="down"/>
+  <tag k="layer" v="-2"/>
+  <tag k="name" v="F1 Taksim - Kabataş"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="funicular"/>
+  <tag k="railway:bidirectional" v="regular"/>
+  <tag k="railway:preferred_direction" v="both"/>
+  <tag k="tunnel" v="yes"/>
+ </way>
+ <relation id="300961" visible="true" version="18" changeset="188569574" timestamp="2026-09-05T12:46:17Z" user="user_24456380" uid="24456380">
+  <member type="node" ref="5607774263" role="stop"/>
+  <member type="node" ref="415023200" role="stop"/>
+  <member type="way" ref="991922447" role=""/>
+  <member type="way" ref="35391268" role=""/>
+  <member type="way" ref="991922446" role=""/>
+  <tag k="colour" v="#7c7358"/>
+  <tag k="from" v="Taksim"/>
+  <tag k="name" v="F1: Taksim → Kabataş"/>
+  <tag k="network" v="İstanbul Metrosu"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="F1"/>
+  <tag k="route" v="funicular"/>
+  <tag k="to" v="Kabataş"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.metro.istanbul/Hatlarimiz/HatDetay?hat=F1"/>
+  <tag k="wikidata" v="Q503503"/>
+  <tag k="wikimedia_commons" v="Category:Istanbul Funicular line F1"/>
+  <tag k="wikipedia" v="tr:F1 (İstanbul Füniküleri)"/>
+ </relation>
+</osm>

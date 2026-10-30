@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-30T13:34:45+03:00",
+  "liveServiceTracking": false,
+  "disclaimer": "Resmî kaynakların son kontrolüdür; canlı araç konumu, anlık kesinti veya sefer tarifesi takibi yapılmaz.",
+  "lines": {
+    "M5": {
+      "terminal": "Sultanbeyli",
+      "officialName": "Üsküdar–Sultanbeyli",
+      "officialStationCount": 24,
+      "openedAt": "2026-05-22",
+      "summary": "Üsküdar–Sultanbeyli · 24 istasyon. Sultanbeyli etabı 22 Mayıs 2026’da açıldı.",
+      "source": "https://api.ibb.gov.tr/MetroIstanbul/api/MetroMobile/V2/GetLines"
+    },
+    "M11": {
+      "terminal": "Halkalı",
+      "officialName": "Gayrettepe–İstanbul Havalimanı–Halkalı",
+      "openedAt": "2026-06-20",
+      "summary": "Gayrettepe–İstanbul Havalimanı–Halkalı. Halkalı–Arnavutköy kesimi 20 Haziran 2026’da hizmete açıldı.",
+      "source": "https://www.istairport.com/havalimani/havalimani-ulasim/sehir-ici/toplu-tasima-ile-ulasim"
+    },
+    "M7": {
+      "summary": "İşletme Yıldız–Mahmutbey. Kabataş–Yıldız ve Mahmutbey–Esenyurt uzatmaları inşaat listesinde.",
+      "source": "https://www.metro.istanbul/Hatlarimiz/ProjeHalindekiHatlarTumu"
+    },
+    "B2": {
+      "status": "suspended",
+      "reopeningVerified": false,
+      "noticeDate": "2026-06-19",
+      "suspendedFrom": "2026-06-23",
+      "summary": "Son resmî duyuruya göre 23 Haziran 2026’dan itibaren seferlere ara verildi. Yeniden açılış doğrulanmadı; araç simülasyonu kapalı.",
+      "sourceAccess": "Duyuru sayfası doğrudan erişimde yönlendirme döngüsüne girdi; metin arama indeksinden teyit edildi.",
+      "source": "https://www.tcddtasimacilik.gov.tr/tr/duyuru/detay/482"
+    }
+  },
+  "excludedProjects": [
+    {"id":"M10","summary":"Pendik–Fevzi Çakmak etabı inşaat listesinde; işletmedeki ağ katmanına eklenmedi.","source":"https://www.metro.istanbul/Hatlarimiz/ProjeHalindekiHatlarTumu"},
+    {"id":"M12","summary":"Göztepe–Ümraniye hattı inşaat listesinde; işletmedeki ağ katmanına eklenmedi.","source":"https://www.metro.istanbul/Hatlarimiz/ProjeHalindekiHatlarTumu"}
+  ]
+}

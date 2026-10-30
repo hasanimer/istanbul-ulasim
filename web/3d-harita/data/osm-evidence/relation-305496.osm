@@ -1,0 +1,1800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="openstreetmap-cgimap 2.1.0 (2713338 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="248643146" visible="true" version="3" changeset="105912894" timestamp="2021-06-06T11:21:33Z" user="Toygar Alak" uid="5703312" lat="41.0357269" lon="28.8944144"/>
+ <node id="248643148" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0366254" lon="28.8940197"/>
+ <node id="248643149" visible="true" version="4" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0372451" lon="28.8939296"/>
+ <node id="248643160" visible="true" version="2" changeset="74237928" timestamp="2019-09-08T22:29:48Z" user="penom" uid="436145" lat="41.0434573" lon="28.8932128"/>
+ <node id="248643163" visible="true" version="4" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0455815" lon="28.8924460"/>
+ <node id="248643164" visible="true" version="3" changeset="74276680" timestamp="2019-09-09T18:07:00Z" user="penom" uid="436145" lat="41.0460630" lon="28.8924628"/>
+ <node id="248643165" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0467078" lon="28.8926598"/>
+ <node id="248643166" visible="true" version="3" changeset="74276680" timestamp="2019-09-09T18:07:00Z" user="penom" uid="436145" lat="41.0470259" lon="28.8928587"/>
+ <node id="248643167" visible="true" version="4" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0474141" lon="28.8932046"/>
+ <node id="248643168" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0476017" lon="28.8934399"/>
+ <node id="248643169" visible="true" version="3" changeset="104898473" timestamp="2021-05-18T14:44:04Z" user="Alikam" uid="3997418" lat="41.0479736" lon="28.8939647"/>
+ <node id="248643170" visible="true" version="3" changeset="104898473" timestamp="2021-05-18T14:44:04Z" user="Alikam" uid="3997418" lat="41.0481944" lon="28.8944021"/>
+ <node id="248643171" visible="true" version="4" changeset="104898473" timestamp="2021-05-18T14:44:04Z" user="Alikam" uid="3997418" lat="41.0483384" lon="28.8948301"/>
+ <node id="248643172" visible="true" version="13" changeset="89371799" timestamp="2020-08-13T19:11:32Z" user="Alikam" uid="3997418" lat="41.0485107" lon="28.8954577">
+  <tag k="name" v="Kocatepe"/>
+  <tag k="network" v="İstanbul Metrosu"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="route_ref" v="M1A;M1B"/>
+  <tag k="station" v="subway"/>
+  <tag k="subway" v="yes"/>
+  <tag k="wheelchair" v="yes"/>
+ </node>
+ <node id="248643443" visible="true" version="3" changeset="104898473" timestamp="2021-05-18T14:44:04Z" user="Alikam" uid="3997418" lat="41.0420556" lon="28.9012157"/>
+ <node id="248643480" visible="true" version="2" changeset="50135752" timestamp="2017-07-08T17:11:25Z" user="Santi2222" uid="493192" lat="41.0446957" lon="28.9002574"/>
+ <node id="248643482" visible="true" version="2" changeset="50135752" timestamp="2017-07-08T17:11:25Z" user="Santi2222" uid="493192" lat="41.0444170" lon="28.9001716"/>
+ <node id="248643484" visible="true" version="2" changeset="50135752" timestamp="2017-07-08T17:11:25Z" user="Santi2222" uid="493192" lat="41.0441434" lon="28.9001179"/>
+ <node id="248643486" visible="true" version="2" changeset="50135752" timestamp="2017-07-08T17:11:25Z" user="Santi2222" uid="493192" lat="41.0438757" lon="28.9001099"/>
+ <node id="248643487" visible="true" version="2" changeset="50135752" timestamp="2017-07-08T17:11:25Z" user="Santi2222" uid="493192" lat="41.0436515" lon="28.9001350"/>
+ <node id="248643488" visible="true" version="2" changeset="50135752" timestamp="2017-07-08T17:11:25Z" user="Santi2222" uid="493192" lat="41.0431036" lon="28.9003164"/>
+ <node id="248643489" visible="true" version="2" changeset="50135752" timestamp="2017-07-08T17:11:25Z" user="Santi2222" uid="493192" lat="41.0428641" lon="28.9004607"/>
+ <node id="248643718" visible="true" version="2" changeset="50136520" timestamp="2017-07-08T17:54:21Z" user="Santi2222" uid="493192" lat="41.0296821" lon="28.8984367"/>
+ <node id="248643719" visible="true" version="8" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0303612" lon="28.8979360">
+  <tag k="name" v="Terazidere"/>
+  <tag k="network" v="İstanbul Metrosu"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="station" v="subway"/>
+  <tag k="subway" v="yes"/>
+  <tag k="wheelchair" v="no"/>
+ </node>
+ <node id="248643720" visible="true" version="2" changeset="50136520" timestamp="2017-07-08T17:54:21Z" user="Santi2222" uid="493192" lat="41.0310303" lon="28.8974426"/>
+ <node id="248643721" visible="true" version="2" changeset="50136520" timestamp="2017-07-08T17:54:21Z" user="Santi2222" uid="493192" lat="41.0316357" lon="28.8971138"/>
+ <node id="248643723" visible="true" version="2" changeset="50136520" timestamp="2017-07-08T17:54:21Z" user="Santi2222" uid="493192" lat="41.0327597" lon="28.8966836"/>
+ <node id="248643724" visible="true" version="2" changeset="50136012" timestamp="2017-07-08T17:28:11Z" user="Santi2222" uid="493192" lat="41.0334332" lon="28.8963122"/>
+ <node id="248643725" visible="true" version="3" changeset="50136012" timestamp="2017-07-08T17:28:11Z" user="Santi2222" uid="493192" lat="41.0339502" lon="28.8959725"/>
+ <node id="248643726" visible="true" version="2" changeset="50136012" timestamp="2017-07-08T17:28:11Z" user="Santi2222" uid="493192" lat="41.0343477" lon="28.8956735"/>
+ <node id="248648716" visible="true" version="3" changeset="50136987" timestamp="2017-07-08T18:22:57Z" user="Santi2222" uid="493192" lat="40.9992696" lon="28.8819808"/>
+ <node id="248648717" visible="true" version="4" changeset="50136933" timestamp="2017-07-08T18:19:48Z" user="Santi2222" uid="493192" lat="41.0005518" lon="28.8844334"/>
+ <node id="248648718" visible="true" version="3" changeset="50136933" timestamp="2017-07-08T18:19:48Z" user="Santi2222" uid="493192" lat="41.0008563" lon="28.8850324"/>
+ <node id="248648719" visible="true" version="4" changeset="50136933" timestamp="2017-07-08T18:19:48Z" user="Santi2222" uid="493192" lat="41.0010745" lon="28.8855321"/>
+ <node id="248648721" visible="true" version="3" changeset="50136933" timestamp="2017-07-08T18:19:48Z" user="Santi2222" uid="493192" lat="41.0013474" lon="28.8863670"/>
+ <node id="248648722" visible="true" version="6" changeset="50136866" timestamp="2017-07-08T18:16:09Z" user="Santi2222" uid="493192" lat="41.0014549" lon="28.8869012"/>
+ <node id="248648723" visible="true" version="4" changeset="50136866" timestamp="2017-07-08T18:16:09Z" user="Santi2222" uid="493192" lat="41.0015493" lon="28.8875238"/>
+ <node id="248648724" visible="true" version="12" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0017100" lon="28.8895752">
+  <tag k="name" v="Zeytinburnu"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="subway" v="yes"/>
+ </node>
+ <node id="248648726" visible="true" version="6" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0018014" lon="28.8906874"/>
+ <node id="248648727" visible="true" version="5" changeset="50136866" timestamp="2017-07-08T18:16:09Z" user="Santi2222" uid="493192" lat="41.0018907" lon="28.8911486"/>
+ <node id="248648728" visible="true" version="5" changeset="50136866" timestamp="2017-07-08T18:16:09Z" user="Santi2222" uid="493192" lat="41.0019881" lon="28.8914968"/>
+ <node id="248648729" visible="true" version="4" changeset="50136866" timestamp="2017-07-08T18:16:09Z" user="Santi2222" uid="493192" lat="41.0021503" lon="28.8919562"/>
+ <node id="248648730" visible="true" version="4" changeset="50136866" timestamp="2017-07-08T18:16:09Z" user="Santi2222" uid="493192" lat="41.0022880" lon="28.8922349"/>
+ <node id="248648731" visible="true" version="5" changeset="50136866" timestamp="2017-07-08T18:16:09Z" user="Santi2222" uid="493192" lat="41.0024525" lon="28.8925002"/>
+ <node id="248648732" visible="true" version="4" changeset="50136866" timestamp="2017-07-08T18:16:09Z" user="Santi2222" uid="493192" lat="41.0026405" lon="28.8927855"/>
+ <node id="248648733" visible="true" version="4" changeset="50136866" timestamp="2017-07-08T18:16:09Z" user="Santi2222" uid="493192" lat="41.0029084" lon="28.8931099"/>
+ <node id="248648734" visible="true" version="3" changeset="3171736" timestamp="2009-11-20T21:02:27Z" user="mapistanbul" uid="175523" lat="41.0035060" lon="28.8936624"/>
+ <node id="248648735" visible="true" version="1" changeset="169755" timestamp="2008-02-21T14:46:28Z" user="katpatuka" uid="17497" lat="41.0053131" lon="28.8952416"/>
+ <node id="248648736" visible="true" version="1" changeset="169755" timestamp="2008-02-21T14:46:28Z" user="katpatuka" uid="17497" lat="41.0055981" lon="28.8954476"/>
+ <node id="248648737" visible="true" version="3" changeset="50136678" timestamp="2017-07-08T18:03:33Z" user="Santi2222" uid="493192" lat="41.0058895" lon="28.8956100"/>
+ <node id="248648738" visible="true" version="3" changeset="50136678" timestamp="2017-07-08T18:03:33Z" user="Santi2222" uid="493192" lat="41.0061435" lon="28.8957349"/>
+ <node id="248648739" visible="true" version="3" changeset="50136678" timestamp="2017-07-08T18:03:33Z" user="Santi2222" uid="493192" lat="41.0065283" lon="28.8958759"/>
+ <node id="248648741" visible="true" version="2" changeset="50136678" timestamp="2017-07-08T18:03:33Z" user="Santi2222" uid="493192" lat="41.0082874" lon="28.8963556"/>
+ <node id="248648742" visible="true" version="2" changeset="50136678" timestamp="2017-07-08T18:03:33Z" user="Santi2222" uid="493192" lat="41.0085632" lon="28.8964741"/>
+ <node id="248648743" visible="true" version="2" changeset="50136678" timestamp="2017-07-08T18:03:33Z" user="Santi2222" uid="493192" lat="41.0088152" lon="28.8965975"/>
+ <node id="248648744" visible="true" version="2" changeset="50136678" timestamp="2017-07-08T18:03:33Z" user="Santi2222" uid="493192" lat="41.0091184" lon="28.8967517"/>
+ <node id="248648745" visible="true" version="2" changeset="50136678" timestamp="2017-07-08T18:03:33Z" user="Santi2222" uid="493192" lat="41.0095369" lon="28.8970237"/>
+ <node id="248648746" visible="true" version="1" changeset="169755" timestamp="2008-02-21T14:46:28Z" user="katpatuka" uid="17497" lat="41.0098470" lon="28.8972758"/>
+ <node id="248648747" visible="true" version="1" changeset="169755" timestamp="2008-02-21T14:46:28Z" user="katpatuka" uid="17497" lat="41.0113367" lon="28.8985032"/>
+ <node id="248648748" visible="true" version="1" changeset="169755" timestamp="2008-02-21T14:46:28Z" user="katpatuka" uid="17497" lat="41.0123081" lon="28.8992843"/>
+ <node id="248648749" visible="true" version="1" changeset="169755" timestamp="2008-02-21T14:46:28Z" user="katpatuka" uid="17497" lat="41.0126967" lon="28.8995418"/>
+ <node id="248648750" visible="true" version="1" changeset="169755" timestamp="2008-02-21T14:46:28Z" user="katpatuka" uid="17497" lat="41.0129947" lon="28.8996877"/>
+ <node id="248648751" visible="true" version="2" changeset="50136678" timestamp="2017-07-08T18:03:33Z" user="Santi2222" uid="493192" lat="41.0132987" lon="28.8997987"/>
+ <node id="248648752" visible="true" version="2" changeset="50136678" timestamp="2017-07-08T18:03:33Z" user="Santi2222" uid="493192" lat="41.0138657" lon="28.8999081"/>
+ <node id="248648753" visible="true" version="2" changeset="50136678" timestamp="2017-07-08T18:03:33Z" user="Santi2222" uid="493192" lat="41.0141965" lon="28.8999435"/>
+ <node id="248648754" visible="true" version="1" changeset="169755" timestamp="2008-02-21T14:46:28Z" user="katpatuka" uid="17497" lat="41.0152873" lon="28.9000396"/>
+ <node id="248648755" visible="true" version="1" changeset="169755" timestamp="2008-02-21T14:46:28Z" user="katpatuka" uid="17497" lat="41.0159802" lon="28.9001426"/>
+ <node id="248648756" visible="true" version="1" changeset="169755" timestamp="2008-02-21T14:46:28Z" user="katpatuka" uid="17497" lat="41.0163429" lon="28.9002284"/>
+ <node id="248648757" visible="true" version="2" changeset="50136678" timestamp="2017-07-08T18:03:33Z" user="Santi2222" uid="493192" lat="41.0169650" lon="28.9003990"/>
+ <node id="248648758" visible="true" version="2" changeset="50136678" timestamp="2017-07-08T18:03:33Z" user="Santi2222" uid="493192" lat="41.0176838" lon="28.9006366"/>
+ <node id="248648759" visible="true" version="2" changeset="50136678" timestamp="2017-07-08T18:03:33Z" user="Santi2222" uid="493192" lat="41.0180639" lon="28.9007252"/>
+ <node id="248648760" visible="true" version="2" changeset="50136678" timestamp="2017-07-08T18:03:33Z" user="Santi2222" uid="493192" lat="41.0183614" lon="28.9007530"/>
+ <node id="248648761" visible="true" version="2" changeset="50136678" timestamp="2017-07-08T18:03:33Z" user="Santi2222" uid="493192" lat="41.0186581" lon="28.9007654"/>
+ <node id="248648762" visible="true" version="3" changeset="50136678" timestamp="2017-07-08T18:03:33Z" user="Santi2222" uid="493192" lat="41.0189862" lon="28.9007240"/>
+ <node id="248648763" visible="true" version="3" changeset="50136607" timestamp="2017-07-08T17:58:37Z" user="Santi2222" uid="493192" lat="41.0197127" lon="28.9005366"/>
+ <node id="248648764" visible="true" version="10" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0205272" lon="28.9002450">
+  <tag k="name" v="Davutpaşa - YTÜ"/>
+  <tag k="network" v="İstanbul M1A Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="ref" v="Platform 2"/>
+  <tag k="subway" v="yes"/>
+  <tag k="wheelchair" v="no"/>
+ </node>
+ <node id="248648765" visible="true" version="1" changeset="169755" timestamp="2008-02-21T14:46:28Z" user="katpatuka" uid="17497" lat="41.0230907" lon="28.8993358"/>
+ <node id="248648766" visible="true" version="2" changeset="50136607" timestamp="2017-07-08T17:58:37Z" user="Santi2222" uid="493192" lat="41.0234954" lon="28.8992020"/>
+ <node id="248648767" visible="true" version="2" changeset="50136607" timestamp="2017-07-08T17:58:37Z" user="Santi2222" uid="493192" lat="41.0238637" lon="28.8991113"/>
+ <node id="248648768" visible="true" version="2" changeset="50136607" timestamp="2017-07-08T17:58:37Z" user="Santi2222" uid="493192" lat="41.0246975" lon="28.8990115"/>
+ <node id="248648769" visible="true" version="2" changeset="50136607" timestamp="2017-07-08T17:58:37Z" user="Santi2222" uid="493192" lat="41.0283663" lon="28.8988599"/>
+ <node id="248648770" visible="true" version="2" changeset="50136607" timestamp="2017-07-08T17:58:38Z" user="Santi2222" uid="493192" lat="41.0288614" lon="28.8987843"/>
+ <node id="248648771" visible="true" version="2" changeset="50136607" timestamp="2017-07-08T17:58:38Z" user="Santi2222" uid="493192" lat="41.0292612" lon="28.8986587"/>
+ <node id="248653066" visible="true" version="4" changeset="119233754" timestamp="2022-04-02T12:43:50Z" user="Alikam" uid="3997418" lat="41.0219012" lon="28.8997564"/>
+ <node id="248655487" visible="true" version="7" changeset="129785380" timestamp="2022-12-06T14:16:30Z" user="Alikam" uid="3997418" lat="40.9966618" lon="28.8760485"/>
+ <node id="248655488" visible="true" version="3" changeset="50136987" timestamp="2017-07-08T18:22:57Z" user="Santi2222" uid="493192" lat="40.9966902" lon="28.8766137"/>
+ <node id="248655491" visible="true" version="3" changeset="50136987" timestamp="2017-07-08T18:22:57Z" user="Santi2222" uid="493192" lat="40.9967639" lon="28.8771638"/>
+ <node id="248655492" visible="true" version="3" changeset="50136987" timestamp="2017-07-08T18:22:57Z" user="Santi2222" uid="493192" lat="40.9968272" lon="28.8774940"/>
+ <node id="248655493" visible="true" version="3" changeset="50136987" timestamp="2017-07-08T18:22:57Z" user="Santi2222" uid="493192" lat="40.9969275" lon="28.8778467"/>
+ <node id="248655494" visible="true" version="3" changeset="50136987" timestamp="2017-07-08T18:22:57Z" user="Santi2222" uid="493192" lat="40.9970465" lon="28.8781560"/>
+ <node id="248655495" visible="true" version="3" changeset="50136987" timestamp="2017-07-08T18:22:57Z" user="Santi2222" uid="493192" lat="40.9973720" lon="28.8788003"/>
+ <node id="248656549" visible="true" version="4" changeset="87516861" timestamp="2020-07-03T20:15:06Z" user="Alikam" uid="3997418" lat="41.0379264" lon="28.8939995"/>
+ <node id="248659536" visible="true" version="4" changeset="127484606" timestamp="2022-10-13T18:20:17Z" user="Toygar Alak" uid="5703312" lat="41.0450111" lon="28.8925086"/>
+ <node id="248659544" visible="true" version="4" changeset="127484606" timestamp="2022-10-13T18:20:17Z" user="Toygar Alak" uid="5703312" lat="41.0452943" lon="28.8924708"/>
+ <node id="248659590" visible="true" version="3" changeset="74237928" timestamp="2019-09-08T22:29:48Z" user="penom" uid="436145" lat="41.0442266" lon="28.8927461"/>
+ <node id="248664796" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0311136" lon="28.9235061"/>
+ <node id="248664798" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0315996" lon="28.9224135"/>
+ <node id="248664800" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0260062" lon="28.9280032"/>
+ <node id="248664801" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0262943" lon="28.9277725"/>
+ <node id="248664802" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0265683" lon="28.9275864"/>
+ <node id="248664803" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0268087" lon="28.9274308"/>
+ <node id="248664804" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0289486" lon="28.9262845"/>
+ <node id="248664805" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0294298" lon="28.9259744"/>
+ <node id="248664806" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0299098" lon="28.9255227"/>
+ <node id="248664807" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0302456" lon="28.9251419"/>
+ <node id="248664808" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0305791" lon="28.9246129"/>
+ <node id="248664809" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0308308" lon="28.9241419"/>
+ <node id="248664899" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0317579" lon="28.9221200"/>
+ <node id="248664900" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0321654" lon="28.9215171"/>
+ <node id="248664901" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0325603" lon="28.9211239"/>
+ <node id="248664902" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0327793" lon="28.9209542"/>
+ <node id="248664903" visible="true" version="11" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0341161" lon="28.9203244">
+  <tag k="name" v="Bayrampaşa-Maltepe"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="station" v="subway"/>
+  <tag k="subway" v="yes"/>
+  <tag k="wheelchair" v="no"/>
+ </node>
+ <node id="248664904" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0356722" lon="28.9196301"/>
+ <node id="248664905" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0361318" lon="28.9194201"/>
+ <node id="248664906" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0364125" lon="28.9192361"/>
+ <node id="248664907" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0368941" lon="28.9188198"/>
+ <node id="248664908" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0371251" lon="28.9185790"/>
+ <node id="248664909" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0373129" lon="28.9183334"/>
+ <node id="248664910" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0376787" lon="28.9178306"/>
+ <node id="248664911" visible="true" version="4" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0379803" lon="28.9173331"/>
+ <node id="248664913" visible="true" version="2" changeset="50135662" timestamp="2017-07-08T17:06:57Z" user="Santi2222" uid="493192" lat="41.0386561" lon="28.9162182"/>
+ <node id="248664914" visible="true" version="2" changeset="50135662" timestamp="2017-07-08T17:06:57Z" user="Santi2222" uid="493192" lat="41.0390196" lon="28.9155948"/>
+ <node id="248664915" visible="true" version="2" changeset="50135662" timestamp="2017-07-08T17:06:57Z" user="Santi2222" uid="493192" lat="41.0395707" lon="28.9144645"/>
+ <node id="248664916" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0399866" lon="28.9131556"/>
+ <node id="248664917" visible="true" version="3" changeset="158947064" timestamp="2024-11-09T19:49:48Z" user="Toygar Alak" uid="5703312" lat="41.0401190" lon="28.9125985"/>
+ <node id="248664918" visible="true" version="4" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0403260" lon="28.9116346"/>
+ <node id="248664919" visible="true" version="3" changeset="158947064" timestamp="2024-11-09T19:49:48Z" user="Toygar Alak" uid="5703312" lat="41.0404746" lon="28.9107291"/>
+ <node id="248664921" visible="true" version="9" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0409120" lon="28.9072258">
+  <tag k="name" v="Sağmalcılar"/>
+  <tag k="network" v="İstanbul Metrosu"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="station" v="subway"/>
+  <tag k="subway" v="yes"/>
+  <tag k="wheelchair" v="no"/>
+ </node>
+ <node id="248664922" visible="true" version="3" changeset="50135662" timestamp="2017-07-08T17:06:57Z" user="Santi2222" uid="493192" lat="41.0410694" lon="28.9052350"/>
+ <node id="248664923" visible="true" version="2" changeset="50135662" timestamp="2017-07-08T17:06:57Z" user="Santi2222" uid="493192" lat="41.0411502" lon="28.9044931"/>
+ <node id="248664924" visible="true" version="2" changeset="50135662" timestamp="2017-07-08T17:06:57Z" user="Santi2222" uid="493192" lat="41.0413568" lon="28.9034246"/>
+ <node id="248665073" visible="true" version="2" changeset="50135752" timestamp="2017-07-08T17:11:25Z" user="Santi2222" uid="493192" lat="41.0418025" lon="28.9016516"/>
+ <node id="248665074" visible="true" version="2" changeset="50135752" timestamp="2017-07-08T17:11:25Z" user="Santi2222" uid="493192" lat="41.0416422" lon="28.9021483"/>
+ <node id="248665075" visible="true" version="2" changeset="50135752" timestamp="2017-07-08T17:11:25Z" user="Santi2222" uid="493192" lat="41.0415092" lon="28.9026467"/>
+ <node id="248666702" visible="true" version="13" changeset="88127039" timestamp="2020-07-17T07:29:05Z" user="Claudius Henrichs" uid="18069" lat="41.0120685" lon="28.9482444">
+  <tag k="name" v="Aksaray"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="station" v="subway"/>
+  <tag k="subway" v="yes"/>
+  <tag k="wheelchair" v="yes"/>
+ </node>
+ <node id="248666704" visible="true" version="1" changeset="169755" timestamp="2008-02-21T16:11:06Z" user="katpatuka" uid="17497" lat="41.0250656" lon="28.9289903"/>
+ <node id="248666705" visible="true" version="2" changeset="50175307" timestamp="2017-07-10T12:28:06Z" user="Santi2222" uid="493192" lat="41.0253892" lon="28.9285918"/>
+ <node id="248666706" visible="true" version="2" changeset="50175307" timestamp="2017-07-10T12:28:06Z" user="Santi2222" uid="493192" lat="41.0256606" lon="28.9283058"/>
+ <node id="251293082" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0334241" lon="28.9206136"/>
+ <node id="251293083" visible="true" version="2" changeset="50135599" timestamp="2017-07-08T17:04:09Z" user="Santi2222" uid="493192" lat="41.0332554" lon="28.9206860"/>
+ <node id="304050909" visible="true" version="8" changeset="149774743" timestamp="2024-04-09T12:11:47Z" user="TheAhmet" uid="20108253" lat="40.9847658" lon="28.8227895"/>
+ <node id="304050911" visible="true" version="8" changeset="149774743" timestamp="2024-04-09T12:11:47Z" user="TheAhmet" uid="20108253" lat="40.9844914" lon="28.8222307"/>
+ <node id="304051207" visible="true" version="7" changeset="50137143" timestamp="2017-07-08T18:32:38Z" user="Santi2222" uid="493192" lat="40.9886666" lon="28.8355007"/>
+ <node id="304051208" visible="true" version="8" changeset="50137143" timestamp="2017-07-08T18:32:38Z" user="Santi2222" uid="493192" lat="40.9885494" lon="28.8352734"/>
+ <node id="304051209" visible="true" version="9" changeset="50137143" timestamp="2017-07-08T18:32:38Z" user="Santi2222" uid="493192" lat="40.9883385" lon="28.8347774"/>
+ <node id="304051211" visible="true" version="7" changeset="50137285" timestamp="2017-07-08T18:42:16Z" user="Santi2222" uid="493192" lat="40.9879357" lon="28.8321922"/>
+ <node id="304051212" visible="true" version="6" changeset="6577747" timestamp="2010-12-07T18:51:59Z" user="Connie56" uid="150368" lat="40.9878729" lon="28.8318193"/>
+ <node id="304051213" visible="true" version="6" changeset="6577747" timestamp="2010-12-07T18:51:59Z" user="Connie56" uid="150368" lat="40.9877433" lon="28.8312507"/>
+ <node id="304051214" visible="true" version="6" changeset="6577747" timestamp="2010-12-07T18:51:59Z" user="Connie56" uid="150368" lat="40.9875894" lon="28.8307572"/>
+ <node id="304051216" visible="true" version="14" changeset="88429221" timestamp="2020-07-24T00:47:16Z" user="MacLondon" uid="322039" lat="40.9866459" lon="28.8284451">
+  <tag k="name" v="DTM-İstanbul Fuar Merkezi"/>
+  <tag k="name:ar" v="معرض إسطنبول"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="subway" v="yes"/>
+  <tag k="wheelchair" v="yes"/>
+ </node>
+ <node id="304051218" visible="true" version="7" changeset="181465396" timestamp="2026-04-17T15:45:42Z" user="de24000" uid="617093" lat="40.9860879" lon="28.8270037"/>
+ <node id="304051221" visible="true" version="7" changeset="50137285" timestamp="2017-07-08T18:42:16Z" user="Santi2222" uid="493192" lat="40.9852803" lon="28.8244258"/>
+ <node id="304051222" visible="true" version="8" changeset="149774743" timestamp="2024-04-09T12:11:47Z" user="TheAhmet" uid="20108253" lat="40.9848939" lon="28.8231505"/>
+ <node id="304051449" visible="true" version="6" changeset="50137143" timestamp="2017-07-08T18:32:38Z" user="Santi2222" uid="493192" lat="40.9912881" lon="28.8399863"/>
+ <node id="304051451" visible="true" version="5" changeset="50137143" timestamp="2017-07-08T18:32:38Z" user="Santi2222" uid="493192" lat="40.9911114" lon="28.8396309"/>
+ <node id="304051454" visible="true" version="7" changeset="181467694" timestamp="2026-04-17T16:38:20Z" user="de24000" uid="617093" lat="40.9904769" lon="28.8385515">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="right"/>
+ </node>
+ <node id="304051493" visible="true" version="5" changeset="50137143" timestamp="2017-07-08T18:32:38Z" user="Santi2222" uid="493192" lat="40.9916418" lon="28.8424393"/>
+ <node id="304051494" visible="true" version="6" changeset="50137143" timestamp="2017-07-08T18:32:38Z" user="Santi2222" uid="493192" lat="40.9916550" lon="28.8415250"/>
+ <node id="304051496" visible="true" version="5" changeset="50137143" timestamp="2017-07-08T18:32:38Z" user="Santi2222" uid="493192" lat="40.9916062" lon="28.8411219"/>
+ <node id="304051497" visible="true" version="5" changeset="50137143" timestamp="2017-07-08T18:32:38Z" user="Santi2222" uid="493192" lat="40.9915287" lon="28.8407458"/>
+ <node id="304051499" visible="true" version="5" changeset="50137143" timestamp="2017-07-08T18:32:38Z" user="Santi2222" uid="493192" lat="40.9914334" lon="28.8403845"/>
+ <node id="304051538" visible="true" version="8" changeset="88104821" timestamp="2020-07-16T20:12:58Z" user="Alikam" uid="3997418" lat="40.9913766" lon="28.8460141">
+  <tag k="name" v="Ataköy-Şirinevler"/>
+  <tag k="network" v="İstanbul Metrosu"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="station" v="subway"/>
+  <tag k="subway" v="yes"/>
+  <tag k="wheelchair" v="no"/>
+ </node>
+ <node id="304051724" visible="true" version="8" changeset="50137143" timestamp="2017-07-08T18:32:39Z" user="Santi2222" uid="493192" lat="40.9912633" lon="28.8475620"/>
+ <node id="304051725" visible="true" version="7" changeset="50137143" timestamp="2017-07-08T18:32:39Z" user="Santi2222" uid="493192" lat="40.9908930" lon="28.8505343"/>
+ <node id="304052503" visible="true" version="5" changeset="50137051" timestamp="2017-07-08T18:26:14Z" user="Santi2222" uid="493192" lat="40.9909470" lon="28.8520337"/>
+ <node id="304052507" visible="true" version="4" changeset="50137051" timestamp="2017-07-08T18:26:14Z" user="Santi2222" uid="493192" lat="40.9911636" lon="28.8529359"/>
+ <node id="304052510" visible="true" version="3" changeset="50137051" timestamp="2017-07-08T18:26:14Z" user="Santi2222" uid="493192" lat="40.9920208" lon="28.8555946"/>
+ <node id="304052514" visible="true" version="3" changeset="50137051" timestamp="2017-07-08T18:26:14Z" user="Santi2222" uid="493192" lat="40.9923231" lon="28.8563555"/>
+ <node id="304052517" visible="true" version="6" changeset="50137051" timestamp="2017-07-08T18:26:14Z" user="Santi2222" uid="493192" lat="40.9927810" lon="28.8573107"/>
+ <node id="304052589" visible="true" version="3" changeset="50137143" timestamp="2017-07-08T18:32:39Z" user="Santi2222" uid="493192" lat="40.9908785" lon="28.8511947"/>
+ <node id="304057075" visible="true" version="3" changeset="119233754" timestamp="2022-04-02T12:43:50Z" user="Alikam" uid="3997418" lat="40.9941857" lon="28.8600069"/>
+ <node id="304057078" visible="true" version="4" changeset="119233754" timestamp="2022-04-02T12:43:50Z" user="Alikam" uid="3997418" lat="40.9945780" lon="28.8608097"/>
+ <node id="304057081" visible="true" version="4" changeset="181467694" timestamp="2026-04-17T16:38:20Z" user="de24000" uid="617093" lat="40.9960651" lon="28.8661529"/>
+ <node id="304057088" visible="true" version="3" changeset="181467694" timestamp="2026-04-17T16:38:20Z" user="de24000" uid="617093" lat="40.9964979" lon="28.8705677"/>
+ <node id="544467089" visible="true" version="4" changeset="149981700" timestamp="2024-04-14T08:42:09Z" user="TheAhmet" uid="20108253" lat="40.9842957" lon="28.8218800"/>
+ <node id="544467090" visible="true" version="4" changeset="149981700" timestamp="2024-04-14T08:42:09Z" user="TheAhmet" uid="20108253" lat="40.9841116" lon="28.8216371"/>
+ <node id="544467091" visible="true" version="5" changeset="149981700" timestamp="2024-04-14T08:42:09Z" user="TheAhmet" uid="20108253" lat="40.9833375" lon="28.8210162"/>
+ <node id="544467092" visible="true" version="8" changeset="89410228" timestamp="2020-08-14T12:16:11Z" user="Alikam" uid="3997418" lat="40.9792225" lon="28.8211826">
+  <tag k="railway" v="buffer_stop"/>
+ </node>
+ <node id="663681980" visible="true" version="3" changeset="149981700" timestamp="2024-04-14T08:42:09Z" user="TheAhmet" uid="20108253" lat="40.9822930" lon="28.8207672"/>
+ <node id="663681981" visible="true" version="6" changeset="181465396" timestamp="2026-04-17T15:45:42Z" user="de24000" uid="617093" lat="40.9811733" lon="28.8208072">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="right"/>
+ </node>
+ <node id="663681982" visible="true" version="4" changeset="149981700" timestamp="2024-04-14T08:42:09Z" user="TheAhmet" uid="20108253" lat="40.9815739" lon="28.8207867"/>
+ <node id="663681983" visible="true" version="3" changeset="149981700" timestamp="2024-04-14T08:42:09Z" user="TheAhmet" uid="20108253" lat="40.9837649" lon="28.8212852"/>
+ <node id="909195105" visible="true" version="2" changeset="6291915" timestamp="2010-11-04T21:36:32Z" user="bayoed" uid="366721" lat="40.9962953" lon="28.8681105"/>
+ <node id="909195109" visible="true" version="2" changeset="6291915" timestamp="2010-11-04T21:36:32Z" user="bayoed" uid="366721" lat="40.9964654" lon="28.8698593"/>
+ <node id="957119598" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0378284" lon="28.9175837"/>
+ <node id="976894523" visible="true" version="3" changeset="119233754" timestamp="2022-04-02T12:43:50Z" user="Alikam" uid="3997418" lat="40.9948420" lon="28.8614225"/>
+ <node id="976894526" visible="true" version="5" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="40.9951083" lon="28.8620667"/>
+ <node id="976894529" visible="true" version="2" changeset="89375315" timestamp="2020-08-13T20:57:40Z" user="Alikam" uid="3997418" lat="40.9956638" lon="28.8638948"/>
+ <node id="1026992383" visible="true" version="3" changeset="149774743" timestamp="2024-04-09T12:11:47Z" user="TheAhmet" uid="20108253" lat="40.9850393" lon="28.8236052"/>
+ <node id="1026992410" visible="true" version="3" changeset="50137143" timestamp="2017-07-08T18:32:39Z" user="Santi2222" uid="493192" lat="40.9884277" lon="28.8350167"/>
+ <node id="1131847723" visible="true" version="3" changeset="158947064" timestamp="2024-11-09T19:49:48Z" user="Toygar Alak" uid="5703312" lat="41.0406514" lon="28.9093279"/>
+ <node id="1131847724" visible="true" version="4" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0406825" lon="28.9090675"/>
+ <node id="1293894200" visible="true" version="5" changeset="149981700" timestamp="2024-04-14T08:42:09Z" user="TheAhmet" uid="20108253" lat="40.9827153" lon="28.8207949"/>
+ <node id="1423440707" visible="true" version="10" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0238758" lon="28.9306248">
+  <tag k="name" v="Topkapı Ulubatlı"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="station" v="subway"/>
+  <tag k="subway" v="yes"/>
+ </node>
+ <node id="1859103797" visible="true" version="1" changeset="12671257" timestamp="2012-08-09T17:42:30Z" user="Teddy73" uid="136321" lat="40.9915265" lon="28.8441342"/>
+ <node id="2366166149" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0017819" lon="28.8904852"/>
+ <node id="2367466865" visible="true" version="6" changeset="88104821" timestamp="2020-07-16T20:12:58Z" user="Alikam" uid="3997418" lat="40.9894444" lon="28.8367394">
+  <tag k="name" v="Yenibosna"/>
+  <tag k="network" v="İstanbul Metrosu"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="subway" v="yes"/>
+  <tag k="wheelchair" v="no"/>
+ </node>
+ <node id="2367466871" visible="true" version="1" changeset="16766066" timestamp="2013-06-30T15:59:21Z" user="PeterEastern" uid="4951" lat="41.0193517" lon="28.9006519"/>
+ <node id="2367466872" visible="true" version="6" changeset="89375315" timestamp="2020-08-13T20:57:40Z" user="Alikam" uid="3997418" lat="40.9955091" lon="28.8632993">
+  <tag k="name" v="Bahçelievler"/>
+  <tag k="network" v="İstanbul Metrosu"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="station" v="subway"/>
+  <tag k="subway" v="yes"/>
+ </node>
+ <node id="2367471312" visible="true" version="2" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0246774" lon="28.9294778"/>
+ <node id="2367475958" visible="true" version="6" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0111905" lon="28.9494220"/>
+ <node id="2367475960" visible="true" version="7" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0100883" lon="28.9500430"/>
+ <node id="2445875417" visible="true" version="3" changeset="181465396" timestamp="2026-04-17T15:45:42Z" user="de24000" uid="617093" lat="40.9882468" lon="28.8344404"/>
+ <node id="2511296157" visible="true" version="5" changeset="87850684" timestamp="2020-07-11T11:05:42Z" user="Alikam" uid="3997418" lat="41.0051711" lon="28.9506087">
+  <tag k="railway" v="buffer_stop"/>
+ </node>
+ <node id="2511296170" visible="true" version="11" changeset="88258058" timestamp="2020-07-20T16:54:04Z" user="Claudius Henrichs" uid="18069" lat="41.0057280" lon="28.9505658">
+  <tag k="name" v="Yenikapı"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="subway" v="yes"/>
+ </node>
+ <node id="4958700445" visible="true" version="1" changeset="50135599" timestamp="2017-07-08T17:04:08Z" user="Santi2222" uid="493192" lat="41.0366743" lon="28.9190170"/>
+ <node id="4958700447" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0348627" lon="28.9200267"/>
+ <node id="4958700448" visible="true" version="2" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0330133" lon="28.9208007"/>
+ <node id="4958700449" visible="true" version="1" changeset="50135599" timestamp="2017-07-08T17:04:08Z" user="Santi2222" uid="493192" lat="41.0323547" lon="28.9213130"/>
+ <node id="4958700450" visible="true" version="1" changeset="50135599" timestamp="2017-07-08T17:04:08Z" user="Santi2222" uid="493192" lat="41.0319642" lon="28.9217877"/>
+ <node id="4958706435" visible="true" version="1" changeset="50135662" timestamp="2017-07-08T17:06:56Z" user="Santi2222" uid="493192" lat="41.0411109" lon="28.9048120"/>
+ <node id="4958706436" visible="true" version="1" changeset="50135662" timestamp="2017-07-08T17:06:56Z" user="Santi2222" uid="493192" lat="41.0412141" lon="28.9041308"/>
+ <node id="4958706437" visible="true" version="2" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0409723" lon="28.9065125"/>
+ <node id="4958706438" visible="true" version="4" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0407973" lon="28.9081139">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="right"/>
+ </node>
+ <node id="4958706439" visible="true" version="2" changeset="158947064" timestamp="2024-11-09T19:49:48Z" user="Toygar Alak" uid="5703312" lat="41.0404088" lon="28.9111803"/>
+ <node id="4958706440" visible="true" version="1" changeset="50135662" timestamp="2017-07-08T17:06:56Z" user="Santi2222" uid="493192" lat="41.0398546" lon="28.9136445"/>
+ <node id="4958706441" visible="true" version="1" changeset="50135662" timestamp="2017-07-08T17:06:56Z" user="Santi2222" uid="493192" lat="41.0397231" lon="28.9140630"/>
+ <node id="4958706442" visible="true" version="1" changeset="50135662" timestamp="2017-07-08T17:06:56Z" user="Santi2222" uid="493192" lat="41.0394297" lon="28.9147979"/>
+ <node id="4958706443" visible="true" version="1" changeset="50135662" timestamp="2017-07-08T17:06:56Z" user="Santi2222" uid="493192" lat="41.0392841" lon="28.9151278"/>
+ <node id="4958714000" visible="true" version="2" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0486239" lon="28.8962672"/>
+ <node id="4958714001" visible="true" version="1" changeset="50135752" timestamp="2017-07-08T17:11:23Z" user="Santi2222" uid="493192" lat="41.0486624" lon="28.8967735"/>
+ <node id="4958714002" visible="true" version="1" changeset="50135752" timestamp="2017-07-08T17:11:23Z" user="Santi2222" uid="493192" lat="41.0486624" lon="28.8971919"/>
+ <node id="4958714003" visible="true" version="1" changeset="50135752" timestamp="2017-07-08T17:11:23Z" user="Santi2222" uid="493192" lat="41.0486280" lon="28.8975808"/>
+ <node id="4958714004" visible="true" version="2" changeset="106289723" timestamp="2021-06-13T16:36:26Z" user="Toygar Alak" uid="5703312" lat="41.0485338" lon="28.8980150"/>
+ <node id="4958714005" visible="true" version="2" changeset="106289723" timestamp="2021-06-13T16:36:26Z" user="Toygar Alak" uid="5703312" lat="41.0484408" lon="28.8983235"/>
+ <node id="4958714006" visible="true" version="2" changeset="106289723" timestamp="2021-06-13T16:36:26Z" user="Toygar Alak" uid="5703312" lat="41.0483133" lon="28.8986615"/>
+ <node id="4958714007" visible="true" version="2" changeset="106289723" timestamp="2021-06-13T16:36:26Z" user="Toygar Alak" uid="5703312" lat="41.0481576" lon="28.8989887"/>
+ <node id="4958714008" visible="true" version="1" changeset="50135752" timestamp="2017-07-08T17:11:23Z" user="Santi2222" uid="493192" lat="41.0479484" lon="28.8993430"/>
+ <node id="4958714009" visible="true" version="1" changeset="50135752" timestamp="2017-07-08T17:11:23Z" user="Santi2222" uid="493192" lat="41.0476955" lon="28.8996756"/>
+ <node id="4958714010" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0474055" lon="28.8999646"/>
+ <node id="4958714011" visible="true" version="1" changeset="50135752" timestamp="2017-07-08T17:11:23Z" user="Santi2222" uid="493192" lat="41.0469086" lon="28.9003059"/>
+ <node id="4958714012" visible="true" version="1" changeset="50135752" timestamp="2017-07-08T17:11:23Z" user="Santi2222" uid="493192" lat="41.0466902" lon="28.9004025"/>
+ <node id="4958714013" visible="true" version="1" changeset="50135752" timestamp="2017-07-08T17:11:23Z" user="Santi2222" uid="493192" lat="41.0464292" lon="28.9004856"/>
+ <node id="4958714014" visible="true" version="1" changeset="50135752" timestamp="2017-07-08T17:11:23Z" user="Santi2222" uid="493192" lat="41.0461602" lon="28.9005473"/>
+ <node id="4958714015" visible="true" version="1" changeset="50135752" timestamp="2017-07-08T17:11:23Z" user="Santi2222" uid="493192" lat="41.0458891" lon="28.9005661"/>
+ <node id="4958714016" visible="true" version="1" changeset="50135752" timestamp="2017-07-08T17:11:23Z" user="Santi2222" uid="493192" lat="41.0455068" lon="28.9005017"/>
+ <node id="4958714017" visible="true" version="4" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0405273" lon="28.9103493">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="4958714020" visible="true" version="1" changeset="50135752" timestamp="2017-07-08T17:11:23Z" user="Santi2222" uid="493192" lat="41.0433827" lon="28.9002067"/>
+ <node id="4958716008" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0480949" lon="28.8941966"/>
+ <node id="4958716010" visible="true" version="2" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0477107" lon="28.8935709"/>
+ <node id="4958716826" visible="true" version="1" changeset="50135804" timestamp="2017-07-08T17:14:41Z" user="Santi2222" uid="493192" lat="41.0478189" lon="28.8937318"/>
+ <node id="4958716828" visible="true" version="4" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0463237" lon="28.8925081"/>
+ <node id="4958716829" visible="true" version="4" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0458881" lon="28.8924447"/>
+ <node id="4958718950" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0425441" lon="28.8940948"/>
+ <node id="4958718952" visible="true" version="2" changeset="74237928" timestamp="2019-09-08T22:29:48Z" user="penom" uid="436145" lat="41.0438884" lon="28.8929245"/>
+ <node id="4958718953" visible="true" version="4" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0446093" lon="28.8926071"/>
+ <node id="4958723943" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0401083" lon="28.8946163">
+  <tag k="name" v="Otogar"/>
+  <tag k="network" v="İstanbul Metrosu"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="subway" v="yes"/>
+ </node>
+ <node id="4958723949" visible="true" version="4" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0421959" lon="28.8943381"/>
+ <node id="4958723951" visible="true" version="4" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0394179" lon="28.8944995"/>
+ <node id="4958723952" visible="true" version="4" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0409049" lon="28.8947510"/>
+ <node id="4958723953" visible="true" version="4" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0411507" lon="28.8947580"/>
+ <node id="4958723954" visible="true" version="5" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0413727" lon="28.8947311"/>
+ <node id="4958723956" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0416525" lon="28.8946402"/>
+ <node id="4958723957" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0418556" lon="28.8945306"/>
+ <node id="4958730406" visible="true" version="2" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0386582" lon="28.8942533"/>
+ <node id="4958730408" visible="true" version="1" changeset="50136012" timestamp="2017-07-08T17:28:10Z" user="Santi2222" uid="493192" lat="41.0337183" lon="28.8961270"/>
+ <node id="4958730409" visible="true" version="1" changeset="50136012" timestamp="2017-07-08T17:28:10Z" user="Santi2222" uid="493192" lat="41.0341250" lon="28.8958427"/>
+ <node id="4958730412" visible="true" version="2" changeset="105912894" timestamp="2021-06-06T11:21:33Z" user="Toygar Alak" uid="5703312" lat="41.0360155" lon="28.8942378"/>
+ <node id="4958730413" visible="true" version="2" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0362757" lon="28.8941288"/>
+ <node id="4958731239" visible="true" version="4" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0393097" lon="28.8944740">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="right"/>
+ </node>
+ <node id="4958731243" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0385045" lon="28.8942010"/>
+ <node id="4958763307" visible="true" version="1" changeset="50136520" timestamp="2017-07-08T17:54:20Z" user="Santi2222" uid="493192" lat="41.0294825" lon="28.8985571"/>
+ <node id="4958763320" visible="true" version="1" changeset="50136520" timestamp="2017-07-08T17:54:20Z" user="Santi2222" uid="493192" lat="41.0313774" lon="28.8972348"/>
+ <node id="4958763822" visible="true" version="1" changeset="50136520" timestamp="2017-07-08T17:54:20Z" user="Santi2222" uid="493192" lat="41.0331448" lon="28.8964824"/>
+ <node id="4958773242" visible="true" version="1" changeset="50136607" timestamp="2017-07-08T17:58:37Z" user="Santi2222" uid="493192" lat="41.0194427" lon="28.9006305"/>
+ <node id="4958773244" visible="true" version="1" changeset="50136607" timestamp="2017-07-08T17:58:37Z" user="Santi2222" uid="493192" lat="41.0232988" lon="28.8992625"/>
+ <node id="4958773245" visible="true" version="1" changeset="50136607" timestamp="2017-07-08T17:58:37Z" user="Santi2222" uid="493192" lat="41.0240870" lon="28.8990721"/>
+ <node id="4958773246" visible="true" version="1" changeset="50136607" timestamp="2017-07-08T17:58:37Z" user="Santi2222" uid="493192" lat="41.0242853" lon="28.8990493"/>
+ <node id="4958773247" visible="true" version="1" changeset="50136607" timestamp="2017-07-08T17:58:37Z" user="Santi2222" uid="493192" lat="41.0286327" lon="28.8988253"/>
+ <node id="4958773248" visible="true" version="1" changeset="50136607" timestamp="2017-07-08T17:58:37Z" user="Santi2222" uid="493192" lat="41.0290546" lon="28.8987221"/>
+ <node id="4958775286" visible="true" version="1" changeset="50136678" timestamp="2017-07-08T18:03:33Z" user="Santi2222" uid="493192" lat="41.0093367" lon="28.8968848"/>
+ <node id="4958775289" visible="true" version="1" changeset="50136678" timestamp="2017-07-08T18:03:33Z" user="Santi2222" uid="493192" lat="41.0135495" lon="28.8998526"/>
+ <node id="4958777833" visible="true" version="2" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0080882" lon="28.8962925"/>
+ <node id="4958777836" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0076182" lon="28.8961612">
+  <tag k="name" v="Merter"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="subway" v="yes"/>
+ </node>
+ <node id="4958787851" visible="true" version="3" changeset="181102055" timestamp="2026-04-09T14:49:10Z" user="de24000" uid="617093" lat="41.0016473" lon="28.8887816">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="4958787854" visible="true" version="3" changeset="181102055" timestamp="2026-04-09T14:49:10Z" user="de24000" uid="617093" lat="41.0016086" lon="28.8882844">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="right"/>
+ </node>
+ <node id="4958787877" visible="true" version="1" changeset="50136866" timestamp="2017-07-08T18:16:07Z" user="Santi2222" uid="493192" lat="41.0015043" lon="28.8871846"/>
+ <node id="4958787883" visible="true" version="1" changeset="50136866" timestamp="2017-07-08T18:16:07Z" user="Santi2222" uid="493192" lat="41.0031794" lon="28.8933711"/>
+ <node id="4958787884" visible="true" version="1" changeset="50136866" timestamp="2017-07-08T18:16:07Z" user="Santi2222" uid="493192" lat="41.0027796" lon="28.8929647"/>
+ <node id="4958787885" visible="true" version="1" changeset="50136866" timestamp="2017-07-08T18:16:07Z" user="Santi2222" uid="493192" lat="41.0020752" lon="28.8917591"/>
+ <node id="4958787886" visible="true" version="1" changeset="50136866" timestamp="2017-07-08T18:16:07Z" user="Santi2222" uid="493192" lat="41.0018333" lon="28.8908753"/>
+ <node id="4958789960" visible="true" version="1" changeset="50136933" timestamp="2017-07-08T18:19:48Z" user="Santi2222" uid="493192" lat="41.0009922" lon="28.8853312"/>
+ <node id="4958789961" visible="true" version="1" changeset="50136933" timestamp="2017-07-08T18:19:48Z" user="Santi2222" uid="493192" lat="41.0007189" lon="28.8847625"/>
+ <node id="4958789962" visible="true" version="1" changeset="50136933" timestamp="2017-07-08T18:19:48Z" user="Santi2222" uid="493192" lat="41.0014001" lon="28.8866159"/>
+ <node id="4958789963" visible="true" version="1" changeset="50136933" timestamp="2017-07-08T18:19:48Z" user="Santi2222" uid="493192" lat="41.0011410" lon="28.8857147"/>
+ <node id="4958793633" visible="true" version="1" changeset="50136987" timestamp="2017-07-08T18:22:57Z" user="Santi2222" uid="493192" lat="40.9967269" lon="28.8769224"/>
+ <node id="4958793634" visible="true" version="1" changeset="50136987" timestamp="2017-07-08T18:22:57Z" user="Santi2222" uid="493192" lat="40.9972006" lon="28.8784942"/>
+ <node id="4958793635" visible="true" version="1" changeset="50136987" timestamp="2017-07-08T18:22:57Z" user="Santi2222" uid="493192" lat="40.9990489" lon="28.8815761"/>
+ <node id="4958793636" visible="true" version="1" changeset="50136987" timestamp="2017-07-08T18:22:57Z" user="Santi2222" uid="493192" lat="40.9988363" lon="28.8812193"/>
+ <node id="4958796322" visible="true" version="3" changeset="158789874" timestamp="2024-11-05T18:13:17Z" user="Alikam" uid="3997418" lat="40.9966391" lon="28.8753909">
+  <tag k="name" v="Bakırköy-İncirli"/>
+  <tag k="network" v="İstanbul Metrosu"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="subway" v="yes"/>
+  <tag k="wheelchair" v="no"/>
+  <tag k="wikidata" v="Q20988314"/>
+  <tag k="wikimedia_commons" v="Category:Bakırköy—İncirli Station"/>
+  <tag k="wikipedia" v="tr:Bakırköy - İncirli (İstanbul metrosu)"/>
+ </node>
+ <node id="4958796351" visible="true" version="1" changeset="50137051" timestamp="2017-07-08T18:26:13Z" user="Santi2222" uid="493192" lat="40.9910483" lon="28.8525304"/>
+ <node id="4958796352" visible="true" version="1" changeset="50137051" timestamp="2017-07-08T18:26:13Z" user="Santi2222" uid="493192" lat="40.9925414" lon="28.8568394"/>
+ <node id="4958809866" visible="true" version="3" changeset="181467694" timestamp="2026-04-17T16:38:20Z" user="de24000" uid="617093" lat="40.9903085" lon="28.8382471">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="4958809878" visible="true" version="1" changeset="50137143" timestamp="2017-07-08T18:32:37Z" user="Santi2222" uid="493192" lat="40.9909329" lon="28.8501178"/>
+ <node id="4958809881" visible="true" version="1" changeset="50137143" timestamp="2017-07-08T18:32:37Z" user="Santi2222" uid="493192" lat="40.9909830" lon="28.8496646"/>
+ <node id="4958809899" visible="true" version="1" changeset="50137143" timestamp="2017-07-08T18:32:37Z" user="Santi2222" uid="493192" lat="40.9889619" lon="28.8359597"/>
+ <node id="4958809900" visible="true" version="2" changeset="181467694" timestamp="2026-04-17T16:38:20Z" user="de24000" uid="617093" lat="40.9897222" lon="28.8372254"/>
+ <node id="4958809903" visible="true" version="1" changeset="50137143" timestamp="2017-07-08T18:32:38Z" user="Santi2222" uid="493192" lat="40.9916344" lon="28.8413349"/>
+ <node id="4958809904" visible="true" version="1" changeset="50137143" timestamp="2017-07-08T18:32:38Z" user="Santi2222" uid="493192" lat="40.9916648" lon="28.8417935"/>
+ <node id="4958809905" visible="true" version="1" changeset="50137143" timestamp="2017-07-08T18:32:38Z" user="Santi2222" uid="493192" lat="40.9916648" lon="28.8420376"/>
+ <node id="4958809907" visible="true" version="1" changeset="50137143" timestamp="2017-07-08T18:32:38Z" user="Santi2222" uid="493192" lat="40.9913206" lon="28.8468616"/>
+ <node id="4958809908" visible="true" version="1" changeset="50137143" timestamp="2017-07-08T18:32:38Z" user="Santi2222" uid="493192" lat="40.9912072" lon="28.8480806"/>
+ <node id="4958809909" visible="true" version="1" changeset="50137143" timestamp="2017-07-08T18:32:38Z" user="Santi2222" uid="493192" lat="40.9911110" lon="28.8487820"/>
+ <node id="4958809913" visible="true" version="1" changeset="50137143" timestamp="2017-07-08T18:32:38Z" user="Santi2222" uid="493192" lat="40.9909106" lon="28.8516453"/>
+ <node id="4958823089" visible="true" version="2" changeset="149774743" timestamp="2024-04-09T12:11:47Z" user="TheAhmet" uid="20108253" lat="40.9846286" lon="28.8224850"/>
+ <node id="4958823093" visible="true" version="2" changeset="181465396" timestamp="2026-04-17T15:45:42Z" user="de24000" uid="617093" lat="40.9879837" lon="28.8325090"/>
+ <node id="4958823094" visible="true" version="1" changeset="50137285" timestamp="2017-07-08T18:42:16Z" user="Santi2222" uid="493192" lat="40.9881308" lon="28.8338958"/>
+ <node id="4958828845" visible="true" version="4" changeset="89410228" timestamp="2020-08-14T12:16:11Z" user="Alikam" uid="3997418" lat="40.9797389" lon="28.8210402">
+  <tag k="name" v="Atatürk Havalimanı"/>
+  <tag k="name:ar" v="مطار أتاتورك"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="subway" v="yes"/>
+ </node>
+ <node id="4958828848" visible="true" version="2" changeset="89410228" timestamp="2020-08-14T12:16:11Z" user="Alikam" uid="3997418" lat="40.9806007" lon="28.8208455"/>
+ <node id="4958828849" visible="true" version="2" changeset="89410228" timestamp="2020-08-14T12:16:11Z" user="Alikam" uid="3997418" lat="40.9802605" lon="28.8208965"/>
+ <node id="4961778728" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0105517" lon="28.9498367"/>
+ <node id="4961778729" visible="true" version="5" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0090513" lon="28.9502764"/>
+ <node id="5664024771" visible="true" version="2" changeset="67202537" timestamp="2019-02-14T17:54:31Z" user="Claudius Henrichs" uid="18069" lat="41.0425902" lon="28.9006798"/>
+ <node id="5768207391" visible="true" version="1" changeset="60834671" timestamp="2018-07-18T12:17:59Z" user="Mettal" uid="515232" lat="41.0174399" lon="28.9005560"/>
+ <node id="5768207392" visible="true" version="1" changeset="60834671" timestamp="2018-07-18T12:17:59Z" user="Mettal" uid="515232" lat="41.0172227" lon="28.9004842"/>
+ <node id="6783529460" visible="true" version="1" changeset="74276680" timestamp="2019-09-09T18:07:00Z" user="penom" uid="436145" lat="41.0461635" lon="28.8924759"/>
+ <node id="6783529461" visible="true" version="1" changeset="74276680" timestamp="2019-09-09T18:07:00Z" user="penom" uid="436145" lat="41.0465412" lon="28.8925837"/>
+ <node id="6783529463" visible="true" version="1" changeset="74276680" timestamp="2019-09-09T18:07:00Z" user="penom" uid="436145" lat="41.0469154" lon="28.8927790"/>
+ <node id="6783529464" visible="true" version="1" changeset="74276680" timestamp="2019-09-09T18:07:00Z" user="penom" uid="436145" lat="41.0472134" lon="28.8930071"/>
+ <node id="6783529467" visible="true" version="1" changeset="74276680" timestamp="2019-09-09T18:07:00Z" user="penom" uid="436145" lat="41.0471143" lon="28.8929245"/>
+ <node id="7681128632" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0391048" lon="28.8944257">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="7681128638" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0430073" lon="28.8936369">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="7681128639" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0425799" lon="28.8940730">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="7681187595" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0133892" lon="28.9458693">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="right"/>
+ </node>
+ <node id="7681187596" visible="true" version="4" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0126157" lon="28.9473945">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="7681187599" visible="true" version="4" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0071366" lon="28.9504496">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="right"/>
+ </node>
+ <node id="7681187601" visible="true" version="4" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0065029" lon="28.9505059">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="7681187607" visible="true" version="2" changeset="89369184" timestamp="2020-08-13T17:37:19Z" user="Alikam" uid="3997418" lat="41.0115198" lon="28.9490881"/>
+ <node id="7722103253" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0174301" lon="28.9396317">
+  <tag k="name" v="Emniyet - Fatih"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="subway" v="yes"/>
+ </node>
+ <node id="7810790498" visible="true" version="2" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0485751" lon="28.8958567"/>
+ <node id="7810961918" visible="true" version="1" changeset="89375315" timestamp="2020-08-13T20:57:40Z" user="Alikam" uid="3997418" lat="40.9953226" lon="28.8626472"/>
+ <node id="8742739263" visible="true" version="1" changeset="104898473" timestamp="2021-05-18T14:44:04Z" user="Alikam" uid="3997418" lat="41.0419117" lon="28.9014407"/>
+ <node id="8808729187" visible="true" version="1" changeset="105912894" timestamp="2021-06-06T11:21:33Z" user="Toygar Alak" uid="5703312" lat="41.0358732" lon="28.8943139"/>
+ <node id="8808729188" visible="true" version="2" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0354951" lon="28.8946025"/>
+ <node id="8820562251" visible="true" version="1" changeset="106146625" timestamp="2021-06-10T09:56:53Z" user="Toygar Alak" uid="5703312" lat="41.0370738" lon="28.8939341"/>
+ <node id="9106182019" visible="true" version="2" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0428273" lon="28.8938093"/>
+ <node id="9631318340" visible="true" version="2" changeset="181467694" timestamp="2026-04-17T16:38:20Z" user="de24000" uid="617093" lat="40.9958969" lon="28.8650449"/>
+ <node id="10705338491" visible="true" version="1" changeset="133229685" timestamp="2023-03-02T22:06:32Z" user="Alikam" uid="3997418" lat="41.0471652" lon="28.9001487"/>
+ <node id="10705338494" visible="true" version="2" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0168529" lon="28.9404218"/>
+ <node id="10940310789" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0214577" lon="28.8999119">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="right"/>
+ </node>
+ <node id="11171819327" visible="true" version="3" changeset="181467694" timestamp="2026-04-17T16:38:20Z" user="de24000" uid="617093" lat="40.9950296" lon="28.8618719">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="right"/>
+ </node>
+ <node id="11171819329" visible="true" version="3" changeset="181467694" timestamp="2026-04-17T16:38:20Z" user="de24000" uid="617093" lat="40.9951861" lon="28.8622631">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="11253882466" visible="true" version="2" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0234403" lon="28.9312478">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="right"/>
+ </node>
+ <node id="11253882469" visible="true" version="2" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0231549" lon="28.9316562">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="11253882470" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0228085" lon="28.8994356">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="11253882473" visible="true" version="3" changeset="181465396" timestamp="2026-04-17T15:45:42Z" user="de24000" uid="617093" lat="40.9809734" lon="28.8208160">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="11816186561" visible="true" version="1" changeset="149981700" timestamp="2024-04-14T08:42:09Z" user="TheAhmet" uid="20108253" lat="40.9830344" lon="28.8208879"/>
+ <node id="12327368952" visible="true" version="2" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0402188" lon="28.9121493"/>
+ <node id="13737984678" visible="true" version="1" changeset="181465396" timestamp="2026-04-17T15:45:42Z" user="de24000" uid="617093" lat="40.9874063" lon="28.8302653"/>
+ <node id="13737984679" visible="true" version="1" changeset="181465396" timestamp="2026-04-17T15:45:42Z" user="de24000" uid="617093" lat="40.9881827" lon="28.8342059"/>
+ <node id="13740377942" visible="true" version="1" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0134803" lon="28.9456896"/>
+ <node id="13740377944" visible="true" version="1" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0108800" lon="28.9496612"/>
+ <node id="13740377946" visible="true" version="1" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0335777" lon="28.9205392"/>
+ <node id="13740377949" visible="true" version="1" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0423085" lon="28.9009282"/>
+ <node id="13740377961" visible="true" version="1" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093" lat="41.0376009" lon="28.8939585"/>
+ <way id="23045034" visible="true" version="18" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="248664924"/>
+  <nd ref="248665075"/>
+  <nd ref="248665074"/>
+  <nd ref="248665073"/>
+  <nd ref="8742739263"/>
+  <nd ref="248643443"/>
+  <nd ref="13740377949"/>
+  <nd ref="5664024771"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="23045233" visible="true" version="18" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="248648734"/>
+  <nd ref="4958787883"/>
+  <nd ref="248648733"/>
+  <nd ref="4958787884"/>
+  <nd ref="248648732"/>
+  <nd ref="248648731"/>
+  <nd ref="248648730"/>
+  <nd ref="248648729"/>
+  <nd ref="4958787885"/>
+  <nd ref="248648728"/>
+  <nd ref="248648727"/>
+  <nd ref="4958787886"/>
+  <nd ref="248648726"/>
+  <nd ref="2366166149"/>
+  <nd ref="248648724"/>
+  <nd ref="4958787851"/>
+  <nd ref="4958787854"/>
+  <nd ref="248648723"/>
+  <nd ref="4958787877"/>
+  <nd ref="248648722"/>
+  <nd ref="4958789962"/>
+  <nd ref="248648721"/>
+  <nd ref="4958789963"/>
+  <nd ref="248648719"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1A Yenikapı - Atatürk Havalimanı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="23045248" visible="true" version="17" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="248648747"/>
+  <nd ref="248648746"/>
+  <nd ref="248648745"/>
+  <nd ref="4958775286"/>
+  <nd ref="248648744"/>
+  <nd ref="248648743"/>
+  <nd ref="248648742"/>
+  <nd ref="248648741"/>
+  <nd ref="4958777833"/>
+  <nd ref="4958777836"/>
+  <nd ref="248648739"/>
+  <nd ref="248648738"/>
+  <nd ref="248648737"/>
+  <nd ref="248648736"/>
+  <nd ref="248648735"/>
+  <nd ref="248648734"/>
+  <tag k="bridge" v="yes"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1A Yenikapı - Atatürk Havalimanı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="23045267" visible="true" version="19" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="248653066"/>
+  <nd ref="10940310789"/>
+  <nd ref="248648764"/>
+  <nd ref="248648763"/>
+  <nd ref="4958773242"/>
+  <nd ref="2367466871"/>
+  <nd ref="248648762"/>
+  <tag k="bridge" v="yes"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1A Yenikapı - Atatürk Havalimanı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="23045268" visible="true" version="17" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="248643724"/>
+  <nd ref="4958763822"/>
+  <nd ref="248643723"/>
+  <nd ref="248643721"/>
+  <nd ref="4958763320"/>
+  <nd ref="248643720"/>
+  <nd ref="248643719"/>
+  <nd ref="248643718"/>
+  <nd ref="4958763307"/>
+  <nd ref="248648771"/>
+  <nd ref="4958773248"/>
+  <nd ref="248648770"/>
+  <nd ref="4958773247"/>
+  <nd ref="248648769"/>
+  <nd ref="248648768"/>
+  <nd ref="4958773246"/>
+  <nd ref="4958773245"/>
+  <nd ref="248648767"/>
+  <nd ref="248648766"/>
+  <nd ref="4958773244"/>
+  <nd ref="248648765"/>
+  <nd ref="11253882470"/>
+  <nd ref="248653066"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1A Yenikapı - Atatürk Havalimanı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="23045307" visible="true" version="21" changeset="181467694" timestamp="2026-04-17T16:38:20Z" user="de24000" uid="617093">
+  <nd ref="248655487"/>
+  <nd ref="4958796322"/>
+  <nd ref="304057088"/>
+  <nd ref="909195109"/>
+  <nd ref="909195105"/>
+  <nd ref="304057081"/>
+  <nd ref="9631318340"/>
+  <nd ref="976894529"/>
+  <nd ref="2367466872"/>
+  <nd ref="7810961918"/>
+  <nd ref="11171819329"/>
+  <nd ref="976894526"/>
+  <nd ref="11171819327"/>
+  <nd ref="976894523"/>
+  <nd ref="304057078"/>
+  <nd ref="304057075"/>
+  <nd ref="304052517"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-2"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1A Yenikapı - Atatürk Havalimanı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="23045362" visible="true" version="23" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="4958731243"/>
+  <nd ref="248656549"/>
+  <nd ref="13740377961"/>
+  <nd ref="248643149"/>
+  <nd ref="8820562251"/>
+  <nd ref="248643148"/>
+  <nd ref="4958730413"/>
+  <nd ref="4958730412"/>
+  <nd ref="8808729187"/>
+  <nd ref="248643146"/>
+  <nd ref="8808729188"/>
+  <nd ref="248643726"/>
+  <nd ref="4958730409"/>
+  <nd ref="248643725"/>
+  <nd ref="4958730408"/>
+  <nd ref="248643724"/>
+  <tag k="bridge" v="yes"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1A Yenikapı - Atatürk Havalimanı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="23045613" visible="true" version="24" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="248643163"/>
+  <nd ref="248659544"/>
+  <tag k="bridge" v="yes"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="23046024" visible="true" version="12" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="248664910"/>
+  <nd ref="957119598"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="23046026" visible="true" version="13" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="248664909"/>
+  <nd ref="248664910"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="23046034" visible="true" version="13" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="248664796"/>
+  <nd ref="248664798"/>
+  <nd ref="248664899"/>
+  <nd ref="4958700450"/>
+  <nd ref="248664900"/>
+  <nd ref="4958700449"/>
+  <nd ref="248664901"/>
+  <nd ref="248664902"/>
+  <nd ref="4958700448"/>
+  <nd ref="251293083"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="23046041" visible="true" version="14" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="248664804"/>
+  <nd ref="248664805"/>
+  <nd ref="248664806"/>
+  <nd ref="248664807"/>
+  <nd ref="248664808"/>
+  <nd ref="248664809"/>
+  <nd ref="248664796"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-3"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="23046072" visible="true" version="11" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="248664800"/>
+  <nd ref="248664801"/>
+  <nd ref="248664802"/>
+  <nd ref="248664803"/>
+  <nd ref="248664804"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="ref" v="M1"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="23227660" visible="true" version="11" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="251293082"/>
+  <nd ref="13740377946"/>
+  <nd ref="248664903"/>
+  <nd ref="4958700447"/>
+  <nd ref="248664904"/>
+  <nd ref="248664905"/>
+  <nd ref="248664906"/>
+  <nd ref="4958700445"/>
+  <nd ref="248664907"/>
+  <nd ref="248664908"/>
+  <nd ref="248664909"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="23227661" visible="true" version="13" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="251293083"/>
+  <nd ref="251293082"/>
+  <tag k="bridge" v="yes"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="23291374" visible="true" version="17" changeset="186946402" timestamp="2026-08-04T20:20:50Z" user="Alikam" uid="3997418">
+  <nd ref="248659544"/>
+  <nd ref="248659536"/>
+  <nd ref="4958718953"/>
+  <nd ref="248659590"/>
+  <nd ref="4958718952"/>
+  <nd ref="248643160"/>
+  <nd ref="7681128638"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="27685500" visible="true" version="27" changeset="181467694" timestamp="2026-04-17T16:38:20Z" user="de24000" uid="617093">
+  <nd ref="304051725"/>
+  <nd ref="4958809878"/>
+  <nd ref="4958809881"/>
+  <nd ref="4958809909"/>
+  <nd ref="4958809908"/>
+  <nd ref="304051724"/>
+  <nd ref="4958809907"/>
+  <nd ref="304051538"/>
+  <nd ref="1859103797"/>
+  <nd ref="304051493"/>
+  <nd ref="4958809905"/>
+  <nd ref="4958809904"/>
+  <nd ref="304051494"/>
+  <nd ref="4958809903"/>
+  <nd ref="304051496"/>
+  <nd ref="304051497"/>
+  <nd ref="304051499"/>
+  <nd ref="304051449"/>
+  <nd ref="304051451"/>
+  <nd ref="304051454"/>
+  <nd ref="4958809866"/>
+  <nd ref="4958809900"/>
+  <nd ref="2367466865"/>
+  <nd ref="4958809899"/>
+  <nd ref="304051207"/>
+  <nd ref="304051208"/>
+  <nd ref="1026992410"/>
+  <nd ref="304051209"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1A Yenikapı - Atatürk Havalimanı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="27685704" visible="true" version="16" changeset="181467694" timestamp="2026-04-17T16:38:20Z" user="de24000" uid="617093">
+  <nd ref="304052517"/>
+  <nd ref="4958796352"/>
+  <nd ref="304052514"/>
+  <nd ref="304052510"/>
+  <nd ref="304052507"/>
+  <nd ref="4958796351"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1A Yenikapı - Atatürk Havalimanı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="27685708" visible="true" version="15" changeset="181467694" timestamp="2026-04-17T16:38:20Z" user="de24000" uid="617093">
+  <nd ref="304052503"/>
+  <nd ref="4958809913"/>
+  <nd ref="304052589"/>
+  <nd ref="304051725"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1A Yenikapı - Atatürk Havalimanı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="27686209" visible="true" version="15" changeset="181467694" timestamp="2026-04-17T16:38:20Z" user="de24000" uid="617093">
+  <nd ref="248648717"/>
+  <nd ref="248648716"/>
+  <nd ref="4958793635"/>
+  <nd ref="4958793636"/>
+  <nd ref="248655495"/>
+  <nd ref="4958793634"/>
+  <nd ref="248655494"/>
+  <nd ref="248655493"/>
+  <nd ref="248655492"/>
+  <nd ref="248655491"/>
+  <nd ref="4958793633"/>
+  <nd ref="248655488"/>
+  <nd ref="248655487"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1A Yenikapı - Atatürk Havalimanı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="37998972" visible="true" version="17" changeset="181465396" timestamp="2026-04-17T15:45:42Z" user="de24000" uid="617093">
+  <nd ref="304051209"/>
+  <nd ref="2445875417"/>
+  <nd ref="13737984679"/>
+  <nd ref="4958823094"/>
+  <nd ref="4958823093"/>
+  <nd ref="304051211"/>
+  <nd ref="304051212"/>
+  <nd ref="304051213"/>
+  <nd ref="304051214"/>
+  <nd ref="13737984678"/>
+  <nd ref="304051216"/>
+  <nd ref="304051218"/>
+  <nd ref="304051221"/>
+  <tag k="bridge" v="yes"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1A Yenikapı - Atatürk Havalimanı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="43322218" visible="true" version="19" changeset="181465396" timestamp="2026-04-17T15:45:42Z" user="de24000" uid="617093">
+  <nd ref="304050911"/>
+  <nd ref="544467089"/>
+  <nd ref="544467090"/>
+  <nd ref="663681983"/>
+  <nd ref="544467091"/>
+  <nd ref="11816186561"/>
+  <nd ref="1293894200"/>
+  <nd ref="663681980"/>
+  <nd ref="663681982"/>
+  <nd ref="663681981"/>
+  <nd ref="11253882473"/>
+  <nd ref="4958828848"/>
+  <nd ref="4958828849"/>
+  <nd ref="4958828845"/>
+  <nd ref="544467092"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-2"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1A Yenikapı - Atatürk Havalimanı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="44742093" visible="true" version="18" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="248648762"/>
+  <nd ref="248648761"/>
+  <nd ref="248648760"/>
+  <nd ref="248648759"/>
+  <nd ref="248648758"/>
+  <nd ref="5768207391"/>
+  <nd ref="5768207392"/>
+  <nd ref="248648757"/>
+  <nd ref="248648756"/>
+  <nd ref="248648755"/>
+  <nd ref="248648754"/>
+  <nd ref="248648753"/>
+  <nd ref="248648752"/>
+  <nd ref="4958775289"/>
+  <nd ref="248648751"/>
+  <nd ref="248648750"/>
+  <nd ref="248648749"/>
+  <nd ref="248648748"/>
+  <nd ref="248648747"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1A Yenikapı - Atatürk Havalimanı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="82210168" visible="true" version="15" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="248664911"/>
+  <nd ref="248664913"/>
+  <nd ref="248664914"/>
+  <nd ref="4958706443"/>
+  <nd ref="4958706442"/>
+  <nd ref="248664915"/>
+  <nd ref="4958706441"/>
+  <nd ref="4958706440"/>
+  <nd ref="248664916"/>
+  <nd ref="248664917"/>
+  <nd ref="12327368952"/>
+  <nd ref="248664918"/>
+  <nd ref="4958706439"/>
+  <nd ref="248664919"/>
+  <nd ref="4958714017"/>
+  <nd ref="1131847723"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="82210169" visible="true" version="10" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="957119598"/>
+  <nd ref="248664911"/>
+  <tag k="bridge" v="yes"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="88407901" visible="true" version="13" changeset="181465396" timestamp="2026-04-17T15:45:42Z" user="de24000" uid="617093">
+  <nd ref="304051221"/>
+  <nd ref="1026992383"/>
+  <nd ref="304051222"/>
+  <nd ref="304050909"/>
+  <nd ref="4958823089"/>
+  <nd ref="304050911"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1A Yenikapı - Atatürk Havalimanı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="97785162" visible="true" version="10" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="1131847723"/>
+  <nd ref="1131847724"/>
+  <tag k="bridge" v="yes"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="97785171" visible="true" version="10" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="1131847724"/>
+  <nd ref="4958706438"/>
+  <nd ref="248664921"/>
+  <nd ref="4958706437"/>
+  <nd ref="248664922"/>
+  <nd ref="4958706435"/>
+  <nd ref="248664923"/>
+  <nd ref="4958706436"/>
+  <nd ref="248664924"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="243759620" visible="true" version="17" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="2511296157"/>
+  <nd ref="2511296170"/>
+  <nd ref="7681187601"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-2"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="506088040" visible="true" version="6" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="4958714007"/>
+  <nd ref="4958714006"/>
+  <nd ref="4958714005"/>
+  <nd ref="4958714004"/>
+  <tag k="bridge" v="yes"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="506088041" visible="true" version="8" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="4958714004"/>
+  <nd ref="4958714003"/>
+  <nd ref="4958714002"/>
+  <nd ref="4958714001"/>
+  <nd ref="4958714000"/>
+  <nd ref="7810790498"/>
+  <nd ref="248643172"/>
+  <nd ref="248643171"/>
+  <nd ref="248643170"/>
+  <nd ref="4958716008"/>
+  <nd ref="248643169"/>
+  <nd ref="4958716826"/>
+  <nd ref="4958716010"/>
+  <nd ref="248643168"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="506088042" visible="true" version="8" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="248643167"/>
+  <nd ref="6783529464"/>
+  <nd ref="6783529467"/>
+  <nd ref="248643166"/>
+  <nd ref="6783529463"/>
+  <nd ref="248643165"/>
+  <nd ref="6783529461"/>
+  <nd ref="4958716828"/>
+  <nd ref="6783529460"/>
+  <nd ref="248643164"/>
+  <nd ref="4958716829"/>
+  <nd ref="248643163"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="506088043" visible="true" version="9" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="5664024771"/>
+  <nd ref="248643489"/>
+  <nd ref="248643488"/>
+  <nd ref="4958714020"/>
+  <nd ref="248643487"/>
+  <nd ref="248643486"/>
+  <nd ref="248643484"/>
+  <nd ref="248643482"/>
+  <nd ref="248643480"/>
+  <nd ref="4958714016"/>
+  <nd ref="4958714015"/>
+  <nd ref="4958714014"/>
+  <nd ref="4958714013"/>
+  <nd ref="4958714012"/>
+  <nd ref="4958714011"/>
+  <nd ref="10705338491"/>
+  <nd ref="4958714010"/>
+  <nd ref="4958714009"/>
+  <nd ref="4958714008"/>
+  <nd ref="4958714007"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="506088400" visible="true" version="6" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="248643168"/>
+  <nd ref="248643167"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="506088895" visible="true" version="10" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="4958723952"/>
+  <nd ref="4958723953"/>
+  <nd ref="4958723954"/>
+  <nd ref="4958723956"/>
+  <nd ref="4958723957"/>
+  <nd ref="4958723949"/>
+  <nd ref="4958718950"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="506089261" visible="true" version="7" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="9106182019"/>
+  <nd ref="7681128639"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı / Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="service" v="crossover"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul metrosu)"/>
+ </way>
+ <way id="506089266" visible="true" version="11" changeset="182682358" timestamp="2026-05-15T07:04:44Z" user="de24000" uid="617093">
+  <nd ref="4958723951"/>
+  <nd ref="4958723943"/>
+  <nd ref="4958723952"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="506098173" visible="true" version="8" changeset="181467694" timestamp="2026-04-17T16:38:20Z" user="de24000" uid="617093">
+  <nd ref="4958796351"/>
+  <nd ref="304052503"/>
+  <tag k="bridge" v="yes"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1A Yenikapı - Atatürk Havalimanı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="827128512" visible="true" version="7" changeset="181940160" timestamp="2026-04-28T13:06:49Z" user="de24000" uid="617093">
+  <nd ref="7681187599"/>
+  <nd ref="4961778729"/>
+  <nd ref="2367475960"/>
+  <nd ref="4961778728"/>
+  <nd ref="13740377944"/>
+  <nd ref="2367475958"/>
+  <nd ref="7681187607"/>
+  <nd ref="248666702"/>
+  <nd ref="7681187596"/>
+  <nd ref="7681187595"/>
+  <nd ref="13740377942"/>
+  <nd ref="10705338494"/>
+  <nd ref="7722103253"/>
+  <nd ref="11253882469"/>
+  <nd ref="11253882466"/>
+  <nd ref="1423440707"/>
+  <nd ref="2367471312"/>
+  <nd ref="248666704"/>
+  <nd ref="248666705"/>
+  <nd ref="248666706"/>
+  <nd ref="248664800"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-2"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="984966387" visible="true" version="3" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="7681128638"/>
+  <nd ref="9106182019"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı / Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="service" v="crossover"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul metrosu)"/>
+ </way>
+ <way id="1331095630" visible="true" version="5" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="248648719"/>
+  <nd ref="4958789960"/>
+  <nd ref="248648718"/>
+  <nd ref="4958789961"/>
+  <nd ref="248648717"/>
+  <tag k="bridge" v="yes"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1A Yenikapı - Atatürk Havalimanı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="1500791529" visible="true" version="1" changeset="181507983" timestamp="2026-04-18T16:56:16Z" user="de24000" uid="617093">
+  <nd ref="7681128632"/>
+  <nd ref="4958731239"/>
+  <nd ref="4958723951"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="1501076304" visible="true" version="1" changeset="181539217" timestamp="2026-04-19T13:47:00Z" user="Bovi887" uid="17440526">
+  <nd ref="7681187601"/>
+  <nd ref="7681187599"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-2"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı/Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <way id="1547324084" visible="true" version="1" changeset="186946402" timestamp="2026-08-04T20:20:50Z" user="Alikam" uid="3997418">
+  <nd ref="4958718950"/>
+  <nd ref="7681128639"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı / Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="service" v="crossover"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul metrosu)"/>
+ </way>
+ <way id="1547324088" visible="true" version="1" changeset="186946402" timestamp="2026-08-04T20:20:50Z" user="Alikam" uid="3997418">
+  <nd ref="7681128632"/>
+  <nd ref="4958730406"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-1"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1 Yenikapı - Atatürk Havalimanı / Kirazlı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="service" v="crossover"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul metrosu)"/>
+ </way>
+ <way id="1547324089" visible="true" version="1" changeset="186946402" timestamp="2026-08-04T20:20:50Z" user="Alikam" uid="3997418">
+  <nd ref="4958730406"/>
+  <nd ref="4958731243"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M1A Yenikapı - Atatürk Havalimanı Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+  <tag k="wikidata" v="Q6048705"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </way>
+ <relation id="305496" visible="true" version="60" changeset="188568050" timestamp="2026-09-05T12:05:12Z" user="user_24456380" uid="24456380">
+  <member type="node" ref="2511296170" role="stop"/>
+  <member type="node" ref="248666702" role="stop"/>
+  <member type="node" ref="7722103253" role="stop"/>
+  <member type="node" ref="1423440707" role="stop"/>
+  <member type="node" ref="248664903" role="stop"/>
+  <member type="node" ref="248664921" role="stop"/>
+  <member type="node" ref="248643172" role="stop"/>
+  <member type="node" ref="4958723943" role="stop"/>
+  <member type="node" ref="248643719" role="stop"/>
+  <member type="node" ref="248648764" role="stop"/>
+  <member type="node" ref="4958777836" role="stop"/>
+  <member type="node" ref="248648724" role="stop"/>
+  <member type="node" ref="4958796322" role="stop"/>
+  <member type="node" ref="2367466872" role="stop"/>
+  <member type="node" ref="304051538" role="stop"/>
+  <member type="node" ref="2367466865" role="stop"/>
+  <member type="node" ref="304051216" role="stop"/>
+  <member type="node" ref="4958828845" role="stop"/>
+  <member type="way" ref="243759620" role=""/>
+  <member type="way" ref="1501076304" role=""/>
+  <member type="way" ref="827128512" role=""/>
+  <member type="way" ref="827128512" role=""/>
+  <member type="way" ref="1501076304" role=""/>
+  <member type="way" ref="1501076304" role=""/>
+  <member type="way" ref="827128512" role=""/>
+  <member type="way" ref="23046072" role=""/>
+  <member type="way" ref="23046041" role=""/>
+  <member type="way" ref="23046034" role=""/>
+  <member type="way" ref="23227661" role=""/>
+  <member type="way" ref="23227660" role=""/>
+  <member type="way" ref="23046026" role=""/>
+  <member type="way" ref="23046024" role=""/>
+  <member type="way" ref="82210169" role=""/>
+  <member type="way" ref="82210168" role=""/>
+  <member type="way" ref="97785162" role=""/>
+  <member type="way" ref="97785171" role=""/>
+  <member type="way" ref="23045034" role=""/>
+  <member type="way" ref="506088043" role=""/>
+  <member type="way" ref="506088040" role=""/>
+  <member type="way" ref="506088041" role=""/>
+  <member type="way" ref="506088400" role=""/>
+  <member type="way" ref="506088042" role=""/>
+  <member type="way" ref="23045613" role=""/>
+  <member type="way" ref="23291374" role=""/>
+  <member type="way" ref="984966387" role=""/>
+  <member type="way" ref="506089261" role=""/>
+  <member type="way" ref="1547324084" role=""/>
+  <member type="way" ref="506088895" role=""/>
+  <member type="way" ref="506089266" role=""/>
+  <member type="way" ref="1500791529" role=""/>
+  <member type="way" ref="1547324088" role=""/>
+  <member type="way" ref="1547324089" role=""/>
+  <member type="way" ref="23045362" role=""/>
+  <member type="way" ref="23045268" role=""/>
+  <member type="way" ref="23045267" role=""/>
+  <member type="way" ref="44742093" role=""/>
+  <member type="way" ref="23045248" role=""/>
+  <member type="way" ref="23045233" role=""/>
+  <member type="way" ref="1331095630" role=""/>
+  <member type="way" ref="27686209" role=""/>
+  <member type="way" ref="23045307" role=""/>
+  <member type="way" ref="27685704" role=""/>
+  <member type="way" ref="506098173" role=""/>
+  <member type="way" ref="27685708" role=""/>
+  <member type="way" ref="27685500" role=""/>
+  <member type="way" ref="37998972" role=""/>
+  <member type="way" ref="88407901" role=""/>
+  <member type="way" ref="43322218" role=""/>
+  <tag k="colour" v="#ee3124"/>
+  <tag k="from" v="Yenikapı"/>
+  <tag k="name" v="M1A: Yenikapı → Atatürk Havalimanı"/>
+  <tag k="network" v="İstanbul Metrosu"/>
+  <tag k="network:wikidata" v="Q498172"/>
+  <tag k="network:wikipedia" v="tr:İstanbul Metrosu"/>
+  <tag k="not:wikidata" v="Q6048705"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="operator:wikidata" v="Q344299"/>
+  <tag k="operator:wikipedia" v="tr:Metro İstanbul"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="M1A"/>
+  <tag k="route" v="subway"/>
+  <tag k="to" v="Atatürk Havalimanı"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.metro.istanbul/Hatlarimiz/HatDetay?hat=M1A"/>
+  <tag k="wikidata" v="Q18822327"/>
+  <tag k="wikimedia_commons" v="Category:Istanbul Metro line M1"/>
+  <tag k="wikipedia" v="tr:M1 (İstanbul Metrosu)"/>
+ </relation>
+</osm>

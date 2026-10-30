@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="openstreetmap-cgimap 2.1.0 (2713338 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="494598062" visible="true" version="7" changeset="76837781" timestamp="2019-11-09T07:09:12Z" user="frank furtschool" uid="10432139" lat="40.9870071" lon="29.0215746"/>
+ <node id="495672346" visible="true" version="16" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9853724" lon="29.0210603"/>
+ <node id="495752033" visible="true" version="13" changeset="72606005" timestamp="2019-07-24T14:27:19Z" user="Oguzhan Er" uid="9023585" lat="40.9843266" lon="29.0272816"/>
+ <node id="495761312" visible="true" version="13" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9871725" lon="29.0284268"/>
+ <node id="495770876" visible="true" version="14" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9883746" lon="29.0286836"/>
+ <node id="803882290" visible="true" version="13" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9838867" lon="29.0250208"/>
+ <node id="1457277991" visible="true" version="9" changeset="72517217" timestamp="2019-07-22T13:58:09Z" user="Oguzhan Er" uid="9023585" lat="40.9844182" lon="29.0275795"/>
+ <node id="1652678590" visible="true" version="16" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9893839" lon="29.0288441">
+  <tag k="name" v="Altıyol"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+  <tag k="wikidata" v="Q97207105"/>
+  <tag k="wikimedia_commons" v="Category:Altıyol (tram station)"/>
+  <tag k="wikipedia" v="tr:Altıyol (İstanbul Tramvayı)"/>
+ </node>
+ <node id="1652678592" visible="true" version="12" changeset="180941451" timestamp="2026-04-06T11:46:13Z" user="de24000" uid="617093" lat="40.9840631" lon="29.0243788">
+  <tag k="name" v="Moda Caddesi"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+  <tag k="wikidata" v="Q97208278"/>
+  <tag k="wikimedia_commons" v="Category:Moda Caddesi (tram station)"/>
+  <tag k="wikipedia" v="tr:Moda Caddesi (İstanbul Tramvayı)"/>
+ </node>
+ <node id="1652678596" visible="true" version="10" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9908897" lon="29.0271225"/>
+ <node id="1652678614" visible="true" version="8" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9910508" lon="29.0261203">
+  <tag k="crossing" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="railway" v="tram_crossing"/>
+ </node>
+ <node id="1652678618" visible="true" version="8" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9905354" lon="29.0289150"/>
+ <node id="1652678631" visible="true" version="12" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9859846" lon="29.0279178">
+  <tag k="name" v="Kilise"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+  <tag k="wikidata" v="Q97208029"/>
+  <tag k="wikimedia_commons" v="Category:Kilise (tram station)"/>
+  <tag k="wikipedia" v="tr:Kilise (İstanbul Tramvayı)"/>
+ </node>
+ <node id="1652678642" visible="true" version="12" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9840944" lon="29.0266951">
+  <tag k="name" v="Moda İlkokulu"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+  <tag k="wikidata" v="Q97208287"/>
+  <tag k="wikimedia_commons" v="Category:Moda İlkokulu (tram station)"/>
+  <tag k="wikipedia" v="tr:Moda İlkokulu (İstanbul Tramvayı)"/>
+ </node>
+ <node id="1652678643" visible="true" version="12" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9876680" lon="29.0285525">
+  <tag k="name" v="Bahariye"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+  <tag k="wikidata" v="Q97207273"/>
+  <tag k="wikimedia_commons" v="Category:Bahariye (tram station)"/>
+  <tag k="wikipedia" v="tr:Bahariye (İstanbul Tramvayı)"/>
+ </node>
+ <node id="1652678645" visible="true" version="10" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9911322" lon="29.0236471">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="yes"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="railway" v="tram_crossing"/>
+ </node>
+ <node id="2435483818" visible="true" version="10" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9913699" lon="29.0242255">
+  <tag k="button_operated" v="no"/>
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="railway" v="tram_crossing"/>
+ </node>
+ <node id="2442359940" visible="true" version="4" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9843434" lon="29.0269037"/>
+ <node id="2442359948" visible="true" version="10" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9854891" lon="29.0211099">
+  <tag k="name" v="Mühürdar"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+  <tag k="wheelchair" v="yes"/>
+  <tag k="wikidata" v="Q97208326"/>
+  <tag k="wikimedia_commons" v="Category:Mühürdar (tram station)"/>
+  <tag k="wikipedia" v="tr:Mühürdar (İstanbul Tramvayı)"/>
+ </node>
+ <node id="2442359960" visible="true" version="3" changeset="76837781" timestamp="2019-11-09T07:09:12Z" user="frank furtschool" uid="10432139" lat="40.9864817" lon="29.0215243"/>
+ <node id="2442359986" visible="true" version="3" changeset="76837781" timestamp="2019-11-09T07:09:12Z" user="frank furtschool" uid="10432139" lat="40.9869459" lon="29.0215894"/>
+ <node id="2442360089" visible="true" version="8" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9890913" lon="29.0206660"/>
+ <node id="2442360203" visible="true" version="10" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9906697" lon="29.0283760">
+  <tag k="button_operated" v="yes"/>
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="railway" v="tram_crossing"/>
+  <tag k="traffic_signals:sound" v="yes"/>
+  <tag k="traffic_signals:vibration" v="no"/>
+ </node>
+ <node id="2442360239" visible="true" version="8" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9913816" lon="29.0239704"/>
+ <node id="2442360247" visible="true" version="9" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9911511" lon="29.0255240">
+  <tag k="name" v="Çarşı"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+  <tag k="wikidata" v="Q97209335"/>
+  <tag k="wikimedia_commons" v="Category:Çarşı (tram station)"/>
+  <tag k="wikipedia" v="tr:Çarşı (İstanbul Tramvayı)"/>
+ </node>
+ <node id="2445189207" visible="true" version="9" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9899810" lon="29.0221226">
+  <tag k="bench" v="no"/>
+  <tag k="lit" v="no"/>
+  <tag k="name" v="Kadıköy - İDO- Metro"/>
+  <tag k="network" v="T3"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="passenger_information_display" v="no"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="shelter" v="no"/>
+  <tag k="surface" v="asphalt"/>
+  <tag k="tram" v="yes"/>
+  <tag k="wikidata" v="Q107352145"/>
+ </node>
+ <node id="2446048517" visible="true" version="6" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9909938" lon="29.0264632"/>
+ <node id="2446513123" visible="true" version="6" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9879968" lon="29.0286127"/>
+ <node id="2453479327" visible="true" version="5" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9910605" lon="29.0260622"/>
+ <node id="2453479331" visible="true" version="6" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9912409" lon="29.0249852"/>
+ <node id="2697174239" visible="true" version="6" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9913214" lon="29.0238169"/>
+ <node id="2697174241" visible="true" version="6" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9913534" lon="29.0238669"/>
+ <node id="2697174243" visible="true" version="6" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9913076" lon="29.0237998">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="railway" v="tram_crossing"/>
+ </node>
+ <node id="3183586364" visible="true" version="5" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9835737" lon="29.0263550"/>
+ <node id="5308359606" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9874647" lon="29.0213554"/>
+ <node id="5308359607" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9872351" lon="29.0214731"/>
+ <node id="6518509746" visible="true" version="5" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9902347" lon="29.0291407"/>
+ <node id="6522711374" visible="true" version="2" changeset="70953958" timestamp="2019-06-05T12:55:48Z" user="Viarm" uid="2521525" lat="40.9867075" lon="29.0282369"/>
+ <node id="6522762761" visible="true" version="1" changeset="70948456" timestamp="2019-06-05T09:05:06Z" user="Viarm" uid="2521525" lat="40.9855174" lon="29.0277148"/>
+ <node id="6524561223" visible="true" version="9" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9906526" lon="29.0231785">
+  <tag k="name" v="İskele Cami"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+  <tag k="wikidata" v="Q97210171"/>
+  <tag k="wikimedia_commons" v="Category:İskele Camii (tram station)"/>
+  <tag k="wikipedia" v="tr:İskele Camii (İstanbul Tramvayı)"/>
+ </node>
+ <node id="6531718981" visible="true" version="4" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9912986" lon="29.0237901"/>
+ <node id="6640384642" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9850069" lon="29.0219080"/>
+ <node id="6643517636" visible="true" version="3" changeset="72608959" timestamp="2019-07-24T15:36:32Z" user="Oguzhan Er" uid="9023585" lat="40.9843765" lon="29.0271047"/>
+ <node id="6643517639" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9845902" lon="29.0276684">
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="6643869335" visible="true" version="1" changeset="72606005" timestamp="2019-07-24T14:27:19Z" user="Oguzhan Er" uid="9023585" lat="40.9843294" lon="29.0273561"/>
+ <node id="6658379241" visible="true" version="5" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9913803" lon="29.0241266"/>
+ <node id="6658379242" visible="true" version="4" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9908046" lon="29.0233636"/>
+ <node id="6958868144" visible="true" version="3" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9907779" lon="29.0233337"/>
+ <node id="6958868163" visible="true" version="1" changeset="76833038" timestamp="2019-11-08T23:14:24Z" user="frank furtschool" uid="10432139" lat="40.9889746" lon="29.0205842"/>
+ <node id="6958868164" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9890668" lon="29.0206422"/>
+ <node id="6958868165" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9890085" lon="29.0205989"/>
+ <node id="6959248767" visible="true" version="3" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9913828" lon="29.0240797"/>
+ <node id="6959248768" visible="true" version="3" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9913833" lon="29.0239995"/>
+ <node id="6959400235" visible="true" version="1" changeset="76837781" timestamp="2019-11-09T07:09:12Z" user="frank furtschool" uid="10432139" lat="40.9868710" lon="29.0215874"/>
+ <node id="7837065862" visible="true" version="6" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9888514" lon="29.0205606">
+  <tag k="name" v="Damga Sokak"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+  <tag k="wikidata" v="Q97207525"/>
+  <tag k="wikimedia_commons" v="Category:Damga Sokak (tram station)"/>
+  <tag k="wikipedia" v="tr:Damga Sokak (İstanbul Tramvayı)"/>
+ </node>
+ <node id="8551310842" visible="true" version="5" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9846726" lon="29.0227213">
+  <tag k="name" v="Rıza Paşa"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+  <tag k="wikidata" v="Q109265161"/>
+  <tag k="wikimedia_commons" v="Category:Rızapaşa (tram station)"/>
+  <tag k="wikipedia" v="tr:Rızapaşa (İstanbul Tramvayı)"/>
+ </node>
+ <node id="9412525701" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9880049" lon="29.0210282">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="railway" v="tram_crossing"/>
+ </node>
+ <node id="9412569819" visible="true" version="4" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9912586" lon="29.0248859">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="railway" v="tram_crossing"/>
+ </node>
+ <node id="10083065571" visible="true" version="4" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9906084" lon="29.0286862"/>
+ <node id="11267801821" visible="true" version="5" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9845570" lon="29.0276588">
+  <tag k="button_operated" v="no"/>
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="railway" v="tram_crossing"/>
+  <tag k="traffic_signals:sound" v="no"/>
+  <tag k="traffic_signals:vibration" v="no"/>
+ </node>
+ <node id="12219386138" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9893669" lon="29.0288389">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="yes"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="railway" v="tram_crossing"/>
+ </node>
+ <node id="13711135477" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9887885" lon="29.0205632"/>
+ <node id="13711135478" visible="true" version="3" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9889376" lon="29.0205728">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="13711135482" visible="true" version="3" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9900128" lon="29.0222119">
+  <tag k="railway" v="tram_crossing"/>
+ </node>
+ <node id="13711135483" visible="true" version="3" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9901387" lon="29.0224432">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="13711135486" visible="true" version="2" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9897574" lon="29.0215685"/>
+ <node id="13711135487" visible="true" version="2" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9898127" lon="29.0216562"/>
+ <node id="13711135488" visible="true" version="2" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9898576" lon="29.0217642"/>
+ <node id="13711135489" visible="true" version="2" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9898956" lon="29.0218679"/>
+ <node id="13711135491" visible="true" version="2" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9900490" lon="29.0223006"/>
+ <node id="13711135492" visible="true" version="3" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9905636" lon="29.0230579">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="13711135493" visible="true" version="2" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9906165" lon="29.0231309">
+  <tag k="railway" v="tram_crossing"/>
+ </node>
+ <node id="13711135496" visible="true" version="3" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9907346" lon="29.0232814">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="13711136119" visible="true" version="3" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9904805" lon="29.0290248"/>
+ <node id="13711136122" visible="true" version="3" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9903536" lon="29.0291493"/>
+ <node id="13711136132" visible="true" version="2" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9903405" lon="29.0291510"/>
+ <node id="13711136135" visible="true" version="3" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9896558" lon="29.0289336">
+  <tag k="railway" v="tram_crossing"/>
+ </node>
+ <node id="13711136137" visible="true" version="3" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9892962" lon="29.0288241">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="13711136138" visible="true" version="3" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9882278" lon="29.0286561"/>
+ <node id="13711136140" visible="true" version="3" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9875784" lon="29.0285365"/>
+ <node id="13711136141" visible="true" version="3" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9862156" lon="29.0280248"/>
+ <node id="13711136142" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9858480" lon="29.0278540">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="yes"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="13711136143" visible="true" version="3" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9858282" lon="29.0278443">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="13711136145" visible="true" version="3" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9870415" lon="29.0283787"/>
+ <node id="13711136146" visible="true" version="3" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9869326" lon="29.0283356">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="13711136147" visible="true" version="3" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9867569" lon="29.0282593">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="13711136148" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9858105" lon="29.0278357">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="yes"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="13711136152" visible="true" version="3" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9843471" lon="29.0274281"/>
+ <node id="13711136153" visible="true" version="3" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9843468" lon="29.0271823"/>
+ <node id="13711136154" visible="true" version="2" changeset="181053769" timestamp="2026-04-08T14:44:02Z" user="de24000" uid="617093" lat="40.9843855" lon="29.0269992">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="13711136156" visible="true" version="3" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9853823" lon="29.0276922"/>
+ <node id="13711136159" visible="true" version="3" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9845369" lon="29.0276509">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="13711136165" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9843863" lon="29.0270611"/>
+ <node id="13711136166" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9843684" lon="29.0269467"/>
+ <node id="13711136168" visible="true" version="3" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9840051" lon="29.0266312"/>
+ <node id="13711136169" visible="true" version="2" changeset="181841399" timestamp="2026-04-26T11:37:13Z" user="CartographerAdmiral" uid="24033677" lat="40.9835484" lon="29.0263159"/>
+ <node id="13711136170" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9835686" lon="29.0263504"/>
+ <node id="13711136172" visible="true" version="3" changeset="181841399" timestamp="2026-04-26T11:37:13Z" user="CartographerAdmiral" uid="24033677" lat="40.9835386" lon="29.0262793">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="13711136173" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9838419" lon="29.0251797"/>
+ <node id="13711136175" visible="true" version="2" changeset="181841399" timestamp="2026-04-26T11:37:13Z" user="CartographerAdmiral" uid="24033677" lat="40.9835410" lon="29.0262335"/>
+ <node id="13711136176" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9839868" lon="29.0246653"/>
+ <node id="13711136177" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9841118" lon="29.0242016">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="13711136178" visible="true" version="3" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9841307" lon="29.0241450">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="yes"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="13711136179" visible="true" version="1" changeset="180941451" timestamp="2026-04-06T11:46:13Z" user="de24000" uid="617093" lat="40.9843872" lon="29.0234705">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="13711136180" visible="true" version="1" changeset="180941451" timestamp="2026-04-06T11:46:13Z" user="de24000" uid="617093" lat="40.9846321" lon="29.0228193">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="13711136181" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9848921" lon="29.0221977">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="13711136182" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9851446" lon="29.0215525"/>
+ <node id="13711136183" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9853375" lon="29.0210781"/>
+ <node id="13711136184" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9853519" lon="29.0210661"/>
+ <node id="13711136187" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9858446" lon="29.0212886"/>
+ <node id="13711136188" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9884933" lon="29.0207197">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="13711136189" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9862195" lon="29.0214365"/>
+ <node id="13711136194" visible="true" version="1" changeset="180941451" timestamp="2026-04-06T11:46:13Z" user="de24000" uid="617093" lat="40.9872268" lon="29.0214774"/>
+ <node id="13711136199" visible="true" version="1" changeset="180941451" timestamp="2026-04-06T11:46:13Z" user="de24000" uid="617093" lat="40.9887575" lon="29.0205688">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="right"/>
+ </node>
+ <node id="13716471341" visible="true" version="2" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9895893" lon="29.0213475">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="13763375174" visible="true" version="1" changeset="181841399" timestamp="2026-04-26T11:37:13Z" user="CartographerAdmiral" uid="24033677" lat="40.9835392" lon="29.0262427"/>
+ <node id="13763375175" visible="true" version="1" changeset="181841399" timestamp="2026-04-26T11:37:13Z" user="CartographerAdmiral" uid="24033677" lat="40.9835381" lon="29.0262516"/>
+ <node id="13763375176" visible="true" version="1" changeset="181841399" timestamp="2026-04-26T11:37:13Z" user="CartographerAdmiral" uid="24033677" lat="40.9835377" lon="29.0262616"/>
+ <node id="13763375177" visible="true" version="1" changeset="181841399" timestamp="2026-04-26T11:37:13Z" user="CartographerAdmiral" uid="24033677" lat="40.9835378" lon="29.0262691"/>
+ <node id="13763375178" visible="true" version="1" changeset="181841399" timestamp="2026-04-26T11:37:13Z" user="CartographerAdmiral" uid="24033677" lat="40.9835397" lon="29.0262860"/>
+ <node id="13763375179" visible="true" version="1" changeset="181841399" timestamp="2026-04-26T11:37:13Z" user="CartographerAdmiral" uid="24033677" lat="40.9835419" lon="29.0262954"/>
+ <node id="13763375180" visible="true" version="1" changeset="181841399" timestamp="2026-04-26T11:37:13Z" user="CartographerAdmiral" uid="24033677" lat="40.9835446" lon="29.0263048"/>
+ <node id="13763375182" visible="true" version="1" changeset="181841399" timestamp="2026-04-26T11:37:13Z" user="CartographerAdmiral" uid="24033677" lat="40.9835639" lon="29.0263449"/>
+ <node id="13763375183" visible="true" version="1" changeset="181841399" timestamp="2026-04-26T11:37:13Z" user="CartographerAdmiral" uid="24033677" lat="40.9835598" lon="29.0263391"/>
+ <node id="13763375184" visible="true" version="1" changeset="181841399" timestamp="2026-04-26T11:37:13Z" user="CartographerAdmiral" uid="24033677" lat="40.9835550" lon="29.0263308"/>
+ <node id="13807726693" visible="true" version="2" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9859058" lon="29.0213172"/>
+ <node id="14067852537" visible="true" version="2" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9905756" lon="29.0288094"/>
+ <node id="14067852538" visible="true" version="1" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9891737" lon="29.0288042"/>
+ <node id="14067852539" visible="true" version="1" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9880418" lon="29.0286212"/>
+ <node id="14067852544" visible="true" version="1" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9878836" lon="29.0285907"/>
+ <node id="14067852553" visible="true" version="1" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9844489" lon="29.0276072"/>
+ <node id="14067852555" visible="true" version="1" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9843336" lon="29.0272332"/>
+ <node id="14067852559" visible="true" version="2" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9900810" lon="29.0290866">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="yes"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="14067852562" visible="true" version="2" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9905167" lon="29.0289550"/>
+ <node id="14067852567" visible="true" version="1" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9864267" lon="29.0215099"/>
+ <node id="14067852568" visible="true" version="1" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9878607" lon="29.0211156"/>
+ <node id="14067852569" visible="true" version="1" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9890406" lon="29.0206195"/>
+ <node id="14067852571" visible="true" version="1" changeset="186798782" timestamp="2026-08-02T09:13:35Z" user="yitimox" uid="15834339" lat="40.9888087" lon="29.0205604"/>
+ <node id="14140627750" visible="true" version="1" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9913318" lon="29.0238312"/>
+ <node id="14140627751" visible="true" version="1" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9913447" lon="29.0238510"/>
+ <node id="14140627752" visible="true" version="1" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9913617" lon="29.0238847"/>
+ <node id="14140627753" visible="true" version="1" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9913692" lon="29.0239040"/>
+ <node id="14140627754" visible="true" version="1" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9913744" lon="29.0239234"/>
+ <node id="14140627755" visible="true" version="1" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9913788" lon="29.0239478"/>
+ <node id="14140627756" visible="true" version="1" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9913838" lon="29.0240384"/>
+ <node id="14140627757" visible="true" version="1" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9913777" lon="29.0241606"/>
+ <node id="14140627758" visible="true" version="1" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9913734" lon="29.0241992"/>
+ <node id="14140627759" visible="true" version="1" changeset="188380626" timestamp="2026-09-01T17:50:49Z" user="CartographerAdmiral" uid="24033677" lat="40.9913649" lon="29.0242563"/>
+ <node id="14150023577" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9912671" lon="29.0237615"/>
+ <node id="14150023578" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9912809" lon="29.0237732"/>
+ <node id="14150023582" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9909712" lon="29.0235085"/>
+ <node id="14150023583" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9908344" lon="29.0233936"/>
+ <node id="14150023584" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9908644" lon="29.0234216"/>
+ <node id="14150023585" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9909475" lon="29.0234887"/>
+ <node id="14150023586" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9909065" lon="29.0234561"/>
+ <node id="14150023588" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9907550" lon="29.0233066"/>
+ <node id="14150023589" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9908856" lon="29.0234400"/>
+ <node id="14150023590" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9909302" lon="29.0234743"/>
+ <node id="14150023596" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9897803" lon="29.0216009"/>
+ <node id="14150023597" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9898254" lon="29.0216842"/>
+ <node id="14150023598" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9898395" lon="29.0217172"/>
+ <node id="14150023599" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9898712" lon="29.0218001"/>
+ <node id="14150023600" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9899939" lon="29.0221587"/>
+ <node id="14150032301" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9897978" lon="29.0216289"/>
+ <node id="14150032302" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9898863" lon="29.0218413"/>
+ <node id="14150032303" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9900291" lon="29.0222557"/>
+ <node id="14150032304" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9900396" lon="29.0222814"/>
+ <node id="14150032305" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9900593" lon="29.0223208"/>
+ <node id="14150032306" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9900715" lon="29.0223416"/>
+ <node id="14150032307" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9900887" lon="29.0223695"/>
+ <node id="14150032308" visible="true" version="1" changeset="188533319" timestamp="2026-09-04T16:05:00Z" user="CartographerAdmiral" uid="24033677" lat="40.9901096" lon="29.0224009"/>
+ <node id="14184599424" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9905989" lon="29.0287280"/>
+ <node id="14184599425" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9905891" lon="29.0287644"/>
+ <node id="14184599426" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9905634" lon="29.0288448"/>
+ <node id="14184599427" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9905506" lon="29.0288786"/>
+ <node id="14184599428" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9904970" lon="29.0289940"/>
+ <node id="14184599451" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9904462" lon="29.0290827"/>
+ <node id="14184599452" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9903282" lon="29.0291516"/>
+ <node id="14184599453" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9903021" lon="29.0291514"/>
+ <node id="14184599454" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9902851" lon="29.0291504"/>
+ <node id="14184599488" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9901939" lon="29.0291269"/>
+ <node id="14184599489" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9902510" lon="29.0291447"/>
+ <node id="14184599490" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9902693" lon="29.0291483"/>
+ <node id="14184599491" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9904681" lon="29.0290468"/>
+ <node id="14184599492" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9904553" lon="29.0290685"/>
+ <node id="14184599493" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9903751" lon="29.0291451"/>
+ <node id="14184599494" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9903648" lon="29.0291474"/>
+ <node id="14184599495" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9903855" lon="29.0291420"/>
+ <node id="14184599496" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9903936" lon="29.0291386"/>
+ <node id="14184599497" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9904164" lon="29.0291212"/>
+ <node id="14184599498" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9904092" lon="29.0291282"/>
+ <node id="14184625201" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9904378" lon="29.0290948"/>
+ <node id="14184625202" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9904309" lon="29.0291042"/>
+ <node id="14184625203" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9904230" lon="29.0291140"/>
+ <node id="14184625204" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9904010" lon="29.0291342"/>
+ <node id="14184625205" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9903151" lon="29.0291517"/>
+ <node id="14184625230" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677" lat="40.9904200" lon="29.0291174">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="yes"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <way id="1496996504" visible="true" version="7" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677">
+  <nd ref="13711136182"/>
+  <nd ref="13711136183"/>
+  <nd ref="13711136184"/>
+  <nd ref="495672346"/>
+  <nd ref="2442359948"/>
+  <nd ref="13711136187"/>
+  <nd ref="13807726693"/>
+  <nd ref="13711136189"/>
+  <nd ref="14067852567"/>
+  <nd ref="2442359960"/>
+  <nd ref="6959400235"/>
+  <nd ref="2442359986"/>
+  <nd ref="494598062"/>
+  <nd ref="13711136194"/>
+  <nd ref="5308359607"/>
+  <nd ref="5308359606"/>
+  <nd ref="14067852568"/>
+  <nd ref="9412525701"/>
+  <nd ref="13711136188"/>
+  <nd ref="13711136199"/>
+  <nd ref="13711135477"/>
+  <nd ref="14067852571"/>
+  <nd ref="7837065862"/>
+  <nd ref="13711135478"/>
+  <nd ref="6958868163"/>
+  <nd ref="6958868165"/>
+  <nd ref="14067852569"/>
+  <nd ref="6958868164"/>
+  <nd ref="2442360089"/>
+  <nd ref="13716471341"/>
+  <nd ref="13711135486"/>
+  <nd ref="14150023596"/>
+  <nd ref="14150032301"/>
+  <nd ref="13711135487"/>
+  <nd ref="14150023597"/>
+  <nd ref="14150023598"/>
+  <nd ref="13711135488"/>
+  <nd ref="14150023599"/>
+  <nd ref="14150032302"/>
+  <nd ref="13711135489"/>
+  <nd ref="2445189207"/>
+  <nd ref="14150023600"/>
+  <nd ref="13711135482"/>
+  <nd ref="14150032303"/>
+  <nd ref="14150032304"/>
+  <nd ref="13711135491"/>
+  <nd ref="14150032305"/>
+  <nd ref="14150032306"/>
+  <nd ref="14150032307"/>
+  <nd ref="14150032308"/>
+  <nd ref="13711135483"/>
+  <nd ref="13711135492"/>
+  <nd ref="13711135493"/>
+  <nd ref="6524561223"/>
+  <nd ref="13711135496"/>
+  <nd ref="14150023588"/>
+  <nd ref="6958868144"/>
+  <nd ref="6658379242"/>
+  <nd ref="14150023583"/>
+  <nd ref="14150023584"/>
+  <nd ref="14150023589"/>
+  <nd ref="14150023586"/>
+  <nd ref="14150023590"/>
+  <nd ref="14150023585"/>
+  <nd ref="14150023582"/>
+  <nd ref="1652678645"/>
+  <nd ref="14150023577"/>
+  <nd ref="14150023578"/>
+  <nd ref="6531718981"/>
+  <nd ref="2697174243"/>
+  <nd ref="2697174239"/>
+  <nd ref="14140627750"/>
+  <nd ref="14140627751"/>
+  <nd ref="2697174241"/>
+  <nd ref="14140627752"/>
+  <nd ref="14140627753"/>
+  <nd ref="14140627754"/>
+  <nd ref="14140627755"/>
+  <nd ref="2442360239"/>
+  <nd ref="6959248768"/>
+  <nd ref="14140627756"/>
+  <nd ref="6959248767"/>
+  <nd ref="6658379241"/>
+  <nd ref="14140627757"/>
+  <nd ref="14140627758"/>
+  <nd ref="2435483818"/>
+  <nd ref="14140627759"/>
+  <nd ref="9412569819"/>
+  <nd ref="2453479331"/>
+  <nd ref="2442360247"/>
+  <nd ref="2453479327"/>
+  <nd ref="1652678614"/>
+  <nd ref="2446048517"/>
+  <nd ref="1652678596"/>
+  <nd ref="2442360203"/>
+  <nd ref="10083065571"/>
+  <nd ref="14184599424"/>
+  <nd ref="14184599425"/>
+  <nd ref="14067852537"/>
+  <nd ref="14184599426"/>
+  <nd ref="14184599427"/>
+  <nd ref="1652678618"/>
+  <nd ref="14067852562"/>
+  <nd ref="14184599428"/>
+  <nd ref="13711136119"/>
+  <nd ref="14184599491"/>
+  <nd ref="14184599492"/>
+  <nd ref="14184599451"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="embedded_rails" v="tram"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1000"/>
+  <tag k="railway" v="tram"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="600"/>
+ </way>
+ <way id="1559268601" visible="true" version="1" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677">
+  <nd ref="14184599451"/>
+  <nd ref="14184625201"/>
+  <nd ref="14184625202"/>
+  <nd ref="14184625203"/>
+  <nd ref="14184625230"/>
+  <nd ref="14184599497"/>
+  <nd ref="14184599498"/>
+  <nd ref="14184625204"/>
+  <nd ref="14184599496"/>
+  <nd ref="14184599495"/>
+  <nd ref="14184599493"/>
+  <nd ref="14184599494"/>
+  <nd ref="13711136122"/>
+  <nd ref="13711136132"/>
+  <nd ref="14184599452"/>
+  <nd ref="14184625205"/>
+  <nd ref="14184599453"/>
+  <nd ref="14184599454"/>
+  <nd ref="14184599490"/>
+  <nd ref="14184599489"/>
+  <nd ref="6518509746"/>
+  <nd ref="14184599488"/>
+  <nd ref="14067852559"/>
+  <nd ref="13711136135"/>
+  <nd ref="1652678590"/>
+  <nd ref="12219386138"/>
+  <nd ref="13711136137"/>
+  <nd ref="14067852538"/>
+  <nd ref="495770876"/>
+  <nd ref="13711136138"/>
+  <nd ref="14067852539"/>
+  <nd ref="2446513123"/>
+  <nd ref="14067852544"/>
+  <nd ref="1652678643"/>
+  <nd ref="13711136140"/>
+  <nd ref="495761312"/>
+  <nd ref="13711136145"/>
+  <nd ref="13711136146"/>
+  <nd ref="13711136147"/>
+  <nd ref="6522711374"/>
+  <nd ref="13711136141"/>
+  <nd ref="1652678631"/>
+  <nd ref="13711136142"/>
+  <nd ref="13711136143"/>
+  <nd ref="13711136148"/>
+  <nd ref="6522762761"/>
+  <nd ref="13711136156"/>
+  <nd ref="6643517639"/>
+  <nd ref="11267801821"/>
+  <nd ref="13711136159"/>
+  <nd ref="14067852553"/>
+  <nd ref="1457277991"/>
+  <nd ref="13711136152"/>
+  <nd ref="6643869335"/>
+  <nd ref="495752033"/>
+  <nd ref="14067852555"/>
+  <nd ref="13711136153"/>
+  <nd ref="6643517636"/>
+  <nd ref="13711136165"/>
+  <nd ref="13711136154"/>
+  <nd ref="13711136166"/>
+  <nd ref="2442359940"/>
+  <nd ref="1652678642"/>
+  <nd ref="13711136168"/>
+  <nd ref="3183586364"/>
+  <nd ref="13711136170"/>
+  <nd ref="13763375182"/>
+  <nd ref="13763375183"/>
+  <nd ref="13763375184"/>
+  <nd ref="13711136169"/>
+  <nd ref="13763375180"/>
+  <nd ref="13763375179"/>
+  <nd ref="13763375178"/>
+  <nd ref="13711136172"/>
+  <nd ref="13763375177"/>
+  <nd ref="13763375176"/>
+  <nd ref="13763375175"/>
+  <nd ref="13763375174"/>
+  <nd ref="13711136175"/>
+  <nd ref="13711136173"/>
+  <nd ref="803882290"/>
+  <nd ref="13711136176"/>
+  <nd ref="1652678592"/>
+  <nd ref="13711136177"/>
+  <nd ref="13711136178"/>
+  <nd ref="13711136179"/>
+  <nd ref="13711136180"/>
+  <nd ref="8551310842"/>
+  <nd ref="13711136181"/>
+  <nd ref="6640384642"/>
+  <nd ref="13711136182"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="embedded_rails" v="tram"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1000"/>
+  <tag k="railway" v="tram"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="600"/>
+ </way>
+ <relation id="2409338" visible="true" version="39" changeset="189099772" timestamp="2026-09-16T08:59:26Z" user="CartographerAdmiral" uid="24033677">
+  <member type="node" ref="2445189207" role="stop"/>
+  <member type="node" ref="6524561223" role="stop"/>
+  <member type="node" ref="2442360247" role="stop"/>
+  <member type="node" ref="1652678590" role="stop"/>
+  <member type="node" ref="1652678643" role="stop"/>
+  <member type="node" ref="1652678631" role="stop"/>
+  <member type="node" ref="1652678642" role="stop"/>
+  <member type="node" ref="1652678592" role="stop"/>
+  <member type="node" ref="8551310842" role="stop"/>
+  <member type="node" ref="2442359948" role="stop"/>
+  <member type="node" ref="7837065862" role="stop"/>
+  <member type="way" ref="1496996504" role=""/>
+  <member type="way" ref="1559268601" role=""/>
+  <tag k="alt_name" v="Moda Tramvayı"/>
+  <tag k="colour" v="#a86528"/>
+  <tag k="name" v="T3: Kadıköy ↔ Moda Nostaljik Tramvay Hattı"/>
+  <tag k="name:en" v="T3: Kadıköy ↔ Moda Nostalgic Tram Line"/>
+  <tag k="name:tr" v="T3: Kadıköy ↔ Moda Nostaljik Tramvay Hattı"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="T3"/>
+  <tag k="roundtrip" v="yes"/>
+  <tag k="route" v="tram"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.metro.istanbul/Hatlarimiz/HatDetay?hat=T3"/>
+  <tag k="wikidata" v="Q56221678"/>
+  <tag k="wikimedia_commons" v="Category:Trams on T3 line (Istanbul)"/>
+  <tag k="wikipedia" v="tr:T3 (İstanbul Tramvayı)"/>
+ </relation>
+</osm>

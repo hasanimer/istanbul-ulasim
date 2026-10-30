@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="openstreetmap-cgimap 2.1.0 (2730654 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="3755456222" visible="true" version="2" changeset="87602492" timestamp="2020-07-06T12:43:25Z" user="Alikam" uid="3997418" lat="41.0773778" lon="29.0234176"/>
+ <node id="3755456223" visible="true" version="3" changeset="166040483" timestamp="2025-05-09T18:06:28Z" user="Alikam" uid="3997418" lat="41.0776624" lon="29.0280139"/>
+ <node id="3755460326" visible="true" version="2" changeset="182256759" timestamp="2026-05-05T16:01:29Z" user="de24000" uid="617093" lat="41.0815121" lon="29.0362686"/>
+ <node id="3755460327" visible="true" version="2" changeset="87602492" timestamp="2020-07-06T12:43:25Z" user="Alikam" uid="3997418" lat="41.0827679" lon="29.0379277"/>
+ <node id="3755460328" visible="true" version="4" changeset="182256759" timestamp="2026-05-05T16:01:29Z" user="de24000" uid="617093" lat="41.0842845" lon="29.0399993"/>
+ <node id="3755460330" visible="true" version="6" changeset="180279353" timestamp="2026-03-23T03:26:36Z" user="HaritaDuzenlemeHesabi" uid="17269769" lat="41.0853287" lon="29.0449107"/>
+ <node id="3755460331" visible="true" version="12" changeset="180279353" timestamp="2026-03-23T03:26:36Z" user="HaritaDuzenlemeHesabi" uid="17269769" lat="41.0853915" lon="29.0456269">
+  <tag k="name" v="Boğaziçi Üniversitesi/Hisarüstü"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="subway" v="yes"/>
+ </node>
+ <node id="7687714952" visible="true" version="2" changeset="166040483" timestamp="2025-05-09T18:06:28Z" user="Alikam" uid="3997418" lat="41.0763389" lon="29.0160987"/>
+ <node id="7687714953" visible="true" version="3" changeset="182256759" timestamp="2026-05-05T16:01:29Z" user="de24000" uid="617093" lat="41.0756820" lon="29.0139057">
+  <tag k="railway" v="buffer_stop"/>
+ </node>
+ <node id="7687714955" visible="true" version="1" changeset="87602492" timestamp="2020-07-06T12:43:25Z" user="Alikam" uid="3997418" lat="41.0774635" lon="29.0245844"/>
+ <node id="7687714956" visible="true" version="4" changeset="182256759" timestamp="2026-05-05T16:01:29Z" user="de24000" uid="617093" lat="41.0774484" lon="29.0254169">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="right"/>
+ </node>
+ <node id="7687714957" visible="true" version="3" changeset="166040483" timestamp="2025-05-09T18:06:28Z" user="Alikam" uid="3997418" lat="41.0780185" lon="29.0290873"/>
+ <node id="7687714958" visible="true" version="4" changeset="182256759" timestamp="2026-05-05T16:01:29Z" user="de24000" uid="617093" lat="41.0831749" lon="29.0384462">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="7687714959" visible="true" version="4" changeset="182256759" timestamp="2026-05-05T16:01:29Z" user="de24000" uid="617093" lat="41.0816999" lon="29.0365871">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="right"/>
+ </node>
+ <node id="7687714960" visible="true" version="1" changeset="87602492" timestamp="2020-07-06T12:43:25Z" user="Alikam" uid="3997418" lat="41.0821620" lon="29.0371553"/>
+ <node id="7687714961" visible="true" version="2" changeset="182256759" timestamp="2026-05-05T16:01:29Z" user="de24000" uid="617093" lat="41.0846505" lon="29.0410711"/>
+ <node id="7687714963" visible="true" version="9" changeset="182256759" timestamp="2026-05-05T16:01:29Z" user="de24000" uid="617093" lat="41.0851076" lon="29.0438194">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="7687714970" visible="true" version="4" changeset="182256759" timestamp="2026-05-05T16:01:29Z" user="de24000" uid="617093" lat="41.0772535" lon="29.0227555">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="7687714973" visible="true" version="4" changeset="182256759" timestamp="2026-05-05T16:01:29Z" user="de24000" uid="617093" lat="41.0762118" lon="29.0156069">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="7687714974" visible="true" version="1" changeset="87602492" timestamp="2020-07-06T12:43:25Z" user="Alikam" uid="3997418" lat="41.0760312" lon="29.0149742"/>
+ <node id="7687714975" visible="true" version="2" changeset="166040483" timestamp="2025-05-09T18:06:28Z" user="Alikam" uid="3997418" lat="41.0765099" lon="29.0170822"/>
+ <node id="7687714983" visible="true" version="7" changeset="180279353" timestamp="2026-03-23T03:26:36Z" user="HaritaDuzenlemeHesabi" uid="17269769" lat="41.0854607" lon="29.0463419">
+  <tag k="railway" v="buffer_stop"/>
+ </node>
+ <node id="7881062720" visible="true" version="3" changeset="98975636" timestamp="2021-02-09T12:10:12Z" user="Alikam" uid="3997418" lat="41.0774220" lon="29.0239918">
+  <tag k="name" v="Nispetiye"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="subway" v="yes"/>
+ </node>
+ <node id="7881078191" visible="true" version="3" changeset="115135335" timestamp="2021-12-19T18:23:35Z" user="EMREOYUN" uid="10752567" lat="41.0824907" lon="29.0375670">
+  <tag k="name" v="Etiler"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="subway" v="yes"/>
+ </node>
+ <node id="7973186627" visible="true" version="3" changeset="182256759" timestamp="2026-05-05T16:01:29Z" user="de24000" uid="617093" lat="41.0767328" lon="29.0189049">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="right"/>
+ </node>
+ <node id="9351048506" visible="true" version="1" changeset="115135335" timestamp="2021-12-19T18:23:35Z" user="EMREOYUN" uid="10752567" lat="41.0758569" lon="29.0144399">
+  <tag k="name" v="Levent"/>
+  <tag k="network" v="M6"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="subway" v="yes"/>
+ </node>
+ <node id="9613463596" visible="true" version="4" changeset="180279353" timestamp="2026-03-23T03:26:36Z" user="HaritaDuzenlemeHesabi" uid="17269769" lat="41.0852566" lon="29.0444618"/>
+ <node id="10043411286" visible="true" version="2" changeset="166040483" timestamp="2025-05-09T18:06:28Z" user="Alikam" uid="3997418" lat="41.0777640" lon="29.0285343"/>
+ <node id="12824083154" visible="true" version="1" changeset="166040483" timestamp="2025-05-09T18:06:28Z" user="Alikam" uid="3997418" lat="41.0837494" lon="29.0391958"/>
+ <way id="372005030" visible="true" version="10" changeset="182256759" timestamp="2026-05-05T16:01:29Z" user="de24000" uid="617093">
+  <nd ref="7687714953"/>
+  <nd ref="9351048506"/>
+  <nd ref="7687714974"/>
+  <nd ref="7687714973"/>
+  <tag k="electrified" v="rail"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-5"/>
+  <tag k="name" v="M6"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="regular"/>
+  <tag k="railway:preferred_direction" v="both"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="823440645" visible="true" version="7" changeset="182256759" timestamp="2026-05-05T16:01:29Z" user="de24000" uid="617093">
+  <nd ref="7687714983"/>
+  <nd ref="3755460331"/>
+  <nd ref="3755460330"/>
+  <nd ref="9613463596"/>
+  <nd ref="7687714963"/>
+  <tag k="electrified" v="rail"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-3"/>
+  <tag k="name" v="M6"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="regular"/>
+  <tag k="railway:preferred_direction" v="both"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="823440647" visible="true" version="5" changeset="182256759" timestamp="2026-05-05T16:01:29Z" user="de24000" uid="617093">
+  <nd ref="7687714958"/>
+  <nd ref="3755460327"/>
+  <nd ref="7881078191"/>
+  <nd ref="7687714960"/>
+  <nd ref="7687714959"/>
+  <tag k="electrified" v="rail"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-3"/>
+  <tag k="name" v="M6"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="823440648" visible="true" version="7" changeset="182256759" timestamp="2026-05-05T16:01:29Z" user="de24000" uid="617093">
+  <nd ref="7687714958"/>
+  <nd ref="12824083154"/>
+  <nd ref="3755460328"/>
+  <nd ref="7687714961"/>
+  <nd ref="7687714963"/>
+  <tag k="electrified" v="rail"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-3"/>
+  <tag k="name" v="M6"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="regular"/>
+  <tag k="railway:preferred_direction" v="both"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="823440650" visible="true" version="5" changeset="182256759" timestamp="2026-05-05T16:01:29Z" user="de24000" uid="617093">
+  <nd ref="7687714956"/>
+  <nd ref="7687714955"/>
+  <nd ref="7881062720"/>
+  <nd ref="3755456222"/>
+  <nd ref="7687714970"/>
+  <tag k="electrified" v="rail"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-3"/>
+  <tag k="name" v="M6"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="823440651" visible="true" version="6" changeset="182256759" timestamp="2026-05-05T16:01:29Z" user="de24000" uid="617093">
+  <nd ref="7687714956"/>
+  <nd ref="3755456223"/>
+  <nd ref="10043411286"/>
+  <nd ref="7687714957"/>
+  <nd ref="3755460326"/>
+  <nd ref="7687714959"/>
+  <tag k="electrified" v="rail"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-3"/>
+  <tag k="name" v="M6"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="regular"/>
+  <tag k="railway:preferred_direction" v="both"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="823440654" visible="true" version="5" changeset="182256759" timestamp="2026-05-05T16:01:29Z" user="de24000" uid="617093">
+  <nd ref="7687714973"/>
+  <nd ref="7687714952"/>
+  <nd ref="7687714975"/>
+  <nd ref="7973186627"/>
+  <nd ref="7687714970"/>
+  <tag k="electrified" v="rail"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-3"/>
+  <tag k="name" v="M6"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="regular"/>
+  <tag k="railway:preferred_direction" v="both"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <relation id="7719780" visible="true" version="16" changeset="188568050" timestamp="2026-09-05T12:05:12Z" user="user_24456380" uid="24456380">
+  <member type="node" ref="3755460331" role="stop"/>
+  <member type="node" ref="7881078191" role="stop"/>
+  <member type="node" ref="7881062720" role="stop"/>
+  <member type="node" ref="9351048506" role="stop"/>
+  <member type="way" ref="823440645" role=""/>
+  <member type="way" ref="823440648" role=""/>
+  <member type="way" ref="823440647" role=""/>
+  <member type="way" ref="823440651" role=""/>
+  <member type="way" ref="823440650" role=""/>
+  <member type="way" ref="823440654" role=""/>
+  <member type="way" ref="372005030" role=""/>
+  <tag k="colour" v="#caa977"/>
+  <tag k="from" v="Boğaziçi Üniversitesi/Hisarüstü"/>
+  <tag k="name" v="M6: Boğaziçi Üniversitesi/Hisarüstü → Levent"/>
+  <tag k="network" v="İstanbul Metrosu"/>
+  <tag k="network:wikidata" v="Q498172"/>
+  <tag k="network:wikipedia" v="tr:İstanbul Metrosu"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="operator:wikidata" v="Q344299"/>
+  <tag k="operator:wikipedia" v="tr:Metro İstanbul"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="M6"/>
+  <tag k="route" v="subway"/>
+  <tag k="to" v="Levent"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.metro.istanbul/Hatlarimiz/HatDetay?hat=M6"/>
+  <tag k="wikidata" v="Q16949744"/>
+  <tag k="wikimedia_commons" v="Category:Istanbul Metro line M6"/>
+  <tag k="wikipedia" v="tr:M6 (İstanbul Metrosu)"/>
+ </relation>
+</osm>

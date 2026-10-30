@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="openstreetmap-cgimap 2.1.0 (2713338 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="6507293771" visible="true" version="5" changeset="130856641" timestamp="2023-01-04T08:54:11Z" user="Claudius Henrichs" uid="18069" lat="41.0540017" lon="29.0094506">
+  <tag k="name" v="Yıldız"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="subway" v="yes"/>
+ </node>
+ <node id="6507293776" visible="true" version="4" changeset="92253524" timestamp="2020-10-09T19:36:39Z" user="Alikam" uid="3997418" lat="41.0615385" lon="29.0081785"/>
+ <node id="6507293777" visible="true" version="4" changeset="92253524" timestamp="2020-10-09T19:36:39Z" user="Alikam" uid="3997418" lat="41.0624597" lon="29.0062619"/>
+ <node id="6508650248" visible="true" version="7" changeset="165860885" timestamp="2025-05-05T19:03:39Z" user="EDtheWARDen" uid="14025239" lat="41.0649724" lon="28.9954199">
+  <tag k="layer" v="-5"/>
+  <tag k="level" v="-5"/>
+  <tag k="name" v="Mecidiyeköy"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="subway" v="yes"/>
+ </node>
+ <node id="6974703508" visible="true" version="4" changeset="182639585" timestamp="2026-05-14T09:54:44Z" user="de24000" uid="617093" lat="41.0638210" lon="29.0028432"/>
+ <node id="6974703565" visible="true" version="2" changeset="92253524" timestamp="2020-10-09T19:36:39Z" user="Alikam" uid="3997418" lat="41.0601900" lon="29.0101854"/>
+ <node id="6974703566" visible="true" version="2" changeset="92253524" timestamp="2020-10-09T19:36:39Z" user="Alikam" uid="3997418" lat="41.0608281" lon="29.0095411"/>
+ <node id="7897142413" visible="true" version="6" changeset="138142687" timestamp="2023-07-05T10:29:12Z" user="Alikam" uid="3997418" lat="41.0618220" lon="29.0075671">
+  <tag k="name" v="Fulya"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="subway" v="yes"/>
+ </node>
+ <node id="7993244673" visible="true" version="1" changeset="92253524" timestamp="2020-10-09T19:36:39Z" user="Alikam" uid="3997418" lat="41.0595547" lon="29.0103599"/>
+ <node id="7993244683" visible="true" version="4" changeset="182639585" timestamp="2026-05-14T09:54:44Z" user="de24000" uid="617093" lat="41.0641601" lon="28.9998771"/>
+ <node id="7993244684" visible="true" version="2" changeset="109797846" timestamp="2021-08-17T09:21:35Z" user="Alikam" uid="3997418" lat="41.0632734" lon="29.0044839"/>
+ <node id="7993248485" visible="true" version="2" changeset="109797846" timestamp="2021-08-17T09:21:35Z" user="Alikam" uid="3997418" lat="41.0636002" lon="29.0036372"/>
+ <node id="7993248486" visible="true" version="3" changeset="182639585" timestamp="2026-05-14T09:54:44Z" user="de24000" uid="617093" lat="41.0639170" lon="29.0022045"/>
+ <node id="9013602844" visible="true" version="1" changeset="109797846" timestamp="2021-08-17T09:21:35Z" user="Alikam" uid="3997418" lat="41.0591873" lon="29.0103619"/>
+ <node id="9013602845" visible="true" version="1" changeset="109797846" timestamp="2021-08-17T09:21:35Z" user="Alikam" uid="3997418" lat="41.0598544" lon="29.0103203"/>
+ <node id="9013602846" visible="true" version="2" changeset="182639585" timestamp="2026-05-14T09:54:44Z" user="de24000" uid="617093" lat="41.0610985" lon="29.0090895"/>
+ <node id="9013602847" visible="true" version="1" changeset="109797846" timestamp="2021-08-17T09:21:35Z" user="Alikam" uid="3997418" lat="41.0605090" lon="29.0099263"/>
+ <node id="9013602848" visible="true" version="1" changeset="109797846" timestamp="2021-08-17T09:21:35Z" user="Alikam" uid="3997418" lat="41.0603163" lon="29.0100873"/>
+ <node id="9013602849" visible="true" version="1" changeset="109797846" timestamp="2021-08-17T09:21:35Z" user="Alikam" uid="3997418" lat="41.0599984" lon="29.0102781"/>
+ <node id="9013602850" visible="true" version="1" changeset="109797846" timestamp="2021-08-17T09:21:35Z" user="Alikam" uid="3997418" lat="41.0596618" lon="29.0103527"/>
+ <node id="9013602851" visible="true" version="1" changeset="109797846" timestamp="2021-08-17T09:21:35Z" user="Alikam" uid="3997418" lat="41.0606543" lon="29.0097589"/>
+ <node id="9013602858" visible="true" version="2" changeset="182639585" timestamp="2026-05-14T09:54:44Z" user="de24000" uid="617093" lat="41.0640104" lon="29.0011652"/>
+ <node id="9349599408" visible="true" version="3" changeset="182639585" timestamp="2026-05-14T09:54:44Z" user="de24000" uid="617093" lat="41.0643274" lon="28.9988331">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <way id="1125674123" visible="true" version="8" changeset="182639585" timestamp="2026-05-14T09:54:44Z" user="de24000" uid="617093">
+  <nd ref="6508650248"/>
+  <nd ref="9349599408"/>
+  <nd ref="7993244683"/>
+  <nd ref="9013602858"/>
+  <nd ref="7993248486"/>
+  <nd ref="6974703508"/>
+  <nd ref="7993248485"/>
+  <nd ref="7993244684"/>
+  <nd ref="6507293777"/>
+  <nd ref="7897142413"/>
+  <nd ref="6507293776"/>
+  <nd ref="9013602846"/>
+  <nd ref="6974703566"/>
+  <nd ref="9013602851"/>
+  <nd ref="9013602847"/>
+  <nd ref="9013602848"/>
+  <nd ref="6974703565"/>
+  <nd ref="9013602849"/>
+  <nd ref="9013602845"/>
+  <nd ref="9013602850"/>
+  <nd ref="7993244673"/>
+  <nd ref="9013602844"/>
+  <nd ref="6507293771"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-5"/>
+  <tag k="level" v="-5"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M7 Yıldız - Mahmutbey Metro Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="railway:bidirectional" v="regular"/>
+  <tag k="railway:preferred_direction" v="both"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="1500"/>
+ </way>
+ <relation id="11808136" visible="true" version="8" changeset="186725722" timestamp="2026-07-31T19:25:38Z" user="Alikam" uid="3997418">
+  <member type="way" ref="865024265" role="outer"/>
+  <member type="way" ref="865024266" role="inner"/>
+  <member type="way" ref="865024267" role="inner"/>
+  <member type="way" ref="865024268" role="inner"/>
+  <member type="way" ref="865024269" role="inner"/>
+  <tag k="area" v="yes"/>
+  <tag k="bench" v="yes"/>
+  <tag k="bin" v="yes"/>
+  <tag k="departures_board" v="realtime"/>
+  <tag k="indoor" v="yes"/>
+  <tag k="landuse" v="railway"/>
+  <tag k="layer" v="-5"/>
+  <tag k="level" v="-5"/>
+  <tag k="lit" v="yes"/>
+  <tag k="location" v="underground"/>
+  <tag k="network" v="M7"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="station" v="subway"/>
+  <tag k="subway" v="yes"/>
+  <tag k="surface" v="tiles"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="type" v="multipolygon"/>
+  <tag k="wheelchair" v="yes"/>
+ </relation>
+ <relation id="13110215" visible="true" version="4" changeset="186725722" timestamp="2026-07-31T19:25:38Z" user="Alikam" uid="3997418">
+  <member type="way" ref="846452805" role="outer"/>
+  <member type="way" ref="974983614" role="inner"/>
+  <member type="way" ref="974983615" role="inner"/>
+  <member type="way" ref="974983616" role="inner"/>
+  <member type="way" ref="846452804" role="inner"/>
+  <member type="way" ref="1126513717" role="inner"/>
+  <tag k="area" v="yes"/>
+  <tag k="bench" v="yes"/>
+  <tag k="bin" v="yes"/>
+  <tag k="departures_board" v="realtime"/>
+  <tag k="indoor" v="yes"/>
+  <tag k="landuse" v="railway"/>
+  <tag k="layer" v="-3"/>
+  <tag k="lit" v="yes"/>
+  <tag k="location" v="underground"/>
+  <tag k="network" v="M7"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="station" v="subway"/>
+  <tag k="subway" v="yes"/>
+  <tag k="surface" v="tiles"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="type" v="multipolygon"/>
+  <tag k="wheelchair" v="yes"/>
+ </relation>
+ <relation id="14474363" visible="true" version="4" changeset="186725722" timestamp="2026-07-31T19:25:38Z" user="Alikam" uid="3997418">
+  <member type="way" ref="846452802" role="outer"/>
+  <member type="way" ref="1087330022" role="inner"/>
+  <member type="way" ref="1087330025" role="inner"/>
+  <member type="way" ref="1087330021" role="inner"/>
+  <member type="way" ref="1126768092" role="inner"/>
+  <tag k="area" v="yes"/>
+  <tag k="bench" v="yes"/>
+  <tag k="bin" v="yes"/>
+  <tag k="construction" v="platform"/>
+  <tag k="departures_board" v="realtime"/>
+  <tag k="indoor" v="yes"/>
+  <tag k="landuse" v="railway"/>
+  <tag k="layer" v="-3"/>
+  <tag k="lit" v="yes"/>
+  <tag k="location" v="underground"/>
+  <tag k="network" v="M7"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="station" v="subway"/>
+  <tag k="subway" v="yes"/>
+  <tag k="surface" v="tiles"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="type" v="multipolygon"/>
+  <tag k="wheelchair" v="yes"/>
+ </relation>
+ <relation id="15085834" visible="true" version="7" changeset="188568050" timestamp="2026-09-05T12:05:12Z" user="user_24456380" uid="24456380">
+  <member type="node" ref="6508650248" role="stop"/>
+  <member type="relation" ref="11808136" role="platform"/>
+  <member type="node" ref="7897142413" role="stop"/>
+  <member type="relation" ref="14474363" role="platform"/>
+  <member type="node" ref="6507293771" role="stop"/>
+  <member type="relation" ref="13110215" role="platform"/>
+  <member type="way" ref="1125674123" role=""/>
+  <tag k="colour" v="#f89aba"/>
+  <tag k="from" v="Mecidiyeköy"/>
+  <tag k="name" v="M7: Mecidiyeköy → Yıldız"/>
+  <tag k="network" v="İstanbul Metrosu"/>
+  <tag k="network:wikidata" v="Q498172"/>
+  <tag k="network:wikipedia" v="tr:İstanbul Metrosu"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="operator:wikidata" v="Q344299"/>
+  <tag k="operator:wikipedia" v="tr:Metro İstanbul"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="M7"/>
+  <tag k="route" v="subway"/>
+  <tag k="to" v="Yıldız"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.metro.istanbul/Hatlarimiz/HatDetay?hat=M7"/>
+  <tag k="wikidata" v="Q16949749"/>
+  <tag k="wikimedia_commons" v="Category:Istanbul Metro line M7"/>
+  <tag k="wikipedia" v="tr:M7 (İstanbul Metrosu)"/>
+ </relation>
+</osm>

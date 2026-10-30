@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="openstreetmap-cgimap 2.1.0 (3040967 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="7635342511" visible="true" version="2" changeset="87881562" timestamp="2020-07-12T15:40:08Z" user="Alikam" uid="3997418" lat="41.0949266" lon="29.0058068"/>
+ <node id="7635342512" visible="true" version="1" changeset="86876861" timestamp="2020-06-19T12:14:27Z" user="Alikam" uid="3997418" lat="41.0958519" lon="29.0061117"/>
+ <node id="7635342513" visible="true" version="1" changeset="86876861" timestamp="2020-06-19T12:14:27Z" user="Alikam" uid="3997418" lat="41.0964389" lon="29.0063416"/>
+ <node id="7635342514" visible="true" version="2" changeset="105561149" timestamp="2021-05-30T10:05:52Z" user="Alikam" uid="3997418" lat="41.0969013" lon="29.0064038"/>
+ <node id="7635342515" visible="true" version="3" changeset="105561149" timestamp="2021-05-30T10:05:52Z" user="Alikam" uid="3997418" lat="41.0974082" lon="29.0063432"/>
+ <node id="7635342516" visible="true" version="1" changeset="86876861" timestamp="2020-06-19T12:14:27Z" user="Alikam" uid="3997418" lat="41.0980167" lon="29.0061747"/>
+ <node id="7635342517" visible="true" version="1" changeset="86876861" timestamp="2020-06-19T12:14:27Z" user="Alikam" uid="3997418" lat="41.0982134" lon="29.0060869"/>
+ <node id="7635342518" visible="true" version="1" changeset="86876861" timestamp="2020-06-19T12:14:27Z" user="Alikam" uid="3997418" lat="41.0987631" lon="29.0056792"/>
+ <node id="7635342519" visible="true" version="4" changeset="181975134" timestamp="2026-04-29T08:01:21Z" user="de24000" uid="617093" lat="41.1001246" lon="29.0039768">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="7635342520" visible="true" version="2" changeset="105561149" timestamp="2021-05-30T10:05:52Z" user="Alikam" uid="3997418" lat="41.1007947" lon="29.0021339"/>
+ <node id="7635342546" visible="true" version="2" changeset="105561149" timestamp="2021-05-30T10:05:52Z" user="Alikam" uid="3997418" lat="41.1004324" lon="29.0033034"/>
+ <node id="7684409191" visible="true" version="3" changeset="89974006" timestamp="2020-08-26T12:57:36Z" user="Alikam" uid="3997418" lat="41.1012886" lon="28.9957442">
+  <tag k="name" v="Seyrantepe"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="subway" v="yes"/>
+ </node>
+ <node id="7707406410" visible="true" version="2" changeset="105561149" timestamp="2021-05-30T10:05:52Z" user="Alikam" uid="3997418" lat="41.0966876" lon="29.0064046"/>
+ <node id="7725394065" visible="true" version="2" changeset="88329774" timestamp="2020-07-22T07:04:09Z" user="Claudius Henrichs" uid="18069" lat="41.0941569" lon="29.0055719">
+  <tag k="name" v="Sanayi"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="subway" v="yes"/>
+ </node>
+ <node id="8496758832" visible="true" version="2" changeset="101976424" timestamp="2021-03-30T10:24:47Z" user="Alikam" uid="3997418" lat="41.0984649" lon="29.0059263"/>
+ <node id="8496800185" visible="true" version="2" changeset="105561149" timestamp="2021-05-30T10:05:52Z" user="Alikam" uid="3997418" lat="41.0992025" lon="29.0052377"/>
+ <node id="8780738644" visible="true" version="1" changeset="105561149" timestamp="2021-05-30T10:05:52Z" user="Alikam" uid="3997418" lat="41.0971791" lon="29.0063896"/>
+ <node id="8780738645" visible="true" version="1" changeset="105561149" timestamp="2021-05-30T10:05:52Z" user="Alikam" uid="3997418" lat="41.0978095" lon="29.0062429"/>
+ <node id="8780738647" visible="true" version="1" changeset="105561149" timestamp="2021-05-30T10:05:52Z" user="Alikam" uid="3997418" lat="41.0996009" lon="29.0047897"/>
+ <node id="8780738648" visible="true" version="1" changeset="105561149" timestamp="2021-05-30T10:05:52Z" user="Alikam" uid="3997418" lat="41.0998385" lon="29.0044691"/>
+ <node id="8780738649" visible="true" version="1" changeset="105561149" timestamp="2021-05-30T10:05:52Z" user="Alikam" uid="3997418" lat="41.1002765" lon="29.0036696"/>
+ <node id="8780738650" visible="true" version="1" changeset="105561149" timestamp="2021-05-30T10:05:52Z" user="Alikam" uid="3997418" lat="41.1005933" lon="29.0028849"/>
+ <node id="8780738651" visible="true" version="2" changeset="181975134" timestamp="2026-04-29T08:01:21Z" user="de24000" uid="617093" lat="41.1010969" lon="29.0003896"/>
+ <node id="8780738652" visible="true" version="2" changeset="181975134" timestamp="2026-04-29T08:01:21Z" user="de24000" uid="617093" lat="41.1011850" lon="28.9996903"/>
+ <node id="10607974227" visible="true" version="2" changeset="181979854" timestamp="2026-04-29T09:57:28Z" user="de24000" uid="617093" lat="41.1012082" lon="28.9977900">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="10607974228" visible="true" version="2" changeset="181979854" timestamp="2026-04-29T09:57:28Z" user="de24000" uid="617093" lat="41.1012249" lon="28.9973234">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="right"/>
+ </node>
+ <node id="13774391262" visible="true" version="1" changeset="181979854" timestamp="2026-04-29T09:57:28Z" user="de24000" uid="617093" lat="41.1012242" lon="28.9989922"/>
+ <way id="817544015" visible="true" version="10" changeset="181975134" timestamp="2026-04-29T08:01:21Z" user="de24000" uid="617093">
+  <nd ref="7725394065"/>
+  <nd ref="7635342511"/>
+  <nd ref="7635342512"/>
+  <nd ref="7635342513"/>
+  <nd ref="7707406410"/>
+  <nd ref="7635342514"/>
+  <nd ref="8780738644"/>
+  <nd ref="7635342515"/>
+  <nd ref="8780738645"/>
+  <nd ref="7635342516"/>
+  <nd ref="7635342517"/>
+  <nd ref="8496758832"/>
+  <nd ref="7635342518"/>
+  <nd ref="8496800185"/>
+  <nd ref="8780738647"/>
+  <nd ref="8780738648"/>
+  <nd ref="7635342519"/>
+  <tag k="designation" v="M2"/>
+  <tag k="electrified" v="rail"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-2"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M2 Seyrantepe Şube Hattı"/>
+  <tag k="name:en" v="M2 Seyrantepe Shuttle line"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="817544016" visible="true" version="13" changeset="181979854" timestamp="2026-04-29T09:57:28Z" user="de24000" uid="617093">
+  <nd ref="7635342519"/>
+  <nd ref="8780738649"/>
+  <nd ref="7635342546"/>
+  <nd ref="8780738650"/>
+  <nd ref="7635342520"/>
+  <nd ref="8780738651"/>
+  <nd ref="8780738652"/>
+  <nd ref="13774391262"/>
+  <nd ref="10607974227"/>
+  <nd ref="10607974228"/>
+  <nd ref="7684409191"/>
+  <tag k="designation" v="M2"/>
+  <tag k="electrified" v="rail"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-3"/>
+  <tag k="maxspeed" v="80"/>
+  <tag k="name" v="M2 Seyrantepe Şube Hattı"/>
+  <tag k="name:en" v="M2 Seyrantepe Shuttle line"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="subway"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <relation id="7719796" visible="true" version="21" changeset="188568050" timestamp="2026-09-05T12:05:12Z" user="user_24456380" uid="24456380">
+  <member type="node" ref="7725394065" role="stop_entry_only"/>
+  <member type="node" ref="7684409191" role="stop_exit_only"/>
+  <member type="way" ref="817544015" role=""/>
+  <member type="way" ref="817544016" role=""/>
+  <tag k="colour" v="#009944"/>
+  <tag k="from" v="Sanayi"/>
+  <tag k="name" v="M2: Sanayi → Seyrantepe"/>
+  <tag k="network" v="İstanbul Metrosu"/>
+  <tag k="network:wikidata" v="Q498172"/>
+  <tag k="network:wikipedia" v="tr:İstanbul Metrosu"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="operator:wikidata" v="Q344299"/>
+  <tag k="operator:wikipedia" v="tr:Metro İstanbul"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="M2"/>
+  <tag k="route" v="subway"/>
+  <tag k="to" v="Seyrantepe"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.metro.istanbul/Hatlarimiz/HatDetay?hat=M2"/>
+  <tag k="wikidata" v="Q1880934"/>
+  <tag k="wikimedia_commons" v="Category:Istanbul Metro line M2"/>
+  <tag k="wikipedia" v="tr:M2 (İstanbul Metrosu)"/>
+ </relation>
+</osm>

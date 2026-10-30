@@ -333,37 +333,58 @@ export function createStadiumModel(options = {}) {
     const zAt=(x,y)=>{const d=Math.max(Math.abs(x)/outer[0],Math.abs(y)/outer[1]);return 47.2-1.6*Math.max(0,d-0.5)/0.5;};
     const pos=[],col=[],C=(h)=>new THREE.Color(h),cell=2.4;
     const membrane=C(0xdfe4e6),white=C(0xf2f4f3),light=C(0xd9e2e8),pv=[C(0x1c2633),C(0x1f2a38),C(0x1a2430)];
-    for(let x=-outer[0];x<outer[0];x+=cell)for(let y=-outer[1];y<outer[1];y+=cell){
-      const cx=x+cell/2,cy=y+cell/2;
-      if(Math.abs(cx)<OX+3&&Math.abs(cy)<OY+3)continue;            // opening + frame
-      if(!inside(cx,cy,3))continue;                                // fascia ring covers the edge
+    // Radial mesh from the opening frame to the rim band's inner edge (shared
+    // superellipse points, no overlap), so field boundaries stay smooth.
+    const se=(ax,by,t)=>{const c=Math.cos(t),sn=Math.sin(t);return [ax*Math.sign(c)*Math.abs(c)**EXP,by*Math.sign(sn)*Math.abs(sn)**EXP];};
+    const rect=(t)=>{const c=Math.cos(t),sn=Math.sin(t),k=Math.min((OX+3)/Math.abs(c||1e-9),(OY+3)/Math.abs(sn||1e-9));return [c*k,sn*k];};
+    const NT=768,NR=28;
+    const classify=(cx,cy,ring)=>{
       const ax=Math.abs(cx),ay=Math.abs(cy);
-      let c;
-      if(o.roofCladding==='membrane'){
-        // White membrane bays between radial ribs (Saracoğlu): alternating light shades.
-        const bay=Math.floor((Math.atan2(cy,cx)+Math.PI)/(TAU/56));
-        c=bay%2?white:membrane;
+      if(o.roofCladding==='membrane'){const bay=Math.floor((Math.atan2(cy,cx)+Math.PI)/(TAU/56));return bay%2?white:membrane;}
+      if(cy>OY&&ax<OX+3) return light;                             // translucent far field
+      return pv[(ring+2*Math.floor((Math.atan2(cy,cx)+Math.PI)/(TAU/NT)*0.5))%3];
+    };
+    for(let i=0;i<NT;i++){
+      const t=i/NT*TAU,u=(i+1)/NT*TAU;
+      const A0=rect(t),A1=rect(u),B0=se(outer[0]-9,outer[1]-9,t),B1=se(outer[0]-9,outer[1]-9,u);
+      for(let r=0;r<NR;r++){
+        const f0=r/NR,f1=(r+1)/NR,L=(A,B,f)=>[A[0]+(B[0]-A[0])*f,A[1]+(B[1]-A[1])*f];
+        const q=[L(A0,B0,f0),L(A1,B1,f0),L(A1,B1,f1),L(A0,B0,f1)].map(([a,b])=>[a,b,zAt(a,b)]);
+        const m=L(L(A0,B0,(f0+f1)/2),L(A1,B1,(f0+f1)/2),.5),c=classify(m[0],m[1],r);
+        for(const k of [0,2,1,0,3,2]){pos.push(...q[k]);col.push(c.r,c.g,c.b);}
       }
-      else if(ax<OX+9&&ay<OY+9) c=white;                                // light band around the opening
-      else if(!inside(cx,cy,9)) c=white;                           // white rim
-      else if(Math.abs(ax-OX-3)<2.6&&ay>OY) c=white;               // strips from the opening corners
-      else if(cy>OY&&ax<OX+3) c=light;                             // translucent far field
-      else c=pv[(Math.floor((cx+500)/cell)+2*Math.floor((cy+500)/(cell*2)))%3];
-      const q=[[x,y],[x+cell,y],[x+cell,y+cell],[x,y+cell]].map(([a,b])=>[a,b,zAt(a,b)]);
-      for(const k of [0,1,2,0,2,3]){pos.push(...q[k]);col.push(c.r,c.g,c.b);}
     }
     const roofGeo=new THREE.BufferGeometry();
     roofGeo.setAttribute('position',new THREE.Float32BufferAttribute(pos,3));
     roofGeo.setAttribute('color',new THREE.Float32BufferAttribute(col,3));
     roofGeo.computeVertexNormals();
+    // The canopy is nearly flat; uniform up-normals avoid hip-crease shading wedges.
+    {const nn=roofGeo.attributes.normal;for(let k=0;k<nn.count;k++)nn.setXYZ(k,0,0,1);}
+    // Straight white overlays (strips, opening surround) drawn with a depth bias so
+    // their edges stay crisp over the radial mesh.
+    if(o.roofCladding!=='membrane'){
+      const ov=builder(),P=(x,y)=>new THREE.Vector3(x,y,zAt(x,y)),strip=(x0,x1,y0,y1,n=12)=>{for(let k=0;k<n;k++){const ya=y0+(y1-y0)*k/n,yb=y0+(y1-y0)*(k+1)/n;ov.quad(P(x0,ya),P(x1,ya),P(x1,yb),P(x0,yb));}};
+      const X0=OX+3,Y0=OY+3,W=6;
+      for(const sy of [-1,1]){
+        for(const sx of [-1,1]){const xc=sx*X0;
+          // walk outward until the band edge
+          let yb=Y0;while(((Math.abs(xc)+2.8)/(outer[0]-9))**(2/EXP)+((yb+1)/(outer[1]-9))**(2/EXP)<1)yb+=0.5;
+          strip(xc-2.8,xc+2.8,sy*Y0,sy*yb,40);}
+        strip(-X0-W,X0+W,sy*Y0,sy*(Y0+W),24);
+      }
+      for(const sx of [-1,1]) strip(sx*X0,sx*(X0+W),-Y0,Y0,24);
+      mesh('roof-white-overlays',ov.geometry(),mat(o.roofColor??0xf1f3f2,{side:THREE.DoubleSide,roughness:0.5,metalness:0.1,polygonOffset:true,polygonOffsetFactor:-2,polygonOffsetUnits:-4}),roofGroup);
+    }
     mesh('roof-photovoltaic-canopy',roofGeo,mat(0xffffff,{vertexColors:true,side:THREE.DoubleSide,roughness:0.45,metalness:0.25}),roofGroup);
     // Thick white fascia + edge ring hiding the cell grid's outer edge.
     const fascia=builder();
-    for(let i=0;i<SEGMENTS;i++){
-      const t=i/SEGMENTS*TAU,u=(i+1)/SEGMENTS*TAU;
-      const a0=contour(105,85,t,0),a1=contour(105,85,u,0),b0=contour(117.5,97.5,t,0),b1=contour(117.5,97.5,u,0);
-      const z=v=>zAt(v.x,v.y)+0.14; // smooth white rim drawn over the cell grid's stepped edge
-      fascia.quad(new THREE.Vector3(a0.x,a0.y,z(a0)),new THREE.Vector3(b0.x,b0.y,z(b0)),new THREE.Vector3(b1.x,b1.y,z(b1)),new THREE.Vector3(a1.x,a1.y,z(a1)));
+    // White rim band ABOVE the cell grid. Its inner edge is the exact superellipse
+    // used to classify panel cells (outer - 9 m), so the panel boundary is smooth.
+    const RS=768,V=(q)=>new THREE.Vector3(q[0],q[1],zAt(q[0],q[1]));
+    for(let i=0;i<RS;i++){
+      const t=i/RS*TAU,u=(i+1)/RS*TAU;
+      const a0=se(outer[0]-9,outer[1]-9,t),a1=se(outer[0]-9,outer[1]-9,u),b0=se(outer[0],outer[1],t),b1=se(outer[0],outer[1],u);
+      fascia.quad(V(a0),V(b0),V(b1),V(a1));
     }
     wall(fascia,117.5,97.5,40.2,45.7);
     ringSurface(fascia,[110,90,40.2],[117.5,97.5,40.2]);

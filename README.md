@@ -267,6 +267,18 @@ Tek yönlü entegrasyonlar ve hat grupları (`TM`, `50`, `ARN`) ayrıca işaretl
 [İstanbul Metrosu — Vikipedi](https://tr.wikipedia.org/wiki/%C4%B0stanbul_Metrosu),
 Moovit. Çapraz doğrulama önerilir.
 
+## 3B raylı ağ haritası (web)
+
+`web/3d-harita/` — Three.js r187 + MapLibre 6 ile İstanbul raylı ağı ve metrobüs için harita öncelikli 3B keşif uygulaması:
+gerçek OSM ray geometrisi (24 güzergâh), en az aktarmalı rota + İBB GTFS hızlarıyla süre tahmini, Metro İstanbul canlı kesinti
+durumu, yeraltı görünümü, istasyon olanakları ve simge yapılar (RAMS Park, Şükrü Saracoğlu, Kız Kulesi, İstanbul Havalimanı,
+Sabiha Gökçen). Araçlar simülasyondur; canlı konum değildir. Ayrıntılar: [`web/3d-harita/README.md`](web/3d-harita/README.md).
+
+```bash
+cd web/3d-harita && npm ci && npm run dev   # http://localhost:5173
+npm test                                    # birim testleri + OSM geometri doğrulaması
+```
+
 ## Veri ve Sorumluluk
 
 - Bu proje, kamuya açık veri kaynaklarını kullanan bağımsız bir açık kaynak

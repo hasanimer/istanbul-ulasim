@@ -1,0 +1,1877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="openstreetmap-cgimap 2.1.0 (3020222 spike-07.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <node id="1026207543" visible="true" version="3" changeset="50134866" timestamp="2017-07-08T16:28:15Z" user="Santi2222" uid="493192" lat="41.0199018" lon="28.9220410"/>
+ <node id="1026207545" visible="true" version="5" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0196414" lon="28.9201583">
+  <tag k="railway" v="buffer_stop"/>
+ </node>
+ <node id="2387456083" visible="true" version="5" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0549358" lon="28.9098540"/>
+ <node id="4958513656" visible="true" version="1" changeset="50133098" timestamp="2017-07-08T14:59:33Z" user="Santi2222" uid="493192" lat="41.1115341" lon="28.8579458"/>
+ <node id="4958513658" visible="true" version="6" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1128675" lon="28.8573081">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="4958513659" visible="true" version="1" changeset="50133098" timestamp="2017-07-08T14:59:33Z" user="Santi2222" uid="493192" lat="41.1132923" lon="28.8570848"/>
+ <node id="4958513660" visible="true" version="2" changeset="172033245" timestamp="2025-09-16T20:05:35Z" user="AnnaCatarina" uid="560578" lat="41.1134317" lon="28.8570017"/>
+ <node id="4958513661" visible="true" version="2" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.1137278" lon="28.8567791"/>
+ <node id="4958513662" visible="true" version="1" changeset="50133098" timestamp="2017-07-08T14:59:33Z" user="Santi2222" uid="493192" lat="41.1138389" lon="28.8566771"/>
+ <node id="4958513663" visible="true" version="1" changeset="50133098" timestamp="2017-07-08T14:59:33Z" user="Santi2222" uid="493192" lat="41.1139905" lon="28.8565081"/>
+ <node id="4958513664" visible="true" version="1" changeset="50133098" timestamp="2017-07-08T14:59:33Z" user="Santi2222" uid="493192" lat="41.1141208" lon="28.8563284"/>
+ <node id="4958513665" visible="true" version="1" changeset="50133098" timestamp="2017-07-08T14:59:33Z" user="Santi2222" uid="493192" lat="41.1142218" lon="28.8561755"/>
+ <node id="4958513666" visible="true" version="1" changeset="50133098" timestamp="2017-07-08T14:59:33Z" user="Santi2222" uid="493192" lat="41.1143320" lon="28.8559891"/>
+ <node id="4958513667" visible="true" version="1" changeset="50133098" timestamp="2017-07-08T14:59:33Z" user="Santi2222" uid="493192" lat="41.1144269" lon="28.8557759"/>
+ <node id="4958513668" visible="true" version="1" changeset="50133098" timestamp="2017-07-08T14:59:33Z" user="Santi2222" uid="493192" lat="41.1145239" lon="28.8555251"/>
+ <node id="4958513669" visible="true" version="10" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1146156" lon="28.8552447">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="4958513673" visible="true" version="1" changeset="50133098" timestamp="2017-07-08T14:59:33Z" user="Santi2222" uid="493192" lat="41.1153818" lon="28.8525948"/>
+ <node id="4958513674" visible="true" version="3" changeset="172033245" timestamp="2025-09-16T20:05:35Z" user="AnnaCatarina" uid="560578" lat="41.1154656" lon="28.8523481"/>
+ <node id="4958513675" visible="true" version="3" changeset="172033245" timestamp="2025-09-16T20:05:35Z" user="AnnaCatarina" uid="560578" lat="41.1155252" lon="28.8522033"/>
+ <node id="4958513676" visible="true" version="3" changeset="172033245" timestamp="2025-09-16T20:05:35Z" user="AnnaCatarina" uid="560578" lat="41.1155848" lon="28.8520811"/>
+ <node id="4958513678" visible="true" version="5" changeset="129060750" timestamp="2022-11-17T21:33:25Z" user="Alikam" uid="3997418" lat="41.1162428" lon="28.8511412">
+  <tag k="name" v="Mescid-i Selam"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+  <tag k="wheelchair" v="limited"/>
+ </node>
+ <node id="4958513679" visible="true" version="6" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.1159259" lon="28.8516485"/>
+ <node id="4958513680" visible="true" version="6" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.1165092" lon="28.8508801"/>
+ <node id="4958544229" visible="true" version="2" changeset="88313497" timestamp="2020-07-21T21:39:36Z" user="Alikam" uid="3997418" lat="41.1165918" lon="28.8506954"/>
+ <node id="4958544230" visible="true" version="1" changeset="50133098" timestamp="2017-07-08T14:59:34Z" user="Santi2222" uid="493192" lat="41.1157808" lon="28.8517579"/>
+ <node id="4958544231" visible="true" version="3" changeset="172033245" timestamp="2025-09-16T20:05:35Z" user="AnnaCatarina" uid="560578" lat="41.1156429" lon="28.8519732"/>
+ <node id="4958551934" visible="true" version="9" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1090089" lon="28.8591880">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="yes"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="4958551935" visible="true" version="10" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1109920" lon="28.8582145">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="4958551940" visible="true" version="5" changeset="129060750" timestamp="2022-11-17T21:33:25Z" user="Alikam" uid="3997418" lat="41.1124107" lon="28.8575196">
+  <tag k="name" v="Cebeci"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+ </node>
+ <node id="4958551941" visible="true" version="4" changeset="88313497" timestamp="2020-07-21T21:39:36Z" user="Alikam" uid="3997418" lat="41.1119893" lon="28.8577384"/>
+ <node id="4958551942" visible="true" version="9" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1118768" lon="28.8577792">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="4958551945" visible="true" version="4" changeset="88313497" timestamp="2020-07-21T21:39:36Z" user="Alikam" uid="3997418" lat="41.1127734" lon="28.8573630"/>
+ <node id="4958551957" visible="true" version="3" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.1152425" lon="28.8531033">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="right"/>
+ </node>
+ <node id="4958551958" visible="true" version="3" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.1151874" lon="28.8533044">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="4958557323" visible="true" version="6" changeset="129060750" timestamp="2022-11-17T21:33:25Z" user="Alikam" uid="3997418" lat="41.1068186" lon="28.8602567">
+  <tag k="name" v="Sultançiftliği"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+ </node>
+ <node id="4958557326" visible="true" version="5" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.1072070" lon="28.8601127"/>
+ <node id="4958557327" visible="true" version="5" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.1064840" lon="28.8604609"/>
+ <node id="4958557329" visible="true" version="9" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1054260" lon="28.8609195">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="4958557335" visible="true" version="3" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.1073405" lon="28.8600066">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="4958557336" visible="true" version="3" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.1074001" lon="28.8599777">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="4958566319" visible="true" version="5" changeset="129060750" timestamp="2022-11-17T21:33:25Z" user="Alikam" uid="3997418" lat="41.1002839" lon="28.8628946">
+  <tag k="name" v="Yeni Mahalle"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+ </node>
+ <node id="4958566320" visible="true" version="5" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.1006697" lon="28.8629202"/>
+ <node id="4958566421" visible="true" version="5" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.0998908" lon="28.8629539"/>
+ <node id="4958566425" visible="true" version="4" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.0979658" lon="28.8630712">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="4958566426" visible="true" version="5" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.0980340" lon="28.8630682">
+  <tag k="railway" v="tram_level_crossing"/>
+ </node>
+ <node id="4958566429" visible="true" version="8" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.0988756" lon="28.8630032">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="yes"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="4958566436" visible="true" version="2" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.1011224" lon="28.8628537"/>
+ <node id="4958566437" visible="true" version="2" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.1012139" lon="28.8628478"/>
+ <node id="4958566443" visible="true" version="3" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.1045516" lon="28.8613428">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="right"/>
+ </node>
+ <node id="4958566448" visible="true" version="11" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1040041" lon="28.8615782">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="traffic_signals" v="signal"/>
+ </node>
+ <node id="4958566452" visible="true" version="2" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.1013750" lon="28.8628028"/>
+ <node id="4958566453" visible="true" version="2" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.1015478" lon="28.8627411"/>
+ <node id="4958570004" visible="true" version="6" changeset="129060674" timestamp="2022-11-17T21:30:52Z" user="Alikam" uid="3997418" lat="41.0933385" lon="28.8638623">
+  <tag k="name" v="Hacı Şükrü"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+  <tag k="wheelchair" v="yes"/>
+ </node>
+ <node id="4958570007" visible="true" version="5" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.0936626" lon="28.8638382"/>
+ <node id="4958570008" visible="true" version="5" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.0928931" lon="28.8639961"/>
+ <node id="4958570014" visible="true" version="10" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.0937698" lon="28.8637840">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:island" v="yes"/>
+  <tag k="crossing:markings" v="yes"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="4958570017" visible="true" version="8" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.0919083" lon="28.8641595">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:island" v="yes"/>
+  <tag k="crossing:markings" v="yes"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="4958572724" visible="true" version="2" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0968812" lon="28.8631825"/>
+ <node id="4958572725" visible="true" version="2" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0972295" lon="28.8631325"/>
+ <node id="4958580159" visible="true" version="5" changeset="129060674" timestamp="2022-11-17T21:30:52Z" user="Alikam" uid="3997418" lat="41.0877870" lon="28.8669014">
+  <tag k="name" v="50. Yıl-Baştabya"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+ </node>
+ <node id="4958580161" visible="true" version="4" changeset="88313497" timestamp="2020-07-21T21:39:36Z" user="Alikam" uid="3997418" lat="41.0875184" lon="28.8674884"/>
+ <node id="4958580163" visible="true" version="4" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0870035" lon="28.8683474">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="4958580164" visible="true" version="3" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0865703" lon="28.8691337">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="right"/>
+ </node>
+ <node id="4958580178" visible="true" version="4" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0861001" lon="28.8699296"/>
+ <node id="4958580179" visible="true" version="1" changeset="50133815" timestamp="2017-07-08T15:35:53Z" user="Santi2222" uid="493192" lat="41.0863262" lon="28.8695812"/>
+ <node id="4958580181" visible="true" version="3" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0870246" lon="28.8683085">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="4958580182" visible="true" version="2" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0879872" lon="28.8665390"/>
+ <node id="4958580183" visible="true" version="2" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0881127" lon="28.8663235"/>
+ <node id="4958580184" visible="true" version="2" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0883541" lon="28.8659682"/>
+ <node id="4958580185" visible="true" version="2" changeset="172033245" timestamp="2025-09-16T20:05:35Z" user="AnnaCatarina" uid="560578" lat="41.0886257" lon="28.8656397"/>
+ <node id="4958580186" visible="true" version="1" changeset="50133815" timestamp="2017-07-08T15:35:53Z" user="Santi2222" uid="493192" lat="41.0887693" lon="28.8654882"/>
+ <node id="4958580187" visible="true" version="1" changeset="50133815" timestamp="2017-07-08T15:35:53Z" user="Santi2222" uid="493192" lat="41.0893757" lon="28.8649182"/>
+ <node id="4958580188" visible="true" version="1" changeset="50133815" timestamp="2017-07-08T15:35:53Z" user="Santi2222" uid="493192" lat="41.0895435" lon="28.8647868"/>
+ <node id="4958580189" visible="true" version="1" changeset="50133815" timestamp="2017-07-08T15:35:53Z" user="Santi2222" uid="493192" lat="41.0897477" lon="28.8646580"/>
+ <node id="4958580190" visible="true" version="1" changeset="50133815" timestamp="2017-07-08T15:35:53Z" user="Santi2222" uid="493192" lat="41.0899428" lon="28.8645762"/>
+ <node id="4958580191" visible="true" version="1" changeset="50133815" timestamp="2017-07-08T15:35:53Z" user="Santi2222" uid="493192" lat="41.0901389" lon="28.8645253"/>
+ <node id="4958585470" visible="true" version="8" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0845661" lon="28.8715664">
+  <tag k="name" v="Cumhuriyet Mahallesi"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+  <tag k="wheelchair" v="no"/>
+ </node>
+ <node id="4958585473" visible="true" version="6" changeset="129060674" timestamp="2022-11-17T21:30:52Z" user="Alikam" uid="3997418" lat="41.0849244" lon="28.8712910"/>
+ <node id="4958585474" visible="true" version="7" changeset="129060674" timestamp="2022-11-17T21:30:52Z" user="Alikam" uid="3997418" lat="41.0842812" lon="28.8718608">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="4958585476" visible="true" version="6" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0812918" lon="28.8745733">
+  <tag k="name" v="KİPTAŞ Venezia"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+ </node>
+ <node id="4958585477" visible="true" version="4" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0820030" lon="28.8739214"/>
+ <node id="4958585479" visible="true" version="4" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0836984" lon="28.8723668"/>
+ <node id="4958585481" visible="true" version="3" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0852108" lon="28.8709626"/>
+ <node id="4958585482" visible="true" version="3" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0855064" lon="28.8706743"/>
+ <node id="4958585483" visible="true" version="3" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0857908" lon="28.8703558"/>
+ <node id="4958585484" visible="true" version="3" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0859539" lon="28.8701418"/>
+ <node id="4958589523" visible="true" version="5" changeset="88313497" timestamp="2020-07-21T21:39:36Z" user="Alikam" uid="3997418" lat="41.0816863" lon="28.8743009"/>
+ <node id="4958589525" visible="true" version="3" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0785841" lon="28.8771753"/>
+ <node id="4958589526" visible="true" version="2" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0787778" lon="28.8769639"/>
+ <node id="4958599423" visible="true" version="6" changeset="115087192" timestamp="2021-12-18T09:05:59Z" user="Toygar Alak" uid="5703312" lat="41.0618015" lon="28.9020548">
+  <tag k="name" v="Bosna-Çukurçeşme"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+ </node>
+ <node id="4958599425" visible="true" version="6" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0622043" lon="28.9019287"/>
+ <node id="4958599426" visible="true" version="6" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0614484" lon="28.9022978"/>
+ <node id="4958599428" visible="true" version="1" changeset="50134200" timestamp="2017-07-08T15:55:39Z" user="Santi2222" uid="493192" lat="41.0596412" lon="28.9035326"/>
+ <node id="4958599429" visible="true" version="1" changeset="50134200" timestamp="2017-07-08T15:55:39Z" user="Santi2222" uid="493192" lat="41.0597899" lon="28.9033315"/>
+ <node id="4958599430" visible="true" version="1" changeset="50134200" timestamp="2017-07-08T15:55:39Z" user="Santi2222" uid="493192" lat="41.0599901" lon="28.9031048"/>
+ <node id="4958599431" visible="true" version="1" changeset="50134200" timestamp="2017-07-08T15:55:39Z" user="Santi2222" uid="493192" lat="41.0601499" lon="28.9029613"/>
+ <node id="4958599432" visible="true" version="2" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0602970" lon="28.9028369"/>
+ <node id="4958599433" visible="true" version="2" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0605394" lon="28.9026854"/>
+ <node id="4958599434" visible="true" version="2" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0608472" lon="28.9025191"/>
+ <node id="4958599435" visible="true" version="3" changeset="129701298" timestamp="2022-12-04T11:26:03Z" user="Toygar Alak" uid="5703312" lat="41.0613077" lon="28.9022931"/>
+ <node id="4958599436" visible="true" version="2" changeset="115087192" timestamp="2021-12-18T09:05:59Z" user="Toygar Alak" uid="5703312" lat="41.0621082" lon="28.9019062"/>
+ <node id="4958599437" visible="true" version="5" changeset="146484624" timestamp="2024-01-20T16:09:47Z" user="Toygar Alak" uid="5703312" lat="41.0623153" lon="28.9018069">
+  <tag k="railway" v="crossing"/>
+ </node>
+ <node id="4958599438" visible="true" version="3" changeset="115087192" timestamp="2021-12-18T09:05:59Z" user="Toygar Alak" uid="5703312" lat="41.0625202" lon="28.9017067"/>
+ <node id="4958599439" visible="true" version="3" changeset="115087192" timestamp="2021-12-18T09:05:59Z" user="Toygar Alak" uid="5703312" lat="41.0648411" lon="28.9005076"/>
+ <node id="4958603844" visible="true" version="10" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0573720" lon="28.9067738">
+  <tag k="name" v="Sağmalcılar"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+  <tag k="wheelchair" v="yes"/>
+ </node>
+ <node id="4958603846" visible="true" version="6" changeset="115811750" timestamp="2022-01-05T20:28:12Z" user="Toygar Alak" uid="5703312" lat="41.0575661" lon="28.9065467"/>
+ <node id="4958603847" visible="true" version="7" changeset="172309612" timestamp="2025-09-22T18:19:02Z" user="Mitalos" uid="23319761" lat="41.0569898" lon="28.9073638"/>
+ <node id="4958603848" visible="true" version="3" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0556825" lon="28.9091148"/>
+ <node id="4958603850" visible="true" version="2" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0569680" lon="28.9073338"/>
+ <node id="4958615806" visible="true" version="7" changeset="135565113" timestamp="2023-05-01T09:14:19Z" user="Toygar Alak" uid="5703312" lat="41.0373965" lon="28.9231425"/>
+ <node id="4958615807" visible="true" version="7" changeset="135565113" timestamp="2023-05-01T09:14:19Z" user="Toygar Alak" uid="5703312" lat="41.0366259" lon="28.9236411"/>
+ <node id="4958615808" visible="true" version="6" changeset="129060674" timestamp="2022-11-17T21:30:52Z" user="Alikam" uid="3997418" lat="41.0369846" lon="28.9233484">
+  <tag k="name" v="Demirkapı"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+ </node>
+ <node id="4958615810" visible="true" version="1" changeset="50134465" timestamp="2017-07-08T16:08:03Z" user="Santi2222" uid="493192" lat="41.0344578" lon="28.9273775"/>
+ <node id="4958615812" visible="true" version="1" changeset="50134465" timestamp="2017-07-08T16:08:03Z" user="Santi2222" uid="493192" lat="41.0350577" lon="28.9255643"/>
+ <node id="4958615813" visible="true" version="3" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0351392" lon="28.9253476"/>
+ <node id="4958615814" visible="true" version="3" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0352523" lon="28.9250952"/>
+ <node id="4958615815" visible="true" version="2" changeset="115665714" timestamp="2022-01-02T11:45:26Z" user="Toygar Alak" uid="5703312" lat="41.0354175" lon="28.9247663"/>
+ <node id="4958615816" visible="true" version="2" changeset="115665714" timestamp="2022-01-02T11:45:26Z" user="Toygar Alak" uid="5703312" lat="41.0355928" lon="28.9245052"/>
+ <node id="4958615817" visible="true" version="2" changeset="115665714" timestamp="2022-01-02T11:45:26Z" user="Toygar Alak" uid="5703312" lat="41.0357374" lon="28.9243229"/>
+ <node id="4958615818" visible="true" version="2" changeset="115665714" timestamp="2022-01-02T11:45:26Z" user="Toygar Alak" uid="5703312" lat="41.0359112" lon="28.9241342"/>
+ <node id="4958615820" visible="true" version="2" changeset="115665714" timestamp="2022-01-02T11:45:26Z" user="Toygar Alak" uid="5703312" lat="41.0362346" lon="28.9238458"/>
+ <node id="4958617024" visible="true" version="4" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0385617" lon="28.9223652"/>
+ <node id="4958617025" visible="true" version="4" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0387148" lon="28.9222594"/>
+ <node id="4958617026" visible="true" version="5" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0390215" lon="28.9220326"/>
+ <node id="4958622246" visible="true" version="1" changeset="50134547" timestamp="2017-07-08T16:11:48Z" user="Santi2222" uid="493192" lat="41.0334899" lon="28.9302837"/>
+ <node id="4958622247" visible="true" version="5" changeset="129060674" timestamp="2022-11-17T21:30:52Z" user="Alikam" uid="3997418" lat="41.0341412" lon="28.9282944">
+  <tag k="name" v="Şehitlik"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+ </node>
+ <node id="4958622248" visible="true" version="5" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.0343596" lon="28.9277590"/>
+ <node id="4958622249" visible="true" version="5" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.0340133" lon="28.9287934"/>
+ <node id="4958622250" visible="true" version="1" changeset="50134547" timestamp="2017-07-08T16:11:48Z" user="Santi2222" uid="493192" lat="41.0330188" lon="28.9318051"/>
+ <node id="4958622251" visible="true" version="4" changeset="128316906" timestamp="2022-10-31T20:59:31Z" user="Toygar Alak" uid="5703312" lat="41.0337384" lon="28.9295057"/>
+ <node id="4958622253" visible="true" version="1" changeset="50134547" timestamp="2017-07-08T16:11:49Z" user="Santi2222" uid="493192" lat="41.0340724" lon="28.9285040"/>
+ <node id="4958622254" visible="true" version="1" changeset="50134547" timestamp="2017-07-08T16:11:49Z" user="Santi2222" uid="493192" lat="41.0343243" lon="28.9277369"/>
+ <node id="4958624772" visible="true" version="1" changeset="50134591" timestamp="2017-07-08T16:13:48Z" user="Santi2222" uid="493192" lat="41.0325074" lon="28.9331268"/>
+ <node id="4958624773" visible="true" version="1" changeset="50134591" timestamp="2017-07-08T16:13:48Z" user="Santi2222" uid="493192" lat="41.0326511" lon="28.9328049"/>
+ <node id="4958624774" visible="true" version="1" changeset="50134591" timestamp="2017-07-08T16:13:48Z" user="Santi2222" uid="493192" lat="41.0328261" lon="28.9323851"/>
+ <node id="4958624775" visible="true" version="1" changeset="50134591" timestamp="2017-07-08T16:13:48Z" user="Santi2222" uid="493192" lat="41.0329212" lon="28.9321142"/>
+ <node id="4958630193" visible="true" version="1" changeset="50134670" timestamp="2017-07-08T16:17:57Z" user="Santi2222" uid="493192" lat="41.0304679" lon="28.9343567"/>
+ <node id="4958630194" visible="true" version="2" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0306052" lon="28.9344145"/>
+ <node id="4958630195" visible="true" version="2" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0307312" lon="28.9344210"/>
+ <node id="4958630196" visible="true" version="2" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0308429" lon="28.9344019"/>
+ <node id="4958630197" visible="true" version="3" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0309531" lon="28.9343263"/>
+ <node id="4958630198" visible="true" version="8" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0313088" lon="28.9340531">
+  <tag k="name" v="Edirnekapı"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+ </node>
+ <node id="4958630199" visible="true" version="4" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0317800" lon="28.9336910"/>
+ <node id="4958630201" visible="true" version="2" changeset="88313497" timestamp="2020-07-21T21:39:36Z" user="Alikam" uid="3997418" lat="41.0322702" lon="28.9334195"/>
+ <node id="4958630202" visible="true" version="3" changeset="141441011" timestamp="2023-09-18T20:23:49Z" user="Toygar Alak" uid="5703312" lat="41.0283098" lon="28.9321843"/>
+ <node id="4958630203" visible="true" version="2" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0324090" lon="28.9332918"/>
+ <node id="4958634267" visible="true" version="4" changeset="110008653" timestamp="2021-08-20T22:51:57Z" user="Alikam" uid="3997418" lat="41.0317508" lon="28.9336778"/>
+ <node id="4958634268" visible="true" version="4" changeset="110008653" timestamp="2021-08-20T22:51:57Z" user="Alikam" uid="3997418" lat="41.0309467" lon="28.9343028"/>
+ <node id="4958639120" visible="true" version="3" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0247185" lon="28.9284486"/>
+ <node id="4958640121" visible="true" version="7" changeset="164204413" timestamp="2025-03-28T11:58:23Z" user="wheelmap_visitor" uid="290680" lat="41.0255685" lon="28.9292392">
+  <tag k="name" v="Vatan"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+  <tag k="wheelchair" v="yes"/>
+ </node>
+ <node id="4958640122" visible="true" version="2" changeset="107764683" timestamp="2021-07-10T22:51:27Z" user="Toygar Alak" uid="5703312" lat="41.0260029" lon="28.9296438"/>
+ <node id="4958640123" visible="true" version="2" changeset="107764683" timestamp="2021-07-10T22:51:27Z" user="Toygar Alak" uid="5703312" lat="41.0261787" lon="28.9298172"/>
+ <node id="4958640124" visible="true" version="2" changeset="107764683" timestamp="2021-07-10T22:51:27Z" user="Toygar Alak" uid="5703312" lat="41.0264131" lon="28.9300915"/>
+ <node id="4958640125" visible="true" version="2" changeset="141441011" timestamp="2023-09-18T20:23:49Z" user="Toygar Alak" uid="5703312" lat="41.0270571" lon="28.9308758"/>
+ <node id="4958640127" visible="true" version="3" changeset="141441011" timestamp="2023-09-18T20:23:49Z" user="Toygar Alak" uid="5703312" lat="41.0277690" lon="28.9316202"/>
+ <node id="4958640128" visible="true" version="2" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0236113" lon="28.9272950"/>
+ <node id="4958640129" visible="true" version="3" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0267351" lon="28.9305250"/>
+ <node id="4958646885" visible="true" version="6" changeset="129060674" timestamp="2022-11-17T21:30:52Z" user="Alikam" uid="3997418" lat="41.0196904" lon="28.9205779">
+  <tag k="name" v="Topkapı"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+ </node>
+ <node id="4958646886" visible="true" version="2" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0197451" lon="28.9212324"/>
+ <node id="4958646887" visible="true" version="2" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0196172" lon="28.9201500"/>
+ <node id="4958646888" visible="true" version="2" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0198457" lon="28.9212018"/>
+ <node id="4958646889" visible="true" version="2" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0197191" lon="28.9201275"/>
+ <node id="4958646890" visible="true" version="2" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0197811" lon="28.9212272"/>
+ <node id="4958646891" visible="true" version="4" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0196530" lon="28.9201426"/>
+ <node id="4958646892" visible="true" version="4" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0200231" lon="28.9224481">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="4958646894" visible="true" version="3" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0202746" lon="28.9229520">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="4958646895" visible="true" version="3" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0201616" lon="28.9227814">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="4958646897" visible="true" version="3" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0203293" lon="28.9230819">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="right"/>
+ </node>
+ <node id="4958646904" visible="true" version="3" changeset="181284538" timestamp="2026-04-13T16:32:44Z" user="yitimox" uid="15834339" lat="41.0218780" lon="28.9254127"/>
+ <node id="4958646905" visible="true" version="4" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0212972" lon="28.9246687"/>
+ <node id="4958646907" visible="true" version="1" changeset="50134866" timestamp="2017-07-08T16:28:14Z" user="Santi2222" uid="493192" lat="41.0205024" lon="28.9234926"/>
+ <node id="4958646908" visible="true" version="1" changeset="50134866" timestamp="2017-07-08T16:28:14Z" user="Santi2222" uid="493192" lat="41.0206664" lon="28.9238091"/>
+ <node id="4958646909" visible="true" version="1" changeset="50134866" timestamp="2017-07-08T16:28:14Z" user="Santi2222" uid="493192" lat="41.0208282" lon="28.9240610"/>
+ <node id="4958646910" visible="true" version="1" changeset="50134866" timestamp="2017-07-08T16:28:14Z" user="Santi2222" uid="493192" lat="41.0210579" lon="28.9243735"/>
+ <node id="4958646911" visible="true" version="6" changeset="129060674" timestamp="2022-11-17T21:30:52Z" user="Alikam" uid="3997418" lat="41.0215177" lon="28.9249855">
+  <tag k="name" v="Fetihkapı"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="stop"/>
+  <tag k="tram" v="yes"/>
+ </node>
+ <node id="4958646912" visible="true" version="1" changeset="50134866" timestamp="2017-07-08T16:28:14Z" user="Santi2222" uid="493192" lat="41.0217390" lon="28.9252655"/>
+ <node id="4958646916" visible="true" version="1" changeset="50134866" timestamp="2017-07-08T16:28:14Z" user="Santi2222" uid="493192" lat="41.0198272" lon="28.9217100"/>
+ <node id="4958646917" visible="true" version="1" changeset="50134866" timestamp="2017-07-08T16:28:14Z" user="Santi2222" uid="493192" lat="41.0197787" lon="28.9213599"/>
+ <node id="4958646918" visible="true" version="3" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0199623" lon="28.9222862"/>
+ <node id="4958657919" visible="true" version="3" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0554007" lon="28.9094963"/>
+ <node id="4958657920" visible="true" version="2" changeset="87935708" timestamp="2020-07-13T17:18:38Z" user="Alikam" uid="3997418" lat="41.0552402" lon="28.9096642"/>
+ <node id="4958658825" visible="true" version="1" changeset="50134996" timestamp="2017-07-08T16:35:44Z" user="Santi2222" uid="493192" lat="41.0522870" lon="28.9107597"/>
+ <node id="4958658826" visible="true" version="1" changeset="50134996" timestamp="2017-07-08T16:35:44Z" user="Santi2222" uid="493192" lat="41.0517845" lon="28.9109277"/>
+ <node id="4958658827" visible="true" version="1" changeset="50134996" timestamp="2017-07-08T16:35:44Z" user="Santi2222" uid="493192" lat="41.0513722" lon="28.9111496"/>
+ <node id="4958658828" visible="true" version="2" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0494065" lon="28.9124728"/>
+ <node id="4958658829" visible="true" version="2" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0490647" lon="28.9127899"/>
+ <node id="4958658830" visible="true" version="4" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0488376" lon="28.9130868"/>
+ <node id="4958658832" visible="true" version="1" changeset="50134996" timestamp="2017-07-08T16:35:44Z" user="Santi2222" uid="493192" lat="41.0480246" lon="28.9144093"/>
+ <node id="4958658833" visible="true" version="2" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0476890" lon="28.9147839"/>
+ <node id="4958658834" visible="true" version="3" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0474367" lon="28.9149620"/>
+ <node id="4958658835" visible="true" version="7" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0465704" lon="28.9155264">
+  <tag k="name" v="Rami"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+ </node>
+ <node id="4958658838" visible="true" version="2" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0437351" lon="28.9172082"/>
+ <node id="4958658839" visible="true" version="3" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0433908" lon="28.9174781"/>
+ <node id="4958658841" visible="true" version="3" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0424811" lon="28.9183381"/>
+ <node id="4958658843" visible="true" version="2" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0412543" lon="28.9200215"/>
+ <node id="4958658844" visible="true" version="2" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0408899" lon="28.9205033"/>
+ <node id="4958658845" visible="true" version="2" changeset="115665714" timestamp="2022-01-02T11:45:26Z" user="Toygar Alak" uid="5703312" lat="41.0405474" lon="28.9208706"/>
+ <node id="4958658846" visible="true" version="2" changeset="113283443" timestamp="2021-11-02T13:00:42Z" user="Toygar Alak" uid="5703312" lat="41.0395479" lon="28.9216351"/>
+ <node id="4958663891" visible="true" version="5" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0416106" lon="28.9195261">
+  <tag k="name" v="Topçular"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+ </node>
+ <node id="4958663898" visible="true" version="2" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0419045" lon="28.9191205"/>
+ <node id="4958672019" visible="true" version="4" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0546835" lon="28.9099949"/>
+ <node id="4958673321" visible="true" version="9" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0541152" lon="28.9102178">
+  <tag k="name" v="Uluyol-Bereç"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+ </node>
+ <node id="4958679384" visible="true" version="1" changeset="50135274" timestamp="2017-07-08T16:49:56Z" user="Santi2222" uid="493192" lat="41.0765056" lon="28.8797501"/>
+ <node id="4958679385" visible="true" version="1" changeset="50135274" timestamp="2017-07-08T16:49:56Z" user="Santi2222" uid="493192" lat="41.0762897" lon="28.8800419"/>
+ <node id="4958679386" visible="true" version="1" changeset="50135274" timestamp="2017-07-08T16:49:56Z" user="Santi2222" uid="493192" lat="41.0761379" lon="28.8802813"/>
+ <node id="4958679387" visible="true" version="3" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0759616" lon="28.8805629"/>
+ <node id="4958679389" visible="true" version="3" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0748381" lon="28.8833649"/>
+ <node id="4958679390" visible="true" version="1" changeset="50135274" timestamp="2017-07-08T16:49:56Z" user="Santi2222" uid="493192" lat="41.0743311" lon="28.8847702"/>
+ <node id="4958679391" visible="true" version="1" changeset="50135274" timestamp="2017-07-08T16:49:56Z" user="Santi2222" uid="493192" lat="41.0741075" lon="28.8853286"/>
+ <node id="4958679392" visible="true" version="2" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0738847" lon="28.8857548"/>
+ <node id="4958679393" visible="true" version="2" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0735877" lon="28.8862473"/>
+ <node id="4958679394" visible="true" version="4" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0728594" lon="28.8872870"/>
+ <node id="4958679395" visible="true" version="5" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0722810" lon="28.8881348"/>
+ <node id="4958679396" visible="true" version="4" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0720664" lon="28.8885141"/>
+ <node id="4958679397" visible="true" version="3" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0717635" lon="28.8891392"/>
+ <node id="4958679399" visible="true" version="2" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0699178" lon="28.8934340"/>
+ <node id="4958679400" visible="true" version="1" changeset="50135274" timestamp="2017-07-08T16:49:56Z" user="Santi2222" uid="493192" lat="41.0696261" lon="28.8939801"/>
+ <node id="4958679401" visible="true" version="3" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0687848" lon="28.8951519"/>
+ <node id="4958679402" visible="true" version="3" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0678947" lon="28.8963786"/>
+ <node id="4958679403" visible="true" version="2" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0666603" lon="28.8980338"/>
+ <node id="4958679404" visible="true" version="2" changeset="115087192" timestamp="2021-12-18T09:05:59Z" user="Toygar Alak" uid="5703312" lat="41.0650792" lon="28.9003313"/>
+ <node id="4958679405" visible="true" version="2" changeset="115087192" timestamp="2021-12-18T09:05:59Z" user="Toygar Alak" uid="5703312" lat="41.0649490" lon="28.9004432"/>
+ <node id="4958683733" visible="true" version="5" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0684467" lon="28.8956044">
+  <tag k="name" v="Ali Fuat Başgil"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+ </node>
+ <node id="4958683735" visible="true" version="2" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0681458" lon="28.8960070"/>
+ <node id="4958683736" visible="true" version="5" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0688273" lon="28.8952002"/>
+ <node id="4958683737" visible="true" version="5" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0681818" lon="28.8960554"/>
+ <node id="4958685789" visible="true" version="5" changeset="146484624" timestamp="2024-01-20T16:09:47Z" user="Toygar Alak" uid="5703312" lat="41.0725735" lon="28.8877129">
+  <tag k="name" v="Taşköprü"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+ </node>
+ <node id="4958685791" visible="true" version="6" changeset="146484624" timestamp="2024-01-20T16:09:47Z" user="Toygar Alak" uid="5703312" lat="41.0728852" lon="28.8873180"/>
+ <node id="4958685792" visible="true" version="6" changeset="146484624" timestamp="2024-01-20T16:09:47Z" user="Toygar Alak" uid="5703312" lat="41.0723134" lon="28.8881706"/>
+ <node id="4958685944" visible="true" version="6" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0751817" lon="28.8824304">
+  <tag k="name" v="Karadeniz"/>
+  <tag k="public_transport" v="stop_position"/>
+  <tag k="railway" v="tram_stop"/>
+  <tag k="tram" v="yes"/>
+ </node>
+ <node id="4958685947" visible="true" version="3" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0755921" lon="28.8814320"/>
+ <node id="4958685948" visible="true" version="3" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0749786" lon="28.8829668"/>
+ <node id="4958685950" visible="true" version="3" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0753883" lon="28.8819001"/>
+ <node id="4958685952" visible="true" version="8" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0754391" lon="28.8819278"/>
+ <node id="4958685953" visible="true" version="7" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0750286" lon="28.8829968"/>
+ <node id="7711371687" visible="true" version="4" changeset="181284538" timestamp="2026-04-13T16:32:44Z" user="yitimox" uid="15834339" lat="41.0219746" lon="28.9255342">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="7726516615" visible="true" version="1" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0198223" lon="28.9212187"/>
+ <node id="7726516616" visible="true" version="1" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0196939" lon="28.9201330"/>
+ <node id="7726516617" visible="true" version="1" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0198716" lon="28.9211964"/>
+ <node id="7726516618" visible="true" version="1" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0197400" lon="28.9200787"/>
+ <node id="7726516619" visible="true" version="2" changeset="156625398" timestamp="2024-09-14T19:34:00Z" user="Toygar Alak" uid="5703312" lat="41.0195983" lon="28.9201078"/>
+ <node id="7726516620" visible="true" version="1" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0197295" lon="28.9212356"/>
+ <node id="7726516621" visible="true" version="2" changeset="181284538" timestamp="2026-04-13T16:32:44Z" user="yitimox" uid="15834339" lat="41.0218924" lon="28.9253934"/>
+ <node id="7726516622" visible="true" version="1" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0213115" lon="28.9246495"/>
+ <node id="7726516636" visible="true" version="1" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0259346" lon="28.9295576"/>
+ <node id="7726516637" visible="true" version="1" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0259532" lon="28.9295225"/>
+ <node id="7726516638" visible="true" version="1" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0258759" lon="28.9294506"/>
+ <node id="7726516639" visible="true" version="1" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0258674" lon="28.9293834"/>
+ <node id="7726516640" visible="true" version="1" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0257914" lon="28.9293616"/>
+ <node id="7726516641" visible="true" version="1" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0254532" lon="28.9290475"/>
+ <node id="7726516642" visible="true" version="1" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0253859" lon="28.9289406"/>
+ <node id="7726516643" visible="true" version="1" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0253697" lon="28.9289713"/>
+ <node id="7726516644" visible="true" version="1" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0253013" lon="28.9289077"/>
+ <node id="7726516645" visible="true" version="1" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0252798" lon="28.9289485"/>
+ <node id="7726516649" visible="true" version="1" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0258088" lon="28.9293289"/>
+ <node id="7726516652" visible="true" version="1" changeset="88176299" timestamp="2020-07-18T13:22:27Z" user="Alikam" uid="3997418" lat="41.0254689" lon="28.9290178"/>
+ <node id="7726516655" visible="true" version="3" changeset="110008653" timestamp="2021-08-20T22:51:57Z" user="Alikam" uid="3997418" lat="41.0309355" lon="28.9342776"/>
+ <node id="7726516656" visible="true" version="3" changeset="110008653" timestamp="2021-08-20T22:51:57Z" user="Alikam" uid="3997418" lat="41.0312660" lon="28.9340208"/>
+ <node id="7726516657" visible="true" version="3" changeset="110008653" timestamp="2021-08-20T22:51:57Z" user="Alikam" uid="3997418" lat="41.0312560" lon="28.9339982"/>
+ <node id="7726516658" visible="true" version="3" changeset="110008653" timestamp="2021-08-20T22:51:57Z" user="Alikam" uid="3997418" lat="41.0313782" lon="28.9338963"/>
+ <node id="7726516660" visible="true" version="3" changeset="110008653" timestamp="2021-08-20T22:51:57Z" user="Alikam" uid="3997418" lat="41.0314700" lon="28.9337705"/>
+ <node id="7726516661" visible="true" version="3" changeset="110008653" timestamp="2021-08-20T22:51:57Z" user="Alikam" uid="3997418" lat="41.0314979" lon="28.9338336"/>
+ <node id="7726516662" visible="true" version="3" changeset="110008653" timestamp="2021-08-20T22:51:57Z" user="Alikam" uid="3997418" lat="41.0317374" lon="28.9336475"/>
+ <node id="7726516663" visible="true" version="3" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0321433" lon="28.9335001"/>
+ <node id="7726541717" visible="true" version="3" changeset="110008653" timestamp="2021-08-20T22:51:57Z" user="Alikam" uid="3997418" lat="41.0313603" lon="28.9338557"/>
+ <node id="7726541718" visible="true" version="3" changeset="110008653" timestamp="2021-08-20T22:51:57Z" user="Alikam" uid="3997418" lat="41.0312537" lon="28.9339930"/>
+ <node id="7726541723" visible="true" version="3" changeset="110008653" timestamp="2021-08-20T22:51:57Z" user="Alikam" uid="3997418" lat="41.0311418" lon="28.9341511"/>
+ <node id="7734901019" visible="true" version="2" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.0339886" lon="28.9287789"/>
+ <node id="7734901020" visible="true" version="2" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.0343348" lon="28.9277444"/>
+ <node id="7734901021" visible="true" version="4" changeset="145855936" timestamp="2024-01-03T21:34:43Z" user="Toygar Alak" uid="5703312" lat="41.0343114" lon="28.9277465"/>
+ <node id="7734901022" visible="true" version="4" changeset="145855936" timestamp="2024-01-03T21:34:43Z" user="Toygar Alak" uid="5703312" lat="41.0342992" lon="28.9277395"/>
+ <node id="7734901023" visible="true" version="4" changeset="145855936" timestamp="2024-01-03T21:34:43Z" user="Toygar Alak" uid="5703312" lat="41.0339600" lon="28.9287657"/>
+ <node id="7734901024" visible="true" version="4" changeset="145855936" timestamp="2024-01-03T21:34:43Z" user="Toygar Alak" uid="5703312" lat="41.0339724" lon="28.9287728"/>
+ <node id="7734901025" visible="true" version="4" changeset="135565113" timestamp="2023-05-01T09:14:19Z" user="Toygar Alak" uid="5703312" lat="41.0373834" lon="28.9231070"/>
+ <node id="7734901026" visible="true" version="4" changeset="135565113" timestamp="2023-05-01T09:14:19Z" user="Toygar Alak" uid="5703312" lat="41.0366128" lon="28.9236058"/>
+ <node id="7734901028" visible="true" version="5" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0412799" lon="28.9200493"/>
+ <node id="7734901029" visible="true" version="5" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0419228" lon="28.9191580"/>
+ <node id="7734901030" visible="true" version="5" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0419002" lon="28.9191301"/>
+ <node id="7734901031" visible="true" version="5" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0412607" lon="28.9200238"/>
+ <node id="7734901033" visible="true" version="6" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0461337" lon="28.9158975"/>
+ <node id="7734901034" visible="true" version="7" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0469553" lon="28.9153541"/>
+ <node id="7734901035" visible="true" version="7" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0469369" lon="28.9153052"/>
+ <node id="7734901036" visible="true" version="6" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0461145" lon="28.9158461"/>
+ <node id="7734901038" visible="true" version="6" changeset="158875431" timestamp="2024-11-07T23:22:22Z" user="Toygar Alak" uid="5703312" lat="41.0536481" lon="28.9104965"/>
+ <node id="7734901039" visible="true" version="5" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0545065" lon="28.9101167"/>
+ <node id="7734901040" visible="true" version="5" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0544948" lon="28.9100558"/>
+ <node id="7734901041" visible="true" version="6" changeset="158875431" timestamp="2024-11-07T23:22:22Z" user="Toygar Alak" uid="5703312" lat="41.0536329" lon="28.9104388"/>
+ <node id="7734901042" visible="true" version="3" changeset="172309612" timestamp="2025-09-22T18:19:02Z" user="Mitalos" uid="23319761" lat="41.0569725" lon="28.9073429"/>
+ <node id="7734901043" visible="true" version="2" changeset="115811750" timestamp="2022-01-05T20:28:12Z" user="Toygar Alak" uid="5703312" lat="41.0575533" lon="28.9065310"/>
+ <node id="7734901044" visible="true" version="3" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0614348" lon="28.9022488"/>
+ <node id="7734901045" visible="true" version="3" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0621908" lon="28.9018798"/>
+ <node id="7734901046" visible="true" version="2" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0687940" lon="28.8951598"/>
+ <node id="7734901047" visible="true" version="2" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0681520" lon="28.8960158"/>
+ <node id="7734901049" visible="true" version="3" changeset="146484624" timestamp="2024-01-20T16:09:47Z" user="Toygar Alak" uid="5703312" lat="41.0722914" lon="28.8881462"/>
+ <node id="7734901050" visible="true" version="3" changeset="146484624" timestamp="2024-01-20T16:09:47Z" user="Toygar Alak" uid="5703312" lat="41.0728639" lon="28.8872926"/>
+ <node id="7734901052" visible="true" version="4" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0749860" lon="28.8829680"/>
+ <node id="7734901053" visible="true" version="4" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0753980" lon="28.8818990"/>
+ <node id="7734901056" visible="true" version="1" changeset="88313497" timestamp="2020-07-21T21:39:36Z" user="Alikam" uid="3997418" lat="41.0816626" lon="28.8742549"/>
+ <node id="7734901057" visible="true" version="1" changeset="88313497" timestamp="2020-07-21T21:39:36Z" user="Alikam" uid="3997418" lat="41.0809567" lon="28.8748964"/>
+ <node id="7734901063" visible="true" version="3" changeset="129060674" timestamp="2022-11-17T21:30:52Z" user="Alikam" uid="3997418" lat="41.0842896" lon="28.8718768"/>
+ <node id="7734901064" visible="true" version="3" changeset="129060674" timestamp="2022-11-17T21:30:52Z" user="Alikam" uid="3997418" lat="41.0842747" lon="28.8718483"/>
+ <node id="7734901065" visible="true" version="3" changeset="129060674" timestamp="2022-11-17T21:30:52Z" user="Alikam" uid="3997418" lat="41.0849094" lon="28.8712624"/>
+ <node id="7734901068" visible="true" version="1" changeset="88313497" timestamp="2020-07-21T21:39:36Z" user="Alikam" uid="3997418" lat="41.0874938" lon="28.8674644"/>
+ <node id="7734901069" visible="true" version="3" changeset="127026746" timestamp="2022-10-05T04:59:04Z" user="em1nk" uid="13285246" lat="41.0879949" lon="28.8665447"/>
+ <node id="7734901070" visible="true" version="4" changeset="138038299" timestamp="2023-07-02T20:40:19Z" user="Necessarycoot72" uid="10882995" lat="41.0880254" lon="28.8665749"/>
+ <node id="7734901073" visible="true" version="2" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.0928904" lon="28.8639740"/>
+ <node id="7734901074" visible="true" version="2" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.0936588" lon="28.8638137"/>
+ <node id="7734901078" visible="true" version="2" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.0998902" lon="28.8629292"/>
+ <node id="7734901079" visible="true" version="2" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.1006691" lon="28.8628952"/>
+ <node id="7734901083" visible="true" version="2" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.1064770" lon="28.8604353"/>
+ <node id="7734901084" visible="true" version="2" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.1072001" lon="28.8600873"/>
+ <node id="7734928088" visible="true" version="1" changeset="88313497" timestamp="2020-07-21T21:39:36Z" user="Alikam" uid="3997418" lat="41.1119966" lon="28.8577656"/>
+ <node id="7734928089" visible="true" version="1" changeset="88313497" timestamp="2020-07-21T21:39:36Z" user="Alikam" uid="3997418" lat="41.1127809" lon="28.8573903"/>
+ <node id="7734928093" visible="true" version="2" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.1164847" lon="28.8508474"/>
+ <node id="7734928094" visible="true" version="2" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.1159014" lon="28.8516157"/>
+ <node id="8084939188" visible="true" version="1" changeset="93611536" timestamp="2020-11-05T15:30:53Z" user="Alikam" uid="3997418" lat="41.0809880" lon="28.8749558"/>
+ <node id="8084939189" visible="true" version="1" changeset="93611536" timestamp="2020-11-05T15:30:53Z" user="Alikam" uid="3997418" lat="41.0809714" lon="28.8749277"/>
+ <node id="8419134747" visible="true" version="4" changeset="158461103" timestamp="2024-10-28T15:28:18Z" user="em1nk" uid="13285246" lat="41.0880091" lon="28.8665588">
+  <tag k="barrier" v="turnstile"/>
+  <tag k="fee" v="yes"/>
+ </node>
+ <node id="8897727134" visible="true" version="6" changeset="165911421" timestamp="2025-05-06T20:48:42Z" user="EDtheWARDen" uid="14025239" lat="41.0339646" lon="28.9287684">
+  <tag k="amenity" v="ticket_validator"/>
+  <tag k="barrier" v="turnstile"/>
+  <tag k="fee" v="yes"/>
+ </node>
+ <node id="8897727135" visible="true" version="3" changeset="165911421" timestamp="2025-05-06T20:48:42Z" user="EDtheWARDen" uid="14025239" lat="41.0340016" lon="28.9287866">
+  <tag k="amenity" v="ticket_validator"/>
+  <tag k="barrier" v="turnstile"/>
+  <tag k="fee" v="yes"/>
+ </node>
+ <node id="8910669759" visible="true" version="1" changeset="107764683" timestamp="2021-07-10T22:51:27Z" user="Toygar Alak" uid="5703312" lat="41.0263031" lon="28.9299523"/>
+ <node id="8929469190" visible="true" version="3" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.0980971" lon="28.8630658">
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals" v="signal"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="8947281225" visible="true" version="10" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.0997824" lon="28.8629210">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="traffic_signals" v="signal"/>
+  <tag k="traffic_signals:sound" v="yes"/>
+ </node>
+ <node id="8978149023" visible="true" version="1" changeset="109112497" timestamp="2021-08-03T20:20:06Z" user="Alikam" uid="3997418" lat="41.0253792" lon="28.9289533">
+  <tag k="highway" v="elevator"/>
+ </node>
+ <node id="8980110161" visible="true" version="2" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0643391" lon="28.9007832"/>
+ <node id="8980110163" visible="true" version="1" changeset="109151015" timestamp="2021-08-04T14:35:42Z" user="Alikam" uid="3997418" lat="41.0520202" lon="28.9108408"/>
+ <node id="8980110165" visible="true" version="2" changeset="115665714" timestamp="2022-01-02T11:45:26Z" user="Toygar Alak" uid="5703312" lat="41.0358211" lon="28.9242350"/>
+ <node id="8983961259" visible="true" version="1" changeset="109215872" timestamp="2021-08-05T18:08:13Z" user="Toygar Alak" uid="5703312" lat="41.0686362" lon="28.8953789"/>
+ <node id="9218530198" visible="true" version="1" changeset="113283443" timestamp="2021-11-02T13:00:42Z" user="Toygar Alak" uid="5703312" lat="41.0400233" lon="28.9213328"/>
+ <node id="9218530203" visible="true" version="1" changeset="113283443" timestamp="2021-11-02T13:00:42Z" user="Toygar Alak" uid="5703312" lat="41.0402177" lon="28.9211716"/>
+ <node id="9218530206" visible="true" version="1" changeset="113283443" timestamp="2021-11-02T13:00:42Z" user="Toygar Alak" uid="5703312" lat="41.0403075" lon="28.9210894"/>
+ <node id="9380172846" visible="true" version="2" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0457952" lon="28.9160610"/>
+ <node id="9385532766" visible="true" version="6" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0374371" lon="28.9230618">
+  <tag k="crossing" v="marked"/>
+  <tag k="crossing:barrier" v="no"/>
+  <tag k="crossing:bell" v="no"/>
+  <tag k="crossing:light" v="no"/>
+  <tag k="crossing:markings" v="zebra"/>
+  <tag k="railway" v="crossing"/>
+ </node>
+ <node id="9385532773" visible="true" version="1" changeset="115665714" timestamp="2022-01-02T11:45:26Z" user="Toygar Alak" uid="5703312" lat="41.0360166" lon="28.9240369"/>
+ <node id="9385532783" visible="true" version="1" changeset="115665714" timestamp="2022-01-02T11:45:26Z" user="Toygar Alak" uid="5703312" lat="41.0355328" lon="28.9245922"/>
+ <node id="9385532786" visible="true" version="2" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0353679" lon="28.9248693"/>
+ <node id="9449746810" visible="true" version="1" changeset="116617640" timestamp="2022-01-26T10:50:39Z" user="Toygar Alak" uid="5703312" lat="41.0807422" lon="28.8750904"/>
+ <node id="9449746814" visible="true" version="9" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.0805105" lon="28.8752991">
+  <tag k="button_operated" v="yes"/>
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="crossing:markings" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="traffic_signals:sound" v="yes"/>
+ </node>
+ <node id="9452946245" visible="true" version="2" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0822702" lon="28.8737010"/>
+ <node id="9452946247" visible="true" version="2" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0833913" lon="28.8726598"/>
+ <node id="9653611329" visible="true" version="1" changeset="119498728" timestamp="2022-04-09T10:27:37Z" user="em1nk" uid="13285246" lat="41.0197173" lon="28.9200834"/>
+ <node id="9653611330" visible="true" version="1" changeset="119498728" timestamp="2022-04-09T10:27:37Z" user="em1nk" uid="13285246" lat="41.0196380" lon="28.9200998"/>
+ <node id="9653611331" visible="true" version="2" changeset="168543580" timestamp="2025-07-06T00:57:01Z" user="MisturJoesturr" uid="15110364" lat="41.0197309" lon="28.9200806">
+  <tag k="amenity" v="ticket_validator"/>
+  <tag k="barrier" v="turnstile"/>
+  <tag k="fee" v="yes"/>
+ </node>
+ <node id="9653611333" visible="true" version="2" changeset="168543580" timestamp="2025-07-06T00:57:01Z" user="MisturJoesturr" uid="15110364" lat="41.0196793" lon="28.9200913">
+  <tag k="amenity" v="ticket_validator"/>
+  <tag k="barrier" v="turnstile"/>
+  <tag k="fee" v="yes"/>
+ </node>
+ <node id="9653611335" visible="true" version="3" changeset="168543580" timestamp="2025-07-06T00:57:01Z" user="MisturJoesturr" uid="15110364" lat="41.0196171" lon="28.9201042">
+  <tag k="amenity" v="ticket_validator"/>
+  <tag k="barrier" v="turnstile"/>
+  <tag k="fee" v="yes"/>
+ </node>
+ <node id="9654484318" visible="true" version="1" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.1164968" lon="28.8508636">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="9654484323" visible="true" version="7" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1165080" lon="28.8508025">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="9654484329" visible="true" version="8" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1158709" lon="28.8516376">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="9654484332" visible="true" version="1" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.1159143" lon="28.8516329"/>
+ <node id="9654484344" visible="true" version="1" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.1127773" lon="28.8573773">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="9654484348" visible="true" version="7" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1128006" lon="28.8573411">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="yes"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="9654484358" visible="true" version="1" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.1119935" lon="28.8577541">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="9654484381" visible="true" version="1" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.1072038" lon="28.8601010">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="9654484391" visible="true" version="7" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1072581" lon="28.8600465">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="9654484393" visible="true" version="1" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.1064804" lon="28.8604478">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="9654484397" visible="true" version="7" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1063455" lon="28.8604819">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="9654484410" visible="true" version="7" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1026119" lon="28.8622311">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="yes"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="9654484417" visible="true" version="8" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1007147" lon="28.8628742">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+  <tag k="traffic_signals" v="signal"/>
+  <tag k="traffic_signals:sound" v="yes"/>
+ </node>
+ <node id="9654484420" visible="true" version="1" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.1006694" lon="28.8629062">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="9654484424" visible="true" version="3" changeset="187089954" timestamp="2026-08-07T14:18:48Z" user="de24000" uid="617093" lat="41.0998905" lon="28.8629410">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="9654484434" visible="true" version="1" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.0936610" lon="28.8638282">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="9654484437" visible="true" version="1" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.0928917" lon="28.8639844">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="9654484445" visible="true" version="6" changeset="183653525" timestamp="2026-06-04T15:46:26Z" user="yitimox" uid="15834339" lat="41.0928091" lon="28.8639723"/>
+ <node id="9654484447" visible="true" version="6" changeset="183653525" timestamp="2026-06-04T15:46:26Z" user="yitimox" uid="15834339" lat="41.0928606" lon="28.8639616"/>
+ <node id="9654484485" visible="true" version="1" changeset="119514919" timestamp="2022-04-09T19:01:06Z" user="em1nk" uid="13285246" lat="41.0575588" lon="28.9065377">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="10076267402" visible="true" version="3" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0754116" lon="28.8819095">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="10076267418" visible="true" version="3" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0750097" lon="28.8829840">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="10076267432" visible="true" version="3" changeset="146484624" timestamp="2024-01-20T16:09:47Z" user="Toygar Alak" uid="5703312" lat="41.0728722" lon="28.8873025">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="10076267452" visible="true" version="3" changeset="146484624" timestamp="2024-01-20T16:09:47Z" user="Toygar Alak" uid="5703312" lat="41.0723022" lon="28.8881582"/>
+ <node id="10098731703" visible="true" version="4" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0461197" lon="28.9158601">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="10118917333" visible="true" version="2" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0544975" lon="28.9100697">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="10198062281" visible="true" version="2" changeset="181284538" timestamp="2026-04-13T16:32:44Z" user="yitimox" uid="15834339" lat="41.0218849" lon="28.9254035">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="10198062283" visible="true" version="3" changeset="158944071" timestamp="2024-11-09T17:58:01Z" user="Toygar Alak" uid="5703312" lat="41.0366191" lon="28.9236227">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="10198062286" visible="true" version="2" changeset="135565113" timestamp="2023-05-01T09:14:19Z" user="Toygar Alak" uid="5703312" lat="41.0373898" lon="28.9231244">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="10198062287" visible="true" version="3" changeset="145933480" timestamp="2024-01-05T18:41:00Z" user="Toygar Alak" uid="5703312" lat="41.0419109" lon="28.9191433">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="10198062290" visible="true" version="3" changeset="145933480" timestamp="2024-01-05T18:41:00Z" user="Toygar Alak" uid="5703312" lat="41.0412669" lon="28.9200320">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="10198062297" visible="true" version="1" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0438596" lon="28.9171298"/>
+ <node id="10198062299" visible="true" version="3" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0469425" lon="28.9153200">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="10198062305" visible="true" version="1" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0478548" lon="28.9146247"/>
+ <node id="10198062307" visible="true" version="1" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0489481" lon="28.9129373"/>
+ <node id="10198062310" visible="true" version="1" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0479397" lon="28.9145335"/>
+ <node id="10198062311" visible="true" version="2" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0492371" lon="28.9126206"/>
+ <node id="10198062314" visible="true" version="2" changeset="158875431" timestamp="2024-11-07T23:22:22Z" user="Toygar Alak" uid="5703312" lat="41.0536412" lon="28.9104703">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="10198146323" visible="true" version="1" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0621975" lon="28.9019041">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="10198146326" visible="true" version="1" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0614414" lon="28.9022726">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="10198146329" visible="true" version="2" changeset="129701298" timestamp="2022-12-04T11:26:03Z" user="Toygar Alak" uid="5703312" lat="41.0613995" lon="28.9022492">
+  <tag k="railway" v="tram_crossing"/>
+ </node>
+ <node id="10198146332" visible="true" version="1" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0681691" lon="28.8960386">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="10198146337" visible="true" version="1" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0688050" lon="28.8951732">
+  <tag k="barrier" v="turnstile"/>
+ </node>
+ <node id="10198146343" visible="true" version="2" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0697700" lon="28.8937352"/>
+ <node id="10198146352" visible="true" version="1" changeset="129060360" timestamp="2022-11-17T21:18:19Z" user="Alikam" uid="3997418" lat="41.0740058" lon="28.8855417"/>
+ <node id="10198146357" visible="true" version="2" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0758045" lon="28.8809025"/>
+ <node id="10201428554" visible="true" version="3" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0461352" lon="28.9159014"/>
+ <node id="10201428555" visible="true" version="3" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0461118" lon="28.9158391"/>
+ <node id="10201428556" visible="true" version="2" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0469573" lon="28.9153596"/>
+ <node id="10201428557" visible="true" version="2" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0469339" lon="28.9152971"/>
+ <node id="11199649462" visible="true" version="1" changeset="141417789" timestamp="2023-09-18T10:39:08Z" user="Toygar Alak" uid="5703312" lat="41.0323392" lon="28.9333650"/>
+ <node id="11220841489" visible="true" version="1" changeset="141786706" timestamp="2023-09-26T18:13:47Z" user="Toygar Alak" uid="5703312" lat="41.0683131" lon="28.8958039"/>
+ <node id="11534209581" visible="true" version="2" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0731545" lon="28.8868804"/>
+ <node id="11534209582" visible="true" version="1" changeset="146484624" timestamp="2024-01-20T16:09:47Z" user="Toygar Alak" uid="5703312" lat="41.0722010" lon="28.8882672"/>
+ <node id="12012705279" visible="true" version="5" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.0980733" lon="28.8630668">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:markings" v="lines"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="12324379010" visible="true" version="4" changeset="183769433" timestamp="2026-06-07T08:58:57Z" user="yitimox" uid="15834339" lat="41.0575817" lon="28.9064707">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="crossing:markings" v="zebra"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="12324379011" visible="true" version="1" changeset="158908788" timestamp="2024-11-08T19:25:42Z" user="Toygar Alak" uid="5703312" lat="41.0590940" lon="28.9042926">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="crossing:barrier" v="no"/>
+  <tag k="crossing:bell" v="no"/>
+  <tag k="crossing:light" v="no"/>
+  <tag k="crossing:markings" v="zebra"/>
+  <tag k="railway" v="crossing"/>
+ </node>
+ <node id="12327191727" visible="true" version="1" changeset="158944071" timestamp="2024-11-09T17:58:01Z" user="Toygar Alak" uid="5703312" lat="41.0339725" lon="28.9287988">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="crossing:barrier" v="no"/>
+  <tag k="crossing:bell" v="no"/>
+  <tag k="crossing:light" v="no"/>
+  <tag k="crossing:markings" v="zebra"/>
+  <tag k="railway" v="crossing"/>
+ </node>
+ <node id="12846659432" visible="true" version="3" changeset="186928868" timestamp="2026-08-04T14:37:00Z" user="yitimox" uid="15834339" lat="41.0365927" lon="28.9235996">
+  <tag k="crossing" v="marked"/>
+  <tag k="crossing:barrier" v="no"/>
+  <tag k="crossing:bell" v="no"/>
+  <tag k="crossing:light" v="no"/>
+  <tag k="crossing:markings" v="zebra"/>
+  <tag k="railway" v="crossing"/>
+ </node>
+ <node id="13148058016" visible="true" version="1" changeset="172033245" timestamp="2025-09-16T20:05:35Z" user="AnnaCatarina" uid="560578" lat="41.1135556" lon="28.8569227"/>
+ <node id="13148058017" visible="true" version="1" changeset="172033245" timestamp="2025-09-16T20:05:35Z" user="AnnaCatarina" uid="560578" lat="41.0884988" lon="28.8657836"/>
+ <node id="13151591284" visible="true" version="2" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0802804" lon="28.8755337">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="13176787965" visible="true" version="1" changeset="172567832" timestamp="2025-09-28T13:47:29Z" user="Alikam" uid="3997418" lat="41.0313675" lon="28.9338719"/>
+ <node id="13727364750" visible="true" version="1" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0303421" lon="28.9342573"/>
+ <node id="13727364752" visible="true" version="1" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0318448" lon="28.9336487"/>
+ <node id="13727364753" visible="true" version="1" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0349763" lon="28.9258104">
+  <tag k="railway" v="switch"/>
+  <tag k="railway:switch" v="default"/>
+  <tag k="railway:turnout_side" v="left"/>
+ </node>
+ <node id="13727364756" visible="true" version="1" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0376779" lon="28.9229257"/>
+ <node id="13727364757" visible="true" version="1" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0410648" lon="28.9202872"/>
+ <node id="13727364762" visible="true" version="1" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0420269" lon="28.9189664"/>
+ <node id="13727364763" visible="true" version="1" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0425255" lon="28.9182843"/>
+ <node id="13727364764" visible="true" version="1" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0461092" lon="28.9158276"/>
+ <node id="13727364766" visible="true" version="1" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0469312" lon="28.9152920"/>
+ <node id="13727364769" visible="true" version="1" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0536300" lon="28.9104306"/>
+ <node id="13727364770" visible="true" version="1" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0533414" lon="28.9105733"/>
+ <node id="13727364771" visible="true" version="1" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0533859" lon="28.9105585"/>
+ <node id="13727364773" visible="true" version="1" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0544939" lon="28.9100494"/>
+ <node id="13727364775" visible="true" version="1" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093" lat="41.0567086" lon="28.9077133"/>
+ <node id="13729694983" visible="true" version="1" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0690672" lon="28.8947874"/>
+ <node id="13729694985" visible="true" version="1" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0789894" lon="28.8767461"/>
+ <node id="13729694986" visible="true" version="1" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0800205" lon="28.8757989"/>
+ <node id="13729694987" visible="true" version="1" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0809539" lon="28.8748908"/>
+ <node id="13729694990" visible="true" version="1" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093" lat="41.0812394" lon="28.8746222"/>
+ <node id="13813738090" visible="true" version="1" changeset="182462136" timestamp="2026-05-10T11:37:17Z" user="yitimox" uid="15834339" lat="41.0957290" lon="28.8634052">
+  <tag k="crossing" v="traffic_signals"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="13910132114" visible="true" version="2" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.0928349" lon="28.8639669">
+  <tag k="crossing" v="uncontrolled"/>
+  <tag k="crossing:island" v="yes"/>
+  <tag k="crossing:markings" v="yes"/>
+  <tag k="highway" v="crossing"/>
+ </node>
+ <node id="14300072328" visible="true" version="1" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.0919477" lon="28.8641513">
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals" v="signal"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="14300072334" visible="true" version="1" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.0998191" lon="28.8629191">
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals" v="signal"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="14300072336" visible="true" version="1" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1007599" lon="28.8628719">
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals" v="signal"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="14300072338" visible="true" version="1" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1026360" lon="28.8622198">
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals" v="signal"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="14300072341" visible="true" version="1" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1040306" lon="28.8615668">
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals" v="signal"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="14300072344" visible="true" version="1" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1054446" lon="28.8609107">
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals" v="signal"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="14300072349" visible="true" version="1" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1063614" lon="28.8604743">
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals" v="signal"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="14300072352" visible="true" version="1" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1074562" lon="28.8599502">
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals" v="signal"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="14300072355" visible="true" version="1" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1090384" lon="28.8591735">
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals" v="signal"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="14300072357" visible="true" version="1" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1110263" lon="28.8581975">
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals" v="signal"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="14300072361" visible="true" version="1" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1119131" lon="28.8577615">
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals" v="signal"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="14300072364" visible="true" version="1" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1129218" lon="28.8572807">
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals" v="signal"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="14300072369" visible="true" version="1" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1146275" lon="28.8552043">
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals" v="signal"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="14300072373" visible="true" version="1" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1159007" lon="28.8515979">
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals" v="signal"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <node id="14300072375" visible="true" version="1" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339" lat="41.1165313" lon="28.8507727">
+  <tag k="highway" v="traffic_signals"/>
+  <tag k="traffic_signals" v="signal"/>
+  <tag k="traffic_signals:direction" v="forward"/>
+ </node>
+ <way id="506065773" visible="true" version="8" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339">
+  <nd ref="4958544229"/>
+  <nd ref="14300072375"/>
+  <nd ref="9654484323"/>
+  <nd ref="4958513678"/>
+  <nd ref="14300072373"/>
+  <nd ref="9654484329"/>
+  <nd ref="4958544230"/>
+  <nd ref="4958544231"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="name" v="T4 Topkapı - Habibler Tramvayı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="tram"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="506065774" visible="true" version="5" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093">
+  <nd ref="4958544231"/>
+  <nd ref="4958513676"/>
+  <nd ref="4958513675"/>
+  <nd ref="4958513674"/>
+  <tag k="bridge" v="yes"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="1"/>
+  <tag k="name" v="T4 Topkapı - Habibler Tramvayı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="tram"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="506065777" visible="true" version="22" changeset="190750111" timestamp="2026-10-19T15:47:09Z" user="yitimox" uid="15834339">
+  <nd ref="4958551958"/>
+  <nd ref="14300072369"/>
+  <nd ref="4958513669"/>
+  <nd ref="4958513668"/>
+  <nd ref="4958513667"/>
+  <nd ref="4958513666"/>
+  <nd ref="4958513665"/>
+  <nd ref="4958513664"/>
+  <nd ref="4958513663"/>
+  <nd ref="4958513662"/>
+  <nd ref="4958513661"/>
+  <nd ref="13148058016"/>
+  <nd ref="4958513660"/>
+  <nd ref="4958513659"/>
+  <nd ref="14300072364"/>
+  <nd ref="4958513658"/>
+  <nd ref="9654484348"/>
+  <nd ref="4958551940"/>
+  <nd ref="14300072361"/>
+  <nd ref="4958551942"/>
+  <nd ref="4958513656"/>
+  <nd ref="14300072357"/>
+  <nd ref="4958551935"/>
+  <nd ref="14300072355"/>
+  <nd ref="4958551934"/>
+  <nd ref="14300072352"/>
+  <nd ref="4958557336"/>
+  <nd ref="4958557335"/>
+  <nd ref="9654484391"/>
+  <nd ref="4958557323"/>
+  <nd ref="14300072349"/>
+  <nd ref="9654484397"/>
+  <nd ref="14300072344"/>
+  <nd ref="4958557329"/>
+  <nd ref="4958566443"/>
+  <nd ref="14300072341"/>
+  <nd ref="4958566448"/>
+  <nd ref="14300072338"/>
+  <nd ref="9654484410"/>
+  <nd ref="4958566453"/>
+  <nd ref="4958566452"/>
+  <nd ref="4958566437"/>
+  <nd ref="4958566436"/>
+  <nd ref="14300072336"/>
+  <nd ref="9654484417"/>
+  <nd ref="4958566319"/>
+  <nd ref="14300072334"/>
+  <nd ref="8947281225"/>
+  <nd ref="4958566429"/>
+  <nd ref="8929469190"/>
+  <nd ref="12012705279"/>
+  <nd ref="4958566426"/>
+  <nd ref="4958566425"/>
+  <nd ref="4958572725"/>
+  <nd ref="4958572724"/>
+  <nd ref="13813738090"/>
+  <nd ref="4958570014"/>
+  <nd ref="4958570004"/>
+  <nd ref="9654484447"/>
+  <nd ref="13910132114"/>
+  <nd ref="9654484445"/>
+  <nd ref="14300072328"/>
+  <nd ref="4958570017"/>
+  <nd ref="4958580191"/>
+  <nd ref="4958580190"/>
+  <nd ref="4958580189"/>
+  <nd ref="4958580188"/>
+  <nd ref="4958580187"/>
+  <nd ref="4958580186"/>
+  <nd ref="4958580185"/>
+  <nd ref="13148058017"/>
+  <nd ref="4958580184"/>
+  <nd ref="4958580183"/>
+  <nd ref="4958580182"/>
+  <nd ref="4958580159"/>
+  <nd ref="4958580181"/>
+  <nd ref="4958580163"/>
+  <nd ref="4958580164"/>
+  <nd ref="4958580179"/>
+  <nd ref="4958580178"/>
+  <nd ref="4958585484"/>
+  <nd ref="4958585483"/>
+  <nd ref="4958585482"/>
+  <nd ref="4958585481"/>
+  <nd ref="4958585470"/>
+  <nd ref="4958585479"/>
+  <nd ref="9452946247"/>
+  <nd ref="9452946245"/>
+  <nd ref="4958585477"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="name" v="T4 Topkapı - Habibler Tramvayı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="tram"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="506065779" visible="true" version="8" changeset="179658514" timestamp="2026-03-10T20:53:17Z" user="de24000" uid="617093">
+  <nd ref="4958513679"/>
+  <nd ref="9654484332"/>
+  <nd ref="7734928094"/>
+  <nd ref="7734928093"/>
+  <nd ref="9654484318"/>
+  <nd ref="4958513680"/>
+  <nd ref="4958513679"/>
+  <tag k="area" v="yes"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="tram" v="yes"/>
+ </way>
+ <way id="506067634" visible="true" version="7" changeset="179658514" timestamp="2026-03-10T20:53:17Z" user="de24000" uid="617093">
+  <nd ref="4958551945"/>
+  <nd ref="9654484344"/>
+  <nd ref="7734928089"/>
+  <nd ref="7734928088"/>
+  <nd ref="9654484358"/>
+  <nd ref="4958551941"/>
+  <nd ref="4958551945"/>
+  <tag k="area" v="yes"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="tram" v="yes"/>
+ </way>
+ <way id="506067918" visible="true" version="7" changeset="179658514" timestamp="2026-03-10T20:53:17Z" user="de24000" uid="617093">
+  <nd ref="4958557326"/>
+  <nd ref="9654484381"/>
+  <nd ref="7734901084"/>
+  <nd ref="7734901083"/>
+  <nd ref="9654484393"/>
+  <nd ref="4958557327"/>
+  <nd ref="4958557326"/>
+  <tag k="area" v="yes"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="tram" v="yes"/>
+ </way>
+ <way id="506068664" visible="true" version="11" changeset="179658514" timestamp="2026-03-10T20:53:17Z" user="de24000" uid="617093">
+  <nd ref="4958566320"/>
+  <nd ref="9654484420"/>
+  <nd ref="7734901079"/>
+  <nd ref="7734901078"/>
+  <nd ref="9654484424"/>
+  <nd ref="4958566421"/>
+  <nd ref="4958566320"/>
+  <tag k="area" v="yes"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="tram" v="yes"/>
+ </way>
+ <way id="506069398" visible="true" version="7" changeset="179658514" timestamp="2026-03-10T20:53:17Z" user="de24000" uid="617093">
+  <nd ref="4958570007"/>
+  <nd ref="9654484434"/>
+  <nd ref="7734901074"/>
+  <nd ref="7734901073"/>
+  <nd ref="9654484437"/>
+  <nd ref="4958570008"/>
+  <nd ref="4958570007"/>
+  <tag k="area" v="yes"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="tram" v="yes"/>
+ </way>
+ <way id="506070838" visible="true" version="7" changeset="179658514" timestamp="2026-03-10T20:53:17Z" user="de24000" uid="617093">
+  <nd ref="7734901070"/>
+  <nd ref="8419134747"/>
+  <nd ref="7734901069"/>
+  <nd ref="7734901068"/>
+  <nd ref="4958580161"/>
+  <nd ref="7734901070"/>
+  <tag k="area" v="yes"/>
+  <tag k="name" v="50. Yıl-Baştabya"/>
+  <tag k="network" v="T4"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="public_transport" v="platform;station"/>
+  <tag k="railway" v="platform"/>
+  <tag k="tram" v="yes"/>
+  <tag k="wheelchair" v="yes"/>
+  <tag k="wikidata" v="Q97206991"/>
+  <tag k="wikipedia" v="tr:50. Yıl - Baştabya (İstanbul tramvayı)"/>
+ </way>
+ <way id="506071521" visible="true" version="5" changeset="179658514" timestamp="2026-03-10T20:53:17Z" user="de24000" uid="617093">
+  <nd ref="4958585473"/>
+  <nd ref="7734901065"/>
+  <nd ref="7734901064"/>
+  <nd ref="4958585474"/>
+  <nd ref="7734901063"/>
+  <nd ref="4958585473"/>
+  <tag k="area" v="yes"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="tram" v="yes"/>
+  <tag k="wheelchair" v="no"/>
+ </way>
+ <way id="506071522" visible="true" version="5" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093">
+  <nd ref="4958585477"/>
+  <nd ref="4958585476"/>
+  <nd ref="13729694990"/>
+  <tag k="bridge" v="yes"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="1"/>
+  <tag k="name" v="T4 Topkapı - Habibler Tramvayı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="tram"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="506071523" visible="true" version="10" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093">
+  <nd ref="13729694990"/>
+  <nd ref="13729694987"/>
+  <nd ref="9449746810"/>
+  <nd ref="9449746814"/>
+  <nd ref="13151591284"/>
+  <nd ref="13729694986"/>
+  <nd ref="13729694985"/>
+  <nd ref="4958589526"/>
+  <nd ref="4958589525"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="name" v="T4 Topkapı - Habibler Tramvayı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="tram"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="506071965" visible="true" version="9" changeset="187775401" timestamp="2026-08-21T05:43:50Z" user="Alikam" uid="3997418">
+  <nd ref="7734901057"/>
+  <nd ref="8084939189"/>
+  <nd ref="8084939188"/>
+  <nd ref="4958589523"/>
+  <nd ref="7734901056"/>
+  <nd ref="7734901057"/>
+  <tag k="area" v="yes"/>
+  <tag k="bench" v="yes"/>
+  <tag k="bin" v="yes"/>
+  <tag k="lit" v="yes"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="shelter" v="yes"/>
+  <tag k="tram" v="yes"/>
+ </way>
+ <way id="506073149" visible="true" version="7" changeset="179658514" timestamp="2026-03-10T20:53:17Z" user="de24000" uid="617093">
+  <nd ref="4958599425"/>
+  <nd ref="10198146323"/>
+  <nd ref="7734901045"/>
+  <nd ref="7734901044"/>
+  <nd ref="10198146326"/>
+  <nd ref="4958599426"/>
+  <nd ref="4958599425"/>
+  <tag k="area" v="yes"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="tram" v="yes"/>
+ </way>
+ <way id="506073150" visible="true" version="10" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093">
+  <nd ref="4958599439"/>
+  <nd ref="8980110161"/>
+  <nd ref="4958599438"/>
+  <nd ref="4958599437"/>
+  <nd ref="4958599436"/>
+  <nd ref="4958599423"/>
+  <nd ref="10198146329"/>
+  <nd ref="4958599435"/>
+  <nd ref="4958599434"/>
+  <nd ref="4958599433"/>
+  <nd ref="4958599432"/>
+  <nd ref="4958599431"/>
+  <nd ref="4958599430"/>
+  <nd ref="4958599429"/>
+  <nd ref="4958599428"/>
+  <nd ref="12324379011"/>
+  <nd ref="12324379010"/>
+  <nd ref="4958603844"/>
+  <nd ref="4958603850"/>
+  <nd ref="13727364775"/>
+  <nd ref="4958603848"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="name" v="T4 Topkapı - Habibler Tramvayı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="tram"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="506073890" visible="true" version="6" changeset="179658514" timestamp="2026-03-10T20:53:17Z" user="de24000" uid="617093">
+  <nd ref="4958603846"/>
+  <nd ref="9654484485"/>
+  <nd ref="7734901043"/>
+  <nd ref="7734901042"/>
+  <nd ref="4958603847"/>
+  <nd ref="4958603846"/>
+  <tag k="area" v="yes"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="tram" v="yes"/>
+ </way>
+ <way id="506075536" visible="true" version="6" changeset="179658514" timestamp="2026-03-10T20:53:17Z" user="de24000" uid="617093">
+  <nd ref="4958615807"/>
+  <nd ref="4958615806"/>
+  <nd ref="10198062286"/>
+  <nd ref="7734901025"/>
+  <nd ref="7734901026"/>
+  <nd ref="10198062283"/>
+  <nd ref="4958615807"/>
+  <tag k="area" v="yes"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="tram" v="yes"/>
+ </way>
+ <way id="506075537" visible="true" version="8" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093">
+  <nd ref="4958617026"/>
+  <nd ref="4958617025"/>
+  <nd ref="4958617024"/>
+  <nd ref="13727364756"/>
+  <nd ref="9385532766"/>
+  <nd ref="4958615808"/>
+  <nd ref="12846659432"/>
+  <nd ref="4958615820"/>
+  <nd ref="9385532773"/>
+  <nd ref="4958615818"/>
+  <nd ref="8980110165"/>
+  <nd ref="4958615817"/>
+  <nd ref="4958615816"/>
+  <nd ref="9385532783"/>
+  <nd ref="4958615815"/>
+  <nd ref="9385532786"/>
+  <nd ref="4958615814"/>
+  <nd ref="4958615813"/>
+  <nd ref="4958615812"/>
+  <nd ref="13727364753"/>
+  <nd ref="4958615810"/>
+  <nd ref="4958622254"/>
+  <nd ref="4958622247"/>
+  <nd ref="4958622253"/>
+  <nd ref="12327191727"/>
+  <nd ref="4958622251"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="name" v="T4 Topkapı - Habibler Tramvayı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="tram"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="506076026" visible="true" version="6" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093">
+  <nd ref="4958622246"/>
+  <nd ref="4958622250"/>
+  <nd ref="4958624775"/>
+  <nd ref="4958624774"/>
+  <nd ref="4958624773"/>
+  <nd ref="4958624772"/>
+  <nd ref="4958630203"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="name" v="T4 Topkapı - Habibler Tramvayı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="tram"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="506076027" visible="true" version="4" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093">
+  <nd ref="4958622251"/>
+  <nd ref="4958622246"/>
+  <tag k="bridge" v="yes"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="1"/>
+  <tag k="name" v="T4 Topkapı - Habibler Tramvayı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="tram"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="506076028" visible="true" version="9" changeset="189556730" timestamp="2026-09-25T17:56:57Z" user="Alikam" uid="3997418">
+  <nd ref="4958622248"/>
+  <nd ref="7734901020"/>
+  <nd ref="7734901019"/>
+  <nd ref="8897727135"/>
+  <nd ref="4958622249"/>
+  <nd ref="4958622248"/>
+  <tag k="area" v="yes"/>
+  <tag k="bench" v="yes"/>
+  <tag k="bin" v="yes"/>
+  <tag k="lit" v="yes"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="shelter" v="yes"/>
+  <tag k="tram" v="yes"/>
+ </way>
+ <way id="506077653" visible="true" version="10" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093">
+  <nd ref="4958630203"/>
+  <nd ref="11199649462"/>
+  <nd ref="4958630201"/>
+  <nd ref="7726516663"/>
+  <nd ref="13727364752"/>
+  <nd ref="4958630199"/>
+  <nd ref="4958630198"/>
+  <nd ref="4958630197"/>
+  <nd ref="4958630196"/>
+  <nd ref="4958630195"/>
+  <nd ref="4958630194"/>
+  <nd ref="4958630193"/>
+  <nd ref="13727364750"/>
+  <nd ref="4958630202"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-3"/>
+  <tag k="name" v="T4 Topkapı - Habibler Tramvayı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="tram"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="506077769" visible="true" version="7" changeset="179658514" timestamp="2026-03-10T20:53:17Z" user="de24000" uid="617093">
+  <nd ref="4958634267"/>
+  <nd ref="7726516662"/>
+  <nd ref="7726516661"/>
+  <nd ref="7726516660"/>
+  <nd ref="7726541717"/>
+  <nd ref="13176787965"/>
+  <nd ref="7726516658"/>
+  <nd ref="7726541718"/>
+  <nd ref="7726516657"/>
+  <nd ref="7726516656"/>
+  <nd ref="7726516655"/>
+  <nd ref="4958634268"/>
+  <nd ref="7726541723"/>
+  <nd ref="4958634267"/>
+  <tag k="area" v="yes"/>
+  <tag k="layer" v="-2"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="tram" v="yes"/>
+  <tag k="tunnel" v="yes"/>
+ </way>
+ <way id="506078482" visible="true" version="6" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093">
+  <nd ref="4958640129"/>
+  <nd ref="4958640124"/>
+  <nd ref="8910669759"/>
+  <nd ref="4958640123"/>
+  <nd ref="4958640122"/>
+  <nd ref="4958640121"/>
+  <nd ref="4958639120"/>
+  <nd ref="4958640128"/>
+  <tag k="bridge" v="yes"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="1"/>
+  <tag k="name" v="T4 Topkapı - Habibler Tramvayı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="tram"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="506078483" visible="true" version="5" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093">
+  <nd ref="4958630202"/>
+  <nd ref="4958640127"/>
+  <nd ref="4958640125"/>
+  <nd ref="4958640129"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="name" v="T4 Topkapı - Habibler Tramvayı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="tram"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="506079299" visible="true" version="6" changeset="179658514" timestamp="2026-03-10T20:53:17Z" user="de24000" uid="617093">
+  <nd ref="4958646886"/>
+  <nd ref="4958646887"/>
+  <nd ref="4958646891"/>
+  <nd ref="4958646890"/>
+  <nd ref="7726516615"/>
+  <nd ref="7726516616"/>
+  <nd ref="4958646889"/>
+  <nd ref="4958646888"/>
+  <nd ref="7726516617"/>
+  <nd ref="7726516618"/>
+  <nd ref="9653611331"/>
+  <nd ref="9653611329"/>
+  <nd ref="9653611333"/>
+  <nd ref="9653611330"/>
+  <nd ref="9653611335"/>
+  <nd ref="7726516619"/>
+  <nd ref="7726516620"/>
+  <nd ref="4958646886"/>
+  <tag k="area" v="yes"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="tram" v="yes"/>
+ </way>
+ <way id="506079301" visible="true" version="4" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093">
+  <nd ref="4958646895"/>
+  <nd ref="4958646894"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="tram"/>
+  <tag k="service" v="crossover"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="506079304" visible="true" version="6" changeset="179658514" timestamp="2026-03-10T20:53:17Z" user="de24000" uid="617093">
+  <nd ref="4958646905"/>
+  <nd ref="4958646904"/>
+  <nd ref="10198062281"/>
+  <nd ref="7726516621"/>
+  <nd ref="7726516622"/>
+  <nd ref="4958646905"/>
+  <tag k="area" v="yes"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="tram" v="yes"/>
+ </way>
+ <way id="506079305" visible="true" version="8" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093">
+  <nd ref="4958640128"/>
+  <nd ref="7711371687"/>
+  <nd ref="4958646912"/>
+  <nd ref="4958646911"/>
+  <nd ref="4958646910"/>
+  <nd ref="4958646909"/>
+  <nd ref="4958646908"/>
+  <nd ref="4958646907"/>
+  <nd ref="4958646897"/>
+  <nd ref="4958646894"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="name" v="T4 Topkapı - Mescid-i Selam Tramvay Hattı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="tram"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="506080565" visible="true" version="20" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093">
+  <nd ref="4958603848"/>
+  <nd ref="4958657919"/>
+  <nd ref="4958657920"/>
+  <nd ref="2387456083"/>
+  <nd ref="4958672019"/>
+  <nd ref="13727364773"/>
+  <nd ref="4958673321"/>
+  <nd ref="13727364769"/>
+  <nd ref="13727364771"/>
+  <nd ref="13727364770"/>
+  <nd ref="4958658825"/>
+  <nd ref="8980110163"/>
+  <nd ref="4958658826"/>
+  <nd ref="4958658827"/>
+  <nd ref="4958658828"/>
+  <nd ref="10198062311"/>
+  <nd ref="4958658829"/>
+  <nd ref="10198062307"/>
+  <nd ref="4958658830"/>
+  <nd ref="4958658832"/>
+  <nd ref="10198062310"/>
+  <nd ref="10198062305"/>
+  <nd ref="4958658833"/>
+  <nd ref="4958658834"/>
+  <nd ref="13727364766"/>
+  <nd ref="4958658835"/>
+  <nd ref="13727364764"/>
+  <nd ref="9380172846"/>
+  <nd ref="10198062297"/>
+  <nd ref="4958658838"/>
+  <nd ref="4958658839"/>
+  <nd ref="13727364763"/>
+  <nd ref="4958658841"/>
+  <nd ref="13727364762"/>
+  <nd ref="4958663898"/>
+  <nd ref="4958663891"/>
+  <nd ref="4958658843"/>
+  <nd ref="13727364757"/>
+  <nd ref="4958658844"/>
+  <nd ref="4958658845"/>
+  <nd ref="9218530206"/>
+  <nd ref="9218530203"/>
+  <nd ref="9218530198"/>
+  <nd ref="4958658846"/>
+  <nd ref="4958617026"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-3"/>
+  <tag k="name" v="T4 Topkapı - Habibler Tramvayı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="tram"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="506082779" visible="true" version="10" changeset="181316261" timestamp="2026-04-14T10:51:15Z" user="de24000" uid="617093">
+  <nd ref="4958589525"/>
+  <nd ref="4958679384"/>
+  <nd ref="4958679385"/>
+  <nd ref="4958679386"/>
+  <nd ref="4958679387"/>
+  <nd ref="10198146357"/>
+  <nd ref="4958685947"/>
+  <nd ref="4958685950"/>
+  <nd ref="4958685944"/>
+  <nd ref="4958685948"/>
+  <nd ref="4958679389"/>
+  <nd ref="4958679390"/>
+  <nd ref="4958679391"/>
+  <nd ref="10198146352"/>
+  <nd ref="4958679392"/>
+  <nd ref="4958679393"/>
+  <nd ref="11534209581"/>
+  <nd ref="4958679394"/>
+  <nd ref="4958685789"/>
+  <nd ref="4958679395"/>
+  <nd ref="11534209582"/>
+  <nd ref="4958679396"/>
+  <nd ref="4958679397"/>
+  <nd ref="4958679399"/>
+  <nd ref="10198146343"/>
+  <nd ref="4958679400"/>
+  <nd ref="13729694983"/>
+  <nd ref="4958679401"/>
+  <nd ref="4958683733"/>
+  <nd ref="4958683735"/>
+  <nd ref="4958679402"/>
+  <nd ref="4958679403"/>
+  <nd ref="4958679404"/>
+  <nd ref="4958679405"/>
+  <nd ref="4958599439"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="layer" v="-3"/>
+  <tag k="name" v="T4 Topkapı - Habibler Tramvayı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="tram"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="tunnel" v="yes"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="506083414" visible="true" version="7" changeset="179658514" timestamp="2026-03-10T20:53:17Z" user="de24000" uid="617093">
+  <nd ref="4958683736"/>
+  <nd ref="10198146337"/>
+  <nd ref="7734901046"/>
+  <nd ref="8983961259"/>
+  <nd ref="11220841489"/>
+  <nd ref="7734901047"/>
+  <nd ref="10198146332"/>
+  <nd ref="4958683737"/>
+  <nd ref="4958683736"/>
+  <tag k="area" v="yes"/>
+  <tag k="layer" v="-1"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="tram" v="yes"/>
+  <tag k="tunnel" v="yes"/>
+ </way>
+ <way id="506083639" visible="true" version="5" changeset="179658514" timestamp="2026-03-10T20:53:17Z" user="de24000" uid="617093">
+  <nd ref="4958685791"/>
+  <nd ref="10076267432"/>
+  <nd ref="7734901050"/>
+  <nd ref="7734901049"/>
+  <nd ref="10076267452"/>
+  <nd ref="4958685792"/>
+  <nd ref="4958685791"/>
+  <tag k="area" v="yes"/>
+  <tag k="layer" v="-1"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="tram" v="yes"/>
+  <tag k="tunnel" v="yes"/>
+ </way>
+ <way id="506083717" visible="true" version="7" changeset="179658514" timestamp="2026-03-10T20:53:17Z" user="de24000" uid="617093">
+  <nd ref="4958685952"/>
+  <nd ref="10076267402"/>
+  <nd ref="7734901053"/>
+  <nd ref="7734901052"/>
+  <nd ref="10076267418"/>
+  <nd ref="4958685953"/>
+  <nd ref="4958685952"/>
+  <tag k="area" v="yes"/>
+  <tag k="layer" v="-1"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="tram" v="yes"/>
+  <tag k="tunnel" v="yes"/>
+ </way>
+ <way id="510436595" visible="true" version="5" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093">
+  <nd ref="4958646895"/>
+  <nd ref="4958646892"/>
+  <nd ref="4958646918"/>
+  <nd ref="1026207543"/>
+  <nd ref="4958646916"/>
+  <nd ref="4958646917"/>
+  <nd ref="4958646885"/>
+  <nd ref="1026207545"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="name" v="T4 Topkapı - Habibler Tramvayı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="tram"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="510436601" visible="true" version="4" changeset="181317815" timestamp="2026-04-14T11:27:50Z" user="de24000" uid="617093">
+  <nd ref="4958513674"/>
+  <nd ref="4958513673"/>
+  <nd ref="4958551957"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="name" v="T4 Topkapı - Habibler Tramvayı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="tram"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <way id="827620760" visible="true" version="8" changeset="188128498" timestamp="2026-08-28T05:26:18Z" user="Alikam" uid="3997418">
+  <nd ref="7726516636"/>
+  <nd ref="7726516637"/>
+  <nd ref="7726516638"/>
+  <nd ref="7726516639"/>
+  <nd ref="7726516649"/>
+  <nd ref="7726516640"/>
+  <nd ref="7726516641"/>
+  <nd ref="7726516652"/>
+  <nd ref="7726516642"/>
+  <nd ref="8978149023"/>
+  <nd ref="7726516643"/>
+  <nd ref="7726516644"/>
+  <nd ref="7726516645"/>
+  <nd ref="7726516636"/>
+  <tag k="area" v="yes"/>
+  <tag k="bench" v="yes"/>
+  <tag k="bin" v="yes"/>
+  <tag k="bridge" v="yes"/>
+  <tag k="layer" v="1"/>
+  <tag k="lit" v="yes"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="shelter" v="yes"/>
+  <tag k="tram" v="yes"/>
+ </way>
+ <way id="828580417" visible="true" version="9" changeset="189556730" timestamp="2026-09-25T17:56:55Z" user="Alikam" uid="3997418">
+  <nd ref="7734901021"/>
+  <nd ref="7734901022"/>
+  <nd ref="7734901023"/>
+  <nd ref="8897727134"/>
+  <nd ref="7734901024"/>
+  <nd ref="7734901021"/>
+  <tag k="area" v="yes"/>
+  <tag k="bench" v="yes"/>
+  <tag k="bin" v="yes"/>
+  <tag k="light_rail" v="yes"/>
+  <tag k="lit" v="yes"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="shelter" v="yes"/>
+  <tag k="tram" v="yes"/>
+ </way>
+ <way id="828580418" visible="true" version="7" changeset="181272859" timestamp="2026-04-13T12:05:44Z" user="de24000" uid="617093">
+  <nd ref="7734901028"/>
+  <nd ref="7734901029"/>
+  <nd ref="10198062287"/>
+  <nd ref="7734901030"/>
+  <nd ref="7734901031"/>
+  <nd ref="10198062290"/>
+  <nd ref="7734901028"/>
+  <tag k="area" v="yes"/>
+  <tag k="layer" v="-1"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="tram" v="yes"/>
+  <tag k="tunnel" v="yes"/>
+ </way>
+ <way id="828580419" visible="true" version="6" changeset="179658514" timestamp="2026-03-10T20:53:17Z" user="de24000" uid="617093">
+  <nd ref="7734901033"/>
+  <nd ref="10201428554"/>
+  <nd ref="10201428556"/>
+  <nd ref="7734901034"/>
+  <nd ref="10198062299"/>
+  <nd ref="7734901035"/>
+  <nd ref="10201428557"/>
+  <nd ref="10201428555"/>
+  <nd ref="7734901036"/>
+  <nd ref="10098731703"/>
+  <nd ref="7734901033"/>
+  <tag k="area" v="yes"/>
+  <tag k="layer" v="-1"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="tram" v="yes"/>
+  <tag k="tunnel" v="yes"/>
+ </way>
+ <way id="828580420" visible="true" version="5" changeset="179658514" timestamp="2026-03-10T20:53:17Z" user="de24000" uid="617093">
+  <nd ref="7734901038"/>
+  <nd ref="7734901039"/>
+  <nd ref="10118917333"/>
+  <nd ref="7734901040"/>
+  <nd ref="7734901041"/>
+  <nd ref="10198062314"/>
+  <nd ref="7734901038"/>
+  <tag k="area" v="yes"/>
+  <tag k="layer" v="-1"/>
+  <tag k="public_transport" v="platform"/>
+  <tag k="railway" v="platform"/>
+  <tag k="tram" v="yes"/>
+  <tag k="tunnel" v="yes"/>
+ </way>
+ <way id="828580422" visible="true" version="3" changeset="181317815" timestamp="2026-04-14T11:27:50Z" user="de24000" uid="617093">
+  <nd ref="4958551957"/>
+  <nd ref="4958551958"/>
+  <tag k="electrified" v="contact_line"/>
+  <tag k="frequency" v="0"/>
+  <tag k="gauge" v="1435"/>
+  <tag k="name" v="T4 Topkapı - Habibler Tramvayı"/>
+  <tag k="operator" v="Metro İstanbul"/>
+  <tag k="railway" v="tram"/>
+  <tag k="railway:bidirectional" v="possible"/>
+  <tag k="railway:preferred_direction" v="forward"/>
+  <tag k="usage" v="main"/>
+  <tag k="voltage" v="750"/>
+ </way>
+ <relation id="7420264" visible="true" version="22" changeset="188568050" timestamp="2026-09-05T12:05:12Z" user="user_24456380" uid="24456380">
+  <member type="node" ref="4958513678" role="stop"/>
+  <member type="way" ref="506065779" role="platform"/>
+  <member type="node" ref="4958551940" role="stop"/>
+  <member type="way" ref="506067634" role="platform"/>
+  <member type="way" ref="506067918" role="platform"/>
+  <member type="node" ref="4958566319" role="stop"/>
+  <member type="way" ref="506068664" role="platform"/>
+  <member type="node" ref="4958570004" role="stop"/>
+  <member type="way" ref="506069398" role="platform"/>
+  <member type="node" ref="4958580159" role="stop"/>
+  <member type="way" ref="506070838" role="platform"/>
+  <member type="node" ref="4958585470" role="stop"/>
+  <member type="way" ref="506071521" role="platform"/>
+  <member type="node" ref="4958585476" role="stop"/>
+  <member type="way" ref="506071965" role="platform"/>
+  <member type="node" ref="4958685944" role="stop"/>
+  <member type="way" ref="506083717" role="platform"/>
+  <member type="node" ref="4958685789" role="stop"/>
+  <member type="way" ref="506083639" role="platform"/>
+  <member type="node" ref="4958683733" role="stop"/>
+  <member type="way" ref="506083414" role="platform"/>
+  <member type="node" ref="4958599423" role="stop"/>
+  <member type="way" ref="506073149" role="platform"/>
+  <member type="node" ref="4958603844" role="stop"/>
+  <member type="way" ref="506073890" role="platform"/>
+  <member type="node" ref="4958673321" role="stop"/>
+  <member type="way" ref="828580420" role="platform"/>
+  <member type="node" ref="4958658835" role="stop"/>
+  <member type="way" ref="828580419" role="platform"/>
+  <member type="node" ref="4958663891" role="stop"/>
+  <member type="way" ref="828580418" role="platform"/>
+  <member type="node" ref="4958615808" role="stop"/>
+  <member type="way" ref="506075536" role="platform"/>
+  <member type="node" ref="4958622247" role="stop"/>
+  <member type="way" ref="828580417" role="platform"/>
+  <member type="way" ref="506076028" role="platform"/>
+  <member type="node" ref="4958630198" role="stop"/>
+  <member type="way" ref="506077769" role="platform"/>
+  <member type="node" ref="4958640121" role="stop"/>
+  <member type="way" ref="827620760" role="platform"/>
+  <member type="node" ref="4958646911" role="stop"/>
+  <member type="way" ref="506079304" role="platform"/>
+  <member type="node" ref="4958646885" role="stop"/>
+  <member type="way" ref="506079299" role="platform"/>
+  <member type="way" ref="506065773" role=""/>
+  <member type="way" ref="506065774" role=""/>
+  <member type="way" ref="510436601" role=""/>
+  <member type="way" ref="828580422" role=""/>
+  <member type="way" ref="506065777" role=""/>
+  <member type="way" ref="506071522" role=""/>
+  <member type="way" ref="506071523" role=""/>
+  <member type="way" ref="506082779" role=""/>
+  <member type="way" ref="506073150" role=""/>
+  <member type="way" ref="506080565" role=""/>
+  <member type="way" ref="506075537" role=""/>
+  <member type="way" ref="506076027" role=""/>
+  <member type="way" ref="506076026" role=""/>
+  <member type="way" ref="506077653" role=""/>
+  <member type="way" ref="506078483" role=""/>
+  <member type="way" ref="506078482" role=""/>
+  <member type="way" ref="506079305" role=""/>
+  <member type="way" ref="506079301" role=""/>
+  <member type="way" ref="510436595" role=""/>
+  <tag k="colour" v="#f47e46"/>
+  <tag k="from" v="Mescid-i Selam"/>
+  <tag k="name" v="T4: Mescid-i Selam → Topkapı"/>
+  <tag k="network" v="İstanbul Metrosu"/>
+  <tag k="public_transport:version" v="2"/>
+  <tag k="ref" v="T4"/>
+  <tag k="route" v="tram"/>
+  <tag k="to" v="Topkapı"/>
+  <tag k="type" v="route"/>
+  <tag k="website" v="https://www.metro.istanbul/Hatlarimiz/HatDetay?hat=T4"/>
+  <tag k="wikidata" v="Q15507510"/>
+  <tag k="wikimedia_commons" v="Category:Istanbul Tramway line T4"/>
+  <tag k="wikipedia" v="tr:T4 (İstanbul Tramvayı)"/>
+ </relation>
+</osm>

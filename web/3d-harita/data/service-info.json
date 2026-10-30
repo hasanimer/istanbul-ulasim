@@ -1,0 +1,1567 @@
+{
+ "builtAt": "2026-10-30T14:57:46+03:00",
+ "speeds": {
+  "B1": 40.7,
+  "M7": 37.8,
+  "M9": 32.0,
+  "M8": 38.3,
+  "M1B": 38.4,
+  "M3": 39.1,
+  "F3": 16.3,
+  "M2": 39.2,
+  "M1A": 36.6,
+  "T3": 13.8,
+  "T4": 16.1,
+  "T1": 15.9,
+  "M4": 39.7,
+  "M6": 25.9,
+  "M2-spur": 51.9,
+  "M5": 38.3,
+  "F2": 22.2,
+  "F1": 15.7
+ },
+ "speedSource": {
+  "name": "İBB Açık Veri · Public Transport GTFS Data (Mart 2025)",
+  "url": "https://data.ibb.gov.tr/dataset/public-transport-gtfs-data",
+  "method": "Sefer süresi / güzergâh mesafesi medyanı (durak bekleme dahil)."
+ },
+ "defaultSpeeds": {
+  "metro": 38,
+  "tram": 16,
+  "funicular": 16,
+  "suburban": 41
+ },
+ "transferMinutes": 5,
+ "facilities": {
+  "M2|Yenikapı": {
+   "lift": 4,
+   "escalator": 14,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M2|Haliç": {
+   "lift": 6,
+   "escalator": 8,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M2|Şişhane": {
+   "lift": 5,
+   "escalator": 32,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M2|Taksim": {
+   "lift": 7,
+   "escalator": 34,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M2|Osmanbey": {
+   "lift": 2,
+   "escalator": 15,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M2|Gayrettepe": {
+   "lift": 9,
+   "escalator": 18,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": true
+  },
+  "M2|Levent": {
+   "lift": 2,
+   "escalator": 22,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M2|4. Levent": {
+   "lift": 5,
+   "escalator": 20,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M2|İTÜ-Ayazağa": {
+   "lift": 4,
+   "escalator": 20,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M2|Atatürk Oto Sanayi": {
+   "lift": 1,
+   "escalator": 15,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M2|Darüşşafaka": {
+   "lift": 4,
+   "escalator": 24,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M2|Hacıosman": {
+   "lift": 6,
+   "escalator": 37,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M3|Başak Konutları": {
+   "lift": 2,
+   "escalator": 13,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M3|Siteler": {
+   "lift": 2,
+   "escalator": 14,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M3|Turgut Özal": {
+   "lift": 2,
+   "escalator": 13,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M3|İkitelli Sanayi": {
+   "lift": 4,
+   "escalator": 22,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M3|İSTOÇ": {
+   "lift": 2,
+   "escalator": 20,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M3|Mahmutbey": {
+   "lift": 3,
+   "escalator": 38,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M3|Onurkent": {
+   "lift": 4,
+   "escalator": 9,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M3|Şehir Hastanesi": {
+   "lift": 8,
+   "escalator": 18,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M3|Toplu Konutlar": {
+   "lift": 6,
+   "escalator": 6,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M3|Kayaşehir Merkez": {
+   "lift": 6,
+   "escalator": 12,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M3|Molla Gürani": {
+   "lift": 2,
+   "escalator": 8,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M3|Yıldıztepe": {
+   "lift": 4,
+   "escalator": 20,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M3|İlkyuva": {
+   "lift": 2,
+   "escalator": 12,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M3|Haznedar": {
+   "lift": 2,
+   "escalator": 12,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M3|İncirli": {
+   "lift": 6,
+   "escalator": 12,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M3|Özgürlük Meydanı": {
+   "lift": 4,
+   "escalator": 16,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M3|Bakırköy Sahil": {
+   "lift": 2,
+   "escalator": 8,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M4|Fevzi Çakmak - Hastane": {
+   "lift": 13,
+   "escalator": 16,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": true
+  },
+  "M4|Yayalar-Şeyhli": {
+   "lift": 3,
+   "escalator": 12,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": true
+  },
+  "M4|Kurtköy": {
+   "lift": 3,
+   "escalator": 12,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": true
+  },
+  "M4|Sabiha Gökçen Havalimanı": {
+   "lift": 4,
+   "escalator": 14,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": true
+  },
+  "M4|Kadıköy": {
+   "lift": 6,
+   "escalator": 16,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": true
+  },
+  "M4|Ayrılık Çeşmesi": {
+   "lift": 3,
+   "escalator": 18,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M4|Acıbadem": {
+   "lift": 4,
+   "escalator": 10,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M4|Ünalan": {
+   "lift": 7,
+   "escalator": 27,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": true
+  },
+  "M4|Göztepe": {
+   "lift": 3,
+   "escalator": 12,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M4|Yenisahra": {
+   "lift": 3,
+   "escalator": 12,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M4|Kozyatağı": {
+   "lift": 5,
+   "escalator": 18,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M4|Bostancı": {
+   "lift": 9,
+   "escalator": 22,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M4|Küçükyalı": {
+   "lift": 3,
+   "escalator": 10,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M4|Maltepe": {
+   "lift": 8,
+   "escalator": 28,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M4|Huzurevi": {
+   "lift": 4,
+   "escalator": 9,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M4|Gülsuyu": {
+   "lift": 3,
+   "escalator": 16,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M4|Esenkent": {
+   "lift": 2,
+   "escalator": 15,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M4|Hastane Adliye": {
+   "lift": 7,
+   "escalator": 30,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M4|Soğanlık": {
+   "lift": 3,
+   "escalator": 18,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M4|Kartal": {
+   "lift": 5,
+   "escalator": 20,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": true
+  },
+  "M4|Yakacık—Adnan Kahveci": {
+   "lift": 5,
+   "escalator": 18,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M4|Pendik": {
+   "lift": 9,
+   "escalator": 26,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": true
+  },
+  "M4|Tavşantepe": {
+   "lift": 4,
+   "escalator": 18,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": true
+  },
+  "F1|Kabataş": {
+   "lift": 4,
+   "escalator": 4,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "F1|Taksim": {
+   "lift": 1,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M5|Veysel Karani": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": false
+  },
+  "M5|Hasanpaşa": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": false
+  },
+  "M5|Sultanbeyli": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": false
+  },
+  "M5|Meclis": {
+   "lift": 3,
+   "escalator": 6,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M5|Sarıgazi": {
+   "lift": 6,
+   "escalator": 10,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M5|Sancaktepe Şehir Hastanesi": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": false
+  },
+  "M5|Sancaktepe": {
+   "lift": 4,
+   "escalator": 6,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M5|Samandıra Merkez": {
+   "lift": 3,
+   "escalator": 6,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M5|Üsküdar": {
+   "lift": 4,
+   "escalator": 14,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": true
+  },
+  "M5|Fıstıkağacı": {
+   "lift": 4,
+   "escalator": 8,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M5|Bağlarbaşı": {
+   "lift": 4,
+   "escalator": 18,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M5|Altunizade": {
+   "lift": 9,
+   "escalator": 31,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": true
+  },
+  "M5|Kısıklı": {
+   "lift": 10,
+   "escalator": 4,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M5|Bulgurlu": {
+   "lift": 3,
+   "escalator": 12,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M5|Ümraniye": {
+   "lift": 2,
+   "escalator": 8,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M5|Çarşı": {
+   "lift": 2,
+   "escalator": 19,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M5|Yamanevler": {
+   "lift": 2,
+   "escalator": 8,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M5|Çakmak": {
+   "lift": 3,
+   "escalator": 8,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M5|Ihlamurkuyu": {
+   "lift": 2,
+   "escalator": 8,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M5|Altınşehir": {
+   "lift": 3,
+   "escalator": 13,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M5|İmam Hatip Lisesi": {
+   "lift": 2,
+   "escalator": 9,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M5|Dudullu": {
+   "lift": 3,
+   "escalator": 18,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M5|Necip Fazıl": {
+   "lift": 4,
+   "escalator": 10,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M5|Çekmeköy": {
+   "lift": 6,
+   "escalator": 12,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M6|Levent": {
+   "lift": 0,
+   "escalator": 8,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M6|Nispetiye": {
+   "lift": 3,
+   "escalator": 4,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M6|Etiler": {
+   "lift": 5,
+   "escalator": 1,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M7|Yıldız": {
+   "lift": 9,
+   "escalator": 24,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": false
+  },
+  "M7|Fulya": {
+   "lift": 7,
+   "escalator": 15,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M7|Mecidiyeköy": {
+   "lift": 11,
+   "escalator": 29,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": true
+  },
+  "M7|Çağlayan": {
+   "lift": 15,
+   "escalator": 16,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": true
+  },
+  "M7|Kağıthane": {
+   "lift": 4,
+   "escalator": 8,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M7|Nurtepe": {
+   "lift": 9,
+   "escalator": 14,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": true
+  },
+  "M7|Alibeyköy": {
+   "lift": 4,
+   "escalator": 8,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": false
+  },
+  "M7|Çırçır Mahallesi": {
+   "lift": 9,
+   "escalator": 14,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": true
+  },
+  "M7|Veysel Karani-Akşemsettin": {
+   "lift": 11,
+   "escalator": 16,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": true
+  },
+  "M7|Yeşilpınar": {
+   "lift": 4,
+   "escalator": 10,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": true
+  },
+  "M7|Kâzım Karabekir": {
+   "lift": 5,
+   "escalator": 16,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": true
+  },
+  "M7|Yenimahalle": {
+   "lift": 3,
+   "escalator": 10,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": true
+  },
+  "M7|Karadeniz Mahallesi": {
+   "lift": 14,
+   "escalator": 26,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": true
+  },
+  "M7|Giyimkent-Tekstilkent": {
+   "lift": 3,
+   "escalator": 15,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": true
+  },
+  "M7|Mahmutbey": {
+   "lift": 2,
+   "escalator": 19,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": false
+  },
+  "M8|Bostancı": {
+   "lift": 6,
+   "escalator": 12,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": true
+  },
+  "M8|Emin Ali Paşa": {
+   "lift": 2,
+   "escalator": 8,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M8|Ayşekadın": {
+   "lift": 2,
+   "escalator": 8,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": false
+  },
+  "M8|Kozyatağı": {
+   "lift": 3,
+   "escalator": 18,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": true
+  },
+  "M8|Küçükbakkalköy": {
+   "lift": 3,
+   "escalator": 12,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": true
+  },
+  "M8|İçerenköy": {
+   "lift": 2,
+   "escalator": 12,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": false
+  },
+  "M8|Kayışdağı": {
+   "lift": 4,
+   "escalator": 12,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": true
+  },
+  "M8|Mevlana": {
+   "lift": 5,
+   "escalator": 24,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": true
+  },
+  "M8|İMES": {
+   "lift": 2,
+   "escalator": 8,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": false
+  },
+  "M8|Dudullu": {
+   "lift": 2,
+   "escalator": 6,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M8|Huzur": {
+   "lift": 3,
+   "escalator": 10,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": true
+  },
+  "M8|Parseller": {
+   "lift": 3,
+   "escalator": 10,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": false
+  },
+  "M1A|Otogar": {
+   "lift": 2,
+   "escalator": 4,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1A|Atatürk Havalimanı": {
+   "lift": 2,
+   "escalator": 2,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1A|DTM-İstanbul Fuar Merkezi": {
+   "lift": 1,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1A|Yenibosna": {
+   "lift": 1,
+   "escalator": 2,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1A|Ataköy-Şirinevler": {
+   "lift": 4,
+   "escalator": 4,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1A|Bahçelievler": {
+   "lift": 2,
+   "escalator": 7,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1A|Bakırköy-İncirli": {
+   "lift": 3,
+   "escalator": 6,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1A|Zeytinburnu": {
+   "lift": 5,
+   "escalator": 3,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1A|Merter": {
+   "lift": 2,
+   "escalator": 4,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1A|Davutpaşa - YTÜ": {
+   "lift": 2,
+   "escalator": 2,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1A|Terazidere": {
+   "lift": 4,
+   "escalator": 4,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1A|Kocatepe": {
+   "lift": 1,
+   "escalator": 2,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1A|Sağmalcılar": {
+   "lift": 2,
+   "escalator": 1,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1A|Bayrampaşa-Maltepe": {
+   "lift": 2,
+   "escalator": 1,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1A|Topkapı Ulubatlı": {
+   "lift": 4,
+   "escalator": 2,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1A|Emniyet - Fatih": {
+   "lift": 4,
+   "escalator": 2,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1A|Aksaray": {
+   "lift": 1,
+   "escalator": 4,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1A|Yenikapı": {
+   "lift": 2,
+   "escalator": 8,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1B|Bağcılar Meydan": {
+   "lift": 9,
+   "escalator": 14,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1B|Üçyüzlü": {
+   "lift": 2,
+   "escalator": 18,
+   "wc": false,
+   "babyRoom": true,
+   "masjid": false
+  },
+  "M1B|Menderes": {
+   "lift": 4,
+   "escalator": 18,
+   "wc": false,
+   "babyRoom": true,
+   "masjid": false
+  },
+  "M1B|Esenler": {
+   "lift": 3,
+   "escalator": 4,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1B|Kocatepe": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1B|Sağmalcılar": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1B|Bayrampaşa-Maltepe": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1B|Topkapı Ulubatlı": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1B|Emniyet - Fatih": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1B|Aksaray": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1B|Yenikapı": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M1B|Otogar": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Bağcılar": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Güneştepe": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Soğanlı": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Akıncılar": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Güngören": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Merter Tekstil Merkezi": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Mehmet Akif": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Seyitnizam-Akşemsettin": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Topkapı": {
+   "lift": 1,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Pazartekke": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Çapa - Şehremini": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Fındıkzade": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Haseki": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Yusufpaşa": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Aksaray": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Çemberlitaş": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Sultanahmet": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Gülhane": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Sirkeci": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Eminönü": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Karaköy": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Tophane": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T1|Kabataş": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T3|Mühürdar": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T3|Moda İlkokulu": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T3|Kilise": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T3|Bahariye": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T3|Çarşı": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T3|Damga Sokak": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T3|Altıyol": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T4|Mescid-i Selam": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T4|Cebeci": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T4|Hacı Şükrü": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T4|50. Yıl-Baştabya": {
+   "lift": 3,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T4|Cumhuriyet Mahallesi": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T4|KİPTAŞ Venezia": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T4|Karadeniz": {
+   "lift": 1,
+   "escalator": 2,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T4|Taşköprü": {
+   "lift": 1,
+   "escalator": 2,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T4|Ali Fuat Başgil": {
+   "lift": 1,
+   "escalator": 2,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T4|Bosna-Çukurçeşme": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T4|Sağmalcılar": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T4|Uluyol-Bereç": {
+   "lift": 1,
+   "escalator": 2,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T4|Rami": {
+   "lift": 1,
+   "escalator": 2,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T4|Topçular": {
+   "lift": 1,
+   "escalator": 2,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T4|Demirkapı": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T4|Şehitlik": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T4|Edirnekapı": {
+   "lift": 4,
+   "escalator": 4,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T4|Vatan": {
+   "lift": 2,
+   "escalator": 4,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T4|Fetihkapı": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T4|Topkapı": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T5|Eminönü": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T5|Küçükpazar": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T5|Cibali": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T5|Fener": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T5|Balat": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T5|Ayvansaray": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T5|Feshane": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T5|Eyüpsultan Teleferik": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T5|Eyüpsultan Devlet Hastanesi": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T5|Silahtarağa Mahallesi": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T5|Üniversite": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T5|Alibeyköy Merkez": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T5|Alibeyköy Metro": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "T5|Alibeyköy Cep Otogarı": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M9|Olimpiyat": {
+   "lift": 2,
+   "escalator": 9,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": true
+  },
+  "M9|İkitelli Sanayi": {
+   "lift": 0,
+   "escalator": 0,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M9|MASKO": {
+   "lift": 3,
+   "escalator": 10,
+   "wc": true,
+   "babyRoom": true,
+   "masjid": false
+  },
+  "M9|Bahariye": {
+   "lift": 2,
+   "escalator": 6,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M9|Atatürk Mahallesi": {
+   "lift": 0,
+   "escalator": 11,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M9|Halkalı Caddesi": {
+   "lift": 6,
+   "escalator": 20,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M9|15 Temmuz": {
+   "lift": 3,
+   "escalator": 6,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M9|Mimar Sinan": {
+   "lift": 3,
+   "escalator": 14,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M9|Doğu Sanayi": {
+   "lift": 3,
+   "escalator": 6,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M9|29 Ekim Cumhuriyet": {
+   "lift": 4,
+   "escalator": 6,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M9|Çobançeşme": {
+   "lift": 3,
+   "escalator": 6,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M9|Yenibosna": {
+   "lift": 4,
+   "escalator": 10,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "M9|Ataköy": {
+   "lift": 3,
+   "escalator": 10,
+   "wc": false,
+   "babyRoom": false,
+   "masjid": false
+  },
+  "F4|Aşiyan": {
+   "lift": 4,
+   "escalator": 0,
+   "wc": true,
+   "babyRoom": false,
+   "masjid": false
+  }
+ },
+ "facilitySource": {
+  "name": "Metro İstanbul GetStations",
+  "url": "https://api.ibb.gov.tr/MetroIstanbul/api/MetroMobile/V2/GetStations"
+ },
+ "statusEndpoint": "https://api.ibb.gov.tr/MetroIstanbul/api/MetroMobile/V2/GetServiceStatuses",
+ "statusSnapshot": [
+  {
+   "line": "M7",
+   "text": "Teknik bir arıza nedeniyle seferler Nurtepe-Mahmutbey arasında normal işletme döngüsünde, Nurtepe-Kağıthane arasında ise mekik seferi olarak yapılmaktadır.",
+   "updated": "2026-10-15T19:45:11.910"
+  },
+  {
+   "line": "T3",
+   "text": "Hat bakım ve ray yenileme çalışmaları nedeniyle hattımız işletmeye kapalıdır. Çalışma süresince İETT’ye ait elektrikli araçlar ile hizmet verilecektir.",
+   "updated": "2026-10-19T07:44:06.487"
+  }
+ ],
+ "license": "İBB Açık Veri Lisansı"
+}

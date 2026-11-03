@@ -107,6 +107,16 @@ ChatGPT tarafında kullanım, hesabınızdaki özelliklere göre değişebilir:
 > ihtiyaç, bu MCP sunucusunu `stdio` komutuyla çalıştırıp araçları GPT'ye
 > görünür hale getirmektir.
 
+### Hosted MCP sunucu bilgileri
+
+Uzaktan MCP bağlantısı isteyen istemciler için sunucu bilgileri:
+
+- **İsim:** `İstanbul Ulaşım MCP`
+- **Açıklama:** `İstanbul toplu taşıma için hat, durak, kalkış, rota ve ücretsiz entegrasyon sorgu aracı.`
+- **Bağlantı Türü:** `Sunucu URL'si`
+- **URL:** `https://istanbul-ulasim-mcp-hasan.fly.dev/mcp`
+- **Kimlik Doğrulama:** `No Authentication`
+
 ## Gerçek İstanbul GTFS verisini kullanma
 
 Varsayılan olarak gömülü örnek veri kullanılır. Gerçek/güncel feed için ortam

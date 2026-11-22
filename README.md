@@ -299,3 +299,5 @@ npm test                                    # birim testleri + OSM geometri doğ
 ## Lisans
 
 MIT
+
+Bu deponun MIT lisanslı kodunu kullandığınız çalışmalarda [İstanbul Ulaşım](https://github.com/hasanimer/istanbul-ulasim) bağlantısını paylaşarak atıf yapmanızı rica ederiz.
